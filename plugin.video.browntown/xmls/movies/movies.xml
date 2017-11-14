@@ -1,0 +1,86 @@
+#####################
+<poster>Browntown Movies</poster>
+<thumbnail>https://i.imgur.com/gg0r1On.png</thumbnail>
+<fanart>https://i.imgur.com/9Pr8SJs.jpg</fanart>
+#####################
+
+<item>
+    <title>Apollo 13 (1995)</title>
+        <meta>
+            <content>movie</content>
+            <imdb>tt0112384</imdb>
+            <title>Apollo 13</title>
+            <year>(1995)</year>
+        </meta>
+    <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+    </link>
+    <thumbnail>https://i.imgur.com/mJZkFLb.png</thumbnail>
+    <fanart>https://image.tmdb.org/t/p/original/yiNo78Sx3uioxKwHuCVjnAu8ZHv.jpg</fanart>
+</item>
+
+<item>
+    <title>Snatch (2000)</title>
+        <meta>
+            <content>movie</content>
+            <imdb>tt0208092</imdb>
+            <title>Snatch</title>
+            <year>(2000)</year>
+        </meta>
+    <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+    </link>
+    <thumbnail>https://image.tmdb.org/t/p/w640/on9JlbGEccLsYkjeEph2Whm1DIp.jpg</thumbnail>
+    <fanart>https://image.tmdb.org/t/p/original/xJmffdhsb2oKBdEY9QjiSTxn1CL.jpg</fanart>
+</item>
+
+<item>
+    <title>The Wolf of Wall Street (2013)</title>
+        <meta>
+            <content>movie</content>
+            <imdb>tt0993846</imdb>
+            <title>The Wolf of Wall Street</title>
+            <year>(2013)</year>
+        </meta>
+    <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+    </link>
+    <thumbnail>https://image.tmdb.org/t/p/original/wAgdJRx4uZ0u4uzu34NOMvtjLAR.jpg</thumbnail>
+    <fanart>https://image.tmdb.org/t/p/original/t3ORMhkPeDAXIwjfVS5e7eRmtxK.jpg</fanart>
+</item>
+
+<item>
+    <title>Goodfellas (1990)</title>
+        <meta>
+            <content>movie</content>
+            <imdb>tt0099685</imdb>
+            <title>Goodfellas</title>
+            <year>(1990)</year>
+        </meta>
+    <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+    </link>
+    <thumbnail>https://image.tmdb.org/t/p/original/ddMDzejWFbSas5ipUCUCjAlD5dI.jpg</thumbnail>
+    <fanart>https://image.tmdb.org/t/p/original/daAvXBvlYyJXKEdqYIRVv6OgheT.jpg</fanart>
+</item>
+
+<item>
+    <title>Blow (2001)</title>
+        <meta>
+            <content>movie</content>
+            <imdb>tt0221027</imdb>
+            <title>Blow</title>
+            <year>(2001)</year>
+        </meta>
+    <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+		\\Kb-hp\o\Movies\MOVIES\Blow.mp4
+    </link>
+    <thumbnail>https://image.tmdb.org/t/p/original/yCLLbZzAa7jreGus7pvjZmL0bj7.jpg</thumbnail>
+    <fanart>https://image.tmdb.org/t/p/original/ypnuK1GEElL8HLcSlm2LMOqVu7b.jpg</fanart>
+</item>

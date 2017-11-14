@@ -1,0 +1,47 @@
+#####################
+<poster>browntown tv</poster>
+<thumbnail>https://i.imgur.com/ANYoryg.png</thumbnail>
+<fanart>https://i.imgur.com/oU37yhr.jpg</fanart>
+#####################
+
+<dir>
+    <title>Arrow</title>
+        <meta>
+            <content>tvshow</content>
+            <imdb>tt2193021</imdb>
+			<tvdb>257655</tvdb>
+            <tvshowtitle>Arrow</tvshowtitle>
+            <year>2012</year>
+        </meta>
+    <link>https://raw.githubusercontent.com/kpb36/browntown/master/arrow.xml</link>
+    <thumbnail>https://www.thetvdb.com/banners/_cache/posters/257655-6.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/_cache/fanart/original/257655-47.jpg</fanart>
+</dir>
+
+<dir>
+    <title>Shameless</title>
+        <meta>
+            <content>tvshow</content>
+            <imdb>tt1586680</imdb>
+			<tvdb>161511</tvdb>
+            <tvshowtitle>Shameless</tvshowtitle>
+            <year>2011</year>
+        </meta>
+    <link>https://raw.githubusercontent.com/kpb36/browntown/master/shameless.xml</link>
+    <thumbnail>https://www.thetvdb.com/banners/_cache/posters/161511-20.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/_cache/fanart/original/161511-14.jpg</fanart>
+</dir>
+
+<dir>
+    <title>Breaking Bad </title>
+        <meta>
+            <content>tvshow</content>
+            <imdb>tt0903747</imdb>
+			<tvdb>81189</tvdb>
+            <tvshowtitle>Breaking Bad </tvshowtitle>
+            <year>2008</year>
+        </meta>
+    <link>https://raw.githubusercontent.com/kpb36/browntown/master/breaking bad.xml</link>
+    <thumbnail>https://www.thetvdb.com/banners/posters/81189-10.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/fanart/original/81189-30.jpg</fanart>
+</dir>

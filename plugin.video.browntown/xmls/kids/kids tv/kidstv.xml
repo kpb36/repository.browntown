@@ -1,0 +1,23 @@
+#####################
+<poster>kids tv</poster>
+<thumbnail>https://i.imgur.com/gH5ohdD.png</thumbnail>
+<fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
+#####################
+
+<item>
+    <title>wallykazaam</title>
+        <meta>
+            <content>episode</content>
+            <imdb></imdb>
+			<tvdb></tvdb>
+            <tvshowtitle>wallykazaam</tvshowtitle>
+            <year></year>
+			<title>Naptime for Borgelorp</title>
+			<premiered></premiered>
+            <season>1</season>
+            <episode>1</episode>
+        </meta>
+    <link>
+	    <sublink>D:\Nick Jr\Wallykazam\Wallykazam! - 1x01 - Naptime for Borgelorp.mp4</sublink>
+	</link>
+</item>

@@ -1,0 +1,23 @@
+#####################
+<poster>kids 247</poster>
+<thumbnail>https://i.imgur.com/mJZkFLb.png</thumbnail>
+<fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
+#####################
+
+<item>
+    <title>247 cartoons</title>
+        <meta>
+            <content>episode</content>
+            <imdb></imdb>
+			<tvdb></tvdb>
+            <tvshowtitle></tvshowtitle>
+            <year></year>
+			<title></title>
+			<premiered></premiered>
+            <season></season>
+            <episode></episode>
+        </meta>
+    <link>
+	    <sublink>https://www.watchcartoononline.io/cartoon-list</sublink>
+	</link>
+</item>

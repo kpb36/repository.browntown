@@ -1,0 +1,33 @@
+#####################
+<poster>test</poster>
+#####################
+
+<dir>
+<name>Movies</name>
+<link>https://raw.githubusercontent.com/kpb36/browntown/master/Movies.xml</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://i.imgur.com/Afk9b44.png</thumbnail>
+<animated_fanart></animated_fanart>
+<fanart>https://i.imgur.com/9Pr8SJs.jpg</fanart>
+<summary>Browntown Movies</summary>
+</dir>
+ 
+<dir>
+<name>Tv Shows</name>
+<link>https://raw.githubusercontent.com/kpb36/browntown/master/TV.xml</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://i.imgur.com/IPUg6gl.png</thumbnail>
+<animated_fanart></animated_fanart>
+<fanart>https://i.imgur.com/oU37yhr.jpg</fanart>
+<summary>Browntown Tv</summary>
+</dir>
+
+<dir>
+<name>Kids</name>
+<link>https://raw.githubusercontent.com/kpb36/browntown/master/TV.xml</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://i.imgur.com/gH5ohdD.png</thumbnail>
+<animated_fanart></animated_fanart>
+<fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
+<summary>Browntown Kids</summary>
+</dir>
