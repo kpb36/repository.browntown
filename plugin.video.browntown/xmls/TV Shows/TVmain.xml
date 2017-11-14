@@ -13,7 +13,7 @@
             <tvshowtitle>Arrow</tvshowtitle>
             <year>2012</year>
         </meta>
-    <link>https://raw.githubusercontent.com/kpb36/browntown/master/arrow.xml</link>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Arrow/arrow.xml</link>
     <thumbnail>https://www.thetvdb.com/banners/_cache/posters/257655-6.jpg</thumbnail>
     <fanart>https://www.thetvdb.com/banners/_cache/fanart/original/257655-47.jpg</fanart>
 </dir>
@@ -27,7 +27,7 @@
             <tvshowtitle>Shameless</tvshowtitle>
             <year>2011</year>
         </meta>
-    <link>https://raw.githubusercontent.com/kpb36/browntown/master/shameless.xml</link>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Shameless/shameless.xml</link>
     <thumbnail>https://www.thetvdb.com/banners/_cache/posters/161511-20.jpg</thumbnail>
     <fanart>https://www.thetvdb.com/banners/_cache/fanart/original/161511-14.jpg</fanart>
 </dir>
@@ -41,7 +41,7 @@
             <tvshowtitle>Breaking Bad </tvshowtitle>
             <year>2008</year>
         </meta>
-    <link>https://raw.githubusercontent.com/kpb36/browntown/master/breaking bad.xml</link>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Breaking%20bad/breaking%20bad.xml</link>
     <thumbnail>https://www.thetvdb.com/banners/posters/81189-10.jpg</thumbnail>
     <fanart>https://www.thetvdb.com/banners/fanart/original/81189-30.jpg</fanart>
 </dir>

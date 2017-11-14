@@ -13,7 +13,7 @@
             <tvshowtitle></tvshowtitle>
             <year></year>
         </meta>
-    <link>https://raw.githubusercontent.com/kpb36/browntown/master/kids tv.xml</link>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/kids/kids%20tv/kidstv.xml</link>
     <thumbnail>https://i.imgur.com/v8UowCO.png</thumbnail>
     <fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
 </dir>
@@ -27,7 +27,7 @@
             <tvshowtitle></tvshowtitle>
             <year></year>
         </meta>
-    <link>https://raw.githubusercontent.com/kpb36/browntown/master/kids movies.xml</link>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/kids/kids%20movies/kidsMovies.xml</link>
     <thumbnail>https://i.imgur.com/tti1rs6.jpg</thumbnail>
     <fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
 </dir>
@@ -41,7 +41,7 @@
             <tvshowtitle></tvshowtitle>
             <year></year>
         </meta>
-    <link>https://raw.githubusercontent.com/kpb36/browntown/master/kids m247.xml</link>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/kids/kids%2024%207/kids247.xml</link>
     <thumbnail>https://i.imgur.com/uLm1yAT.png</thumbnail>
     <fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
 </dir>

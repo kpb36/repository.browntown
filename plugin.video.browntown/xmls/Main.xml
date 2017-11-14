@@ -4,7 +4,7 @@
 
 <dir>
 <name>Movies</name>
-<link>https://raw.githubusercontent.com/kpb36/browntown/master/Movies.xml</link>
+<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/movies/movies.xml</link>
 <animated_thumbnail></animated_thumbnail>
 <thumbnail>https://i.imgur.com/Afk9b44.png</thumbnail>
 <animated_fanart></animated_fanart>
@@ -14,7 +14,7 @@
  
 <dir>
 <name>Tv Shows</name>
-<link>https://raw.githubusercontent.com/kpb36/browntown/master/TV.xml</link>
+<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/TVmain.xml</link>
 <animated_thumbnail></animated_thumbnail>
 <thumbnail>https://i.imgur.com/IPUg6gl.png</thumbnail>
 <animated_fanart></animated_fanart>
@@ -24,7 +24,7 @@
 
 <dir>
 <name>Kids</name>
-<link>https://raw.githubusercontent.com/kpb36/browntown/master/TV.xml</link>
+<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/kids/kids.xml</link>
 <animated_thumbnail></animated_thumbnail>
 <thumbnail>https://i.imgur.com/gH5ohdD.png</thumbnail>
 <animated_fanart></animated_fanart>
