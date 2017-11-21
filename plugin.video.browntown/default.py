@@ -21,8 +21,8 @@ import __builtin__
 # CONFIGURATION VARIABLES
 # -----------------------
 # change these to suit your addons
-root_xml_url = "https://raw.githubusercontent.com/kpb36/browntown/master/Main.xml"  # url of the root xml file
-__builtin__.tvdb_api_key = ""  # tvdb api key
+root_xml_url = "https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/Main.xml"  # url of the root xml file
+__builtin__.tvdb_api_key = "8A9704F6ECA1D155"  # tvdb api key
 __builtin__.tmdb_api_key = "dfbd481ad386500219264bfce5a99ceb"  # tmdb api key
 __builtin__.trakt_client_id = "2acb29179466758afe58c631fcf41dd74bc404880f4ce922277a8ec9d17b0f9e"  # trakt client id
 __builtin__.trakt_client_secret = "3e4fcd2a53233fc247f5391f71769f4bcb06dddd718e00ba159955fe1b27fe7a"  # trakt client secret
