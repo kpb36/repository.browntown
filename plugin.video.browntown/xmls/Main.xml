@@ -6,7 +6,7 @@
 <name>Movies</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/movies/movies.xml</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail>https://i.imgur.com/Afk9b44.png</thumbnail>
+<thumbnail>https://i.imgur.com/TvoQ9MH.png</thumbnail>
 <animated_fanart></animated_fanart>
 <fanart>https://i.imgur.com/9Pr8SJs.jpg</fanart>
 <summary>Browntown Movies</summary>
@@ -30,4 +30,34 @@
 <animated_fanart></animated_fanart>
 <fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
 <summary>Browntown Kids</summary>
+</dir>
+
+<dir>
+<name>Live</name>
+<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/Live/Live.xml</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://i.imgur.com/JpeRx6M.png</thumbnail>
+<animated_fanart></animated_fanart>
+<fanart>https://i.imgur.com/CgeXJ54.jpg</fanart>
+<summary>Browntown live stuff</summary>
+</dir>
+
+<dir>
+<name>Music</name>
+<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/Music/Music.xml</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://i.imgur.com/CfUFEW9.png</thumbnail>
+<animated_fanart></animated_fanart>
+<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
+<summary>Browntown music stuff</summary>
+</dir>
+
+<dir>
+<name>xxx</name>
+<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/xxx/xxx.xml</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://i.imgur.com/gzkGrme.png</thumbnail>
+<animated_fanart></animated_fanart>
+<fanart>https://i.imgur.com/STGnABR.jpg</fanart>
+<summary>Browntown xxx stuff</summary>
 </dir>
