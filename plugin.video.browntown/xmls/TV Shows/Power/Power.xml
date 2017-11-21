@@ -1,0 +1,35 @@
+#####################
+<poster>browntown tv</poster>
+<thumbnail>https://i.imgur.com/IPUg6gl.png</thumbnail>
+<fanart>https://i.imgur.com/oU37yhr.jpg</fanart>
+#####################
+
+<dir>
+    <title>Power Season 1 </title>
+        <meta>
+            <content>season</content>
+            <imdb>tt3281796</imdb>
+			<tvdb>276562</tvdb>
+            <tvshowtitle>Power</tvshowtitle>
+            <year>2014</year>
+			<season>1</season>
+        </meta>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Power/Seasons/Power1.xml</link>
+    <thumbnail>http://thetvdb.com/banners/seasons/276562-1-4.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/fanart/original/276562-1.jpg</fanart>
+</dir>
+
+<dir>
+    <title>Power Season 2 </title>
+        <meta>
+            <content>season</content>
+            <imdb>tt3281796</imdb>
+			<tvdb>276562</tvdb>
+            <tvshowtitle>Power</tvshowtitle>
+            <year>2014</year>
+			<season>2</season>
+        </meta>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Power/Seasons/Power2.xml</link>
+    <thumbnail>http://thetvdb.com/banners/seasons/276562-2-2.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/fanart/original/276562-2.jpg</fanart>
+</dir>

@@ -5,31 +5,31 @@
 #####################
 
 <dir>
-    <title>Arrow Season 1 </title>
+    <title>Shameless Season 1 </title>
         <meta>
             <content>season</content>
-            <imdb>tt2193021</imdb>
-			<tvdb>257655</tvdb>
-            <tvshowtitle>Arrow</tvshowtitle>
-            <year>2012</year>
+            <imdb>tt1586680</imdb>
+			<tvdb>161511</tvdb>
+            <tvshowtitle>Shameless (US)</tvshowtitle>
+            <year>2011</year>
 			<season>1</season>
         </meta>
     <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Shameless/Seasons/shameless1.xml</link>
-    <thumbnail>https://www.thetvdb.com/banners/seasons/257655-1-3.jpg</thumbnail>
-    <fanart>https://www.thetvdb.com/banners/fanart/original/257655-22.jpg</fanart>
+    <thumbnail>https://www.thetvdb.com/banners/seasons/161511-1-2.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/fanart/original/161511-13.jpg</fanart>
 </dir>
 
 <dir>
-    <title>Arrow Season 2 </title>
+    <title>Shameless Season 2 </title>
         <meta>
             <content>season</content>
-            <imdb>tt2193021</imdb>
-			<tvdb>257655</tvdb>
-            <tvshowtitle>Arrow</tvshowtitle>
-            <year>2012</year>
+            <imdb>tt1586680</imdb>
+			<tvdb>161511</tvdb>
+            <tvshowtitle>Shameless (US)</tvshowtitle>
+            <year>2011</year>
 			<season>2</season>
         </meta>
     <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Shameless/Seasons/shameless2.xml</link>
-    <thumbnail>https://www.thetvdb.com/banners/seasons/257655-2-6.jpg</thumbnail>
-    <fanart>https://www.thetvdb.com/banners/fanart/original/257655-19.jpg</fanart>
+    <thumbnail>https://www.thetvdb.com/banners/seasons/161511-2-3.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/fanart/original/161511-1.jpg</fanart>
 </dir>
