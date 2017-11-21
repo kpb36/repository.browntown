@@ -13,14 +13,14 @@
 	<content></content>
 </item>
 
-<plugin>
-	<title>[COLOR orange]Nfl Now[/COLOR]</title>
+<item>
+	<title>[COLOR orange]Nfl network[/COLOR]</title>
 	<link>
-	    <sublink>plugin://plugin.video.FlawlessTv/?action=run_cronjob&title=%5BCOLOR+white%5DUSA%2FCA%3A+NFL+NOW+HD++%5B%2FCOLOR%5D&url=http%3A%2F%2Fflawless-iptv.net%3A4545%2Flive%2FKpb36%40yahoo.com%2F7zSGQFuMk6%2F175.ts</sublink></link>
+	    <sublink>http://vaders.tv/live/kbrown/rfhNuR1H7A/2744.ts</sublink></link>
 	<thumbnail>https://i.imgur.com/MTa3ZWt.png</thumbnail>
 	<fanart>https://i.imgur.com/hC2GMDv.png</fanart>
 	<content></content>
-</plugin>
+</item>
 
 <plugin>
 	<title>[COLOR orange]Sky Sports Main Event[/COLOR]</title>
