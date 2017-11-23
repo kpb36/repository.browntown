@@ -5,10 +5,19 @@
 #####################
 
 <plugin>
-<title>Busy Beavers</title>
+<title>Cartoons</title>
  <link>
-    <sublink>plugin://plugin.video.youtube/channel/UCbt63GNsB5wet6NO3dmhssA</sublink>  
+    <sublink>plugin://plugin.video.youtube/playlist/PLi1wbmxbYJGkj0GeH68ktUvb1Cc9nGp-r/</sublink>  
   </link>
-<thumbnail>https://yt3.ggpht.com/-gB_SFlcGzDc/AAAAAAAAAAI/AAAAAAAAAAA/KwtbUnJTQTQ/s500-c-k-no/photo.jpg</thumbnail>
-<fanart>https://i.imgur.com/TdtdX8G.jpg</fanart>
+<thumbnail>https://i.imgur.com/uLm1yAT.png</thumbnail>
+<fanart>https://i.imgur.com/veaW744.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>Favorites</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PLi1wbmxbYJGl0y9bbI8bUVxAUf8y8tn3k/</sublink>  
+  </link>
+<thumbnail>https://i.imgur.com/uLm1yAT.png</thumbnail>
+<fanart>https://i.imgur.com/veaW744.jpg</fanart>
 </plugin>
