@@ -1,7 +1,7 @@
 #####################
 <poster>Browntown Live</poster>
-<thumbnail>https://i.imgur.com/hC2GMDv.png</thumbnail>
-<fanart>https://i.imgur.com/9Pr8SJs.jpg</fanart>
+<thumbnail>https://i.imgur.com/JpeRx6M.png</thumbnail>
+<fanart>https://i.imgur.com/CgeXJ54.jpg</fanart>
 #####################
 
 <item>
@@ -18,7 +18,16 @@
 	<link>
 	    <sublink>http://vaders.tv/live/kbrown/rfhNuR1H7A/2744.ts</sublink></link>
 	<thumbnail>https://i.imgur.com/MTa3ZWt.png</thumbnail>
-	<fanart>https://i.imgur.com/hC2GMDv.png</fanart>
+	<fanart>https://i.imgur.com/wtC8Vwe.jpg</fanart>
+	<content></content>
+</item>
+
+<item>
+	<title>[COLOR orange]Revolt ![/COLOR]</title>
+	<link>
+	    <sublink>http://vaders.tv/live/kbrown/rfhNuR1H7A/56459.ts</sublink></link>
+	<thumbnail>https://i.imgur.com/6mLDbTL.png</thumbnail>
+	<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
 	<content></content>
 </item>
 
@@ -49,47 +58,3 @@
 	<content></content>
 </plugin>
 
-<plugin>
-<title>Al Jazeera Documentaries</title>
- <link>
-    <sublink>plugin://plugin.video.youtube/playlist/PLzGHKb8i9vTz-80p9J9gs-iIlM8dg8kGo/</sublink>  
-  </link>
-<thumbnail>http://norestrictions.club/griff/Icons/Docs_al_jazeera.png</thumbnail>
-<fanart>https://i.imgur.com/1Li4fC6.png</fanart>
-</plugin>
-
-<plugin>
-<title>Al Jazeera Featured Documentaries</title>
- <link>
-    <sublink>plugin://plugin.video.youtube/playlist/PLzGHKb8i9vTxldCgnpeGHd9gBLl5vK0lW/</sublink>  
-  </link>
-<thumbnail></thumbnail>
-<fanart>https://i.imgur.com/1Li4fC6.png</fanart>
-</plugin>
-
-<plugin>
-<title>American Dad</title>
- <link>
-    <sublink>plugin://plugin.video.mobdina?action=play&amp;url=mpd%3A%2F%2F523af537946b79c4f8369ed39ba78605.m3u8</sublink>  
-  </link>
-<thumbnail>https://i.imgur.com/Ao51LqU.jpg</thumbnail>
-<fanart>https://i.imgur.com/HbyYnr7.png</fanart>
-</plugin>
-
-<plugin>
-<title>Wallykazam</title>
- <link>
-    <sublink>plugin://plugin.video.quantum/?mode=816&amp;title=Wallykazam&amp;page=1&amp;url=http%3A%2F%2Fwww.animetoon.org%2Fwatch-wallykazam</sublink>  
-  </link>
-<thumbnail>https://i.imgur.com/3TVQBlq.png</thumbnail>
-<fanart>https://i.imgur.com/Ao51LqU.jpg</fanart>
-</plugin>
-
-<plugin>
-<title>Friends</title>
- <link>
-    <sublink>plugin://plugin.video.FlawlessTv/?action=run_cronjob&amp;title=%5BCOLOR+white%5DFriends+24x7++%5B%2FCOLOR%5D&amp;url=http%3A%2F%2Fflawless-iptv.net%3A4545%2Flive%2FKpb36%40yahoo.com%2F7zSGQFuMk6%2F8368.ts</sublink>  
-  </link>
-<thumbnail>https://i.imgur.com/3TVQBlq.png</thumbnail>
-<fanart>https://i.imgur.com/Ao51LqU.jpg</fanart>
-</plugin>

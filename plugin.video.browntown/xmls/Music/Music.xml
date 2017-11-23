@@ -1,14 +1,23 @@
 #####################
 <poster>Browntown Music</poster>
 <thumbnail>https://i.imgur.com/X24pqQB.png</thumbnail>
-<fanart>https://i.imgur.com/9Pr8SJs.jpg</fanart>
+<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
 #####################
 
+<plugin>
+<title>Eminem Rare Playlist</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PLC6B80CABD26CAE69/</sublink>  
+  </link>
+<thumbnail>https://i.imgur.com/WdnbExA.jpg</thumbnail>
+<fanart>https://i.imgur.com/koHtXPg.jpg</fanart>
+</plugin>
+
 <item>
-	<title>[COLOR orange]Artists[/COLOR]</title>
+	<title>[COLOR orange]Revolt ![/COLOR]</title>
 	<link>
-	    <sublink>http://musicmp3.ru/artists.html</sublink></link>
-	<thumbnail>https://i.imgur.com/49k0rWC.jpg</thumbnail>
+	    <sublink>http://vaders.tv/live/kbrown/rfhNuR1H7A/56459.ts</sublink></link>
+	<thumbnail>https://i.imgur.com/6mLDbTL.png</thumbnail>
 	<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
 	<content></content>
 </item>

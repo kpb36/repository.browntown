@@ -4,6 +4,45 @@
 <fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
 #####################
 
+
+<item>
+	<title>Minions</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt2293640</imdb>
+		<title>Minions</title>
+		<year>2015</year>
+	</meta>
+	<link>
+		<sublink></sublink>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<animated_thumbnail></animated_thumbnail>
+	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/q0R4crx2SehcEEQEkYObktdeFy.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/uX7LXnsC7bZJZjn048UCOwkPXWJ.jpg</fanart>
+</item>
+
+<item>
+	<title>Big Hero 6</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt2245084</imdb>
+		<title>Big Hero 6</title>
+		<year>2014</year>
+	</meta>
+	<link>
+		<sublink></sublink>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<animated_thumbnail></animated_thumbnail>
+	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/9gLu47Zw5ertuFTZaxXOvNfy78T.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/2BXd0t9JdVqCp9sKf6kzMkr7QjB.jpg</fanart>
+</item>
+
 <item>
 	<title>The Son of Bigfoot (2017)</title>
 	<meta>
@@ -214,7 +253,24 @@
 	<fanart>http://image.tmdb.org/t/p/original/2JVnUtyUKbQm165cXUF9r5iVPDo.jpg</fanart>
 </item>
 
-
+<item>
+	<title>Beauty and the Beast</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt2771200</imdb>
+		<title>Beauty and the Beast</title>
+		<year>2017</year>
+	</meta>
+	<link>
+		<sublink></sublink>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<animated_thumbnail></animated_thumbnail>
+	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/tWqifoYuwLETmmasnGHO7xBjEtt.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/6aUWe0GSl69wMTSWWexsorMIvwU.jpg</fanart>
+</item>
 
 <item>
 	<title>Americano (2016)</title>
@@ -652,6 +708,25 @@
 	</link>
 	<thumbnail>http://image.tmdb.org/t/p/w500/fewzNvOFM4TBcuOwsfGXyIUrwS2.jpg</thumbnail>
 	<fanart>http://image.tmdb.org/t/p/original/uoGaRQbA3JbpS8jzLyq63M2Fphj.jpg</fanart>
+</item>
+
+<item>
+	<title>My Little Pony: The Movie</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt4131800</imdb>
+		<title>My Little Pony: The Movie</title>
+		<year>2017</year>
+	</meta>
+	<link>
+		<sublink></sublink>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<animated_thumbnail></animated_thumbnail>
+	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/15WbvKx7B7FiLZheK49Xc05oRIX.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/t9QTd0V3rbv6W25QbHJuC6zbIo1.jpg</fanart>
 </item>
 
 <item>
