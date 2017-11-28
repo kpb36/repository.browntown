@@ -67,14 +67,6 @@ def root():
             folder=True,
             icon=xbmcaddon.Addon().getAddonInfo("icon"),
             fanart=xbmcaddon.Addon().getAddonInfo("fanart"),
-            content_type="")
-        koding.Add_Dir(
-            name=_("kids 247"),
-            url=_("https://www.watchcartoononline.io/cartoon-list"),
-            mode="message",
-            folder=True,
-            icon=xbmcaddon.Addon().getAddonInfo("icon"),
-            fanart=xbmcaddon.Addon().getAddonInfo("fanart"),
             content_type="")			
         koding.Add_Dir(
             name=_("Search"),
@@ -221,6 +213,10 @@ else:
 router.Run()
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]), cacheToDisc=False)
+try:
+    content_type = __builtin__.content_type
+except:
+    pass
 if not xbmcaddon.Addon().getSetting("first_run") == "true":
     if content_type == "files":
         content_type = "other"

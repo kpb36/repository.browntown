@@ -18,12 +18,92 @@
 </item>
 
 <item>
-	<title>Gone Girl</title>
+	<title>Deepwater Horizon (2016)</title>
 	<meta>
 		<content>movie</content>
-		<imdb>tt2267998</imdb>
-		<title>Gone Girl</title>
-		<year>2014</year>
+		<imdb>tt1860357</imdb>
+		<title>Deepwater Horizon</title>
+		<year>2016</year>
+	</meta>
+	<link>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<thumbnail>https://image.tmdb.org/t/p/original/17pCgY3lHKM7SPCvB59MBtnEE7q.jpg</thumbnail>
+	<fanart>https://image.tmdb.org/t/p/original/q0jxp5XSTkK4vkG3D3ZebFsQxwF.jpg</fanart>
+</item>
+
+<item>
+	<title>Patriots Day (2016)</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt4572514</imdb>
+		<title>Patriots Day</title>
+		<year>2016</year>
+	</meta>
+	<link>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<thumbnail>https://image.tmdb.org/t/p/original/mIDxsJTrOC7NhgOo3GziiHyKfsQ.jpg</thumbnail>
+	<fanart>https://image.tmdb.org/t/p/original/hjl3J0lO4kaHyl9UiTp2zPmlnSj.jpg</fanart>
+</item>
+
+<item>
+	<title>Lone Survivor (2013)</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt1091191</imdb>
+		<title>Lone Survivor</title>
+		<year>2013</year>
+	</meta>
+	<link>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<thumbnail>https://image.tmdb.org/t/p/original/c7Sqof18FgkoNcA0r5BFUcPLER1.jpg</thumbnail>
+	<fanart>https://image.tmdb.org/t/p/original/jxS4kWeAxs0Y8XKv1wmEgNf3fhM.jpg</fanart>
+</item>
+
+<item>
+    <title>The Wolf of Wall Street (2013)</title>
+        <meta>
+            <content>movie</content>
+            <imdb>tt0993846</imdb>
+            <title>The Wolf of Wall Street</title>
+            <year>(2013)</year>
+        </meta>
+    <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+    </link>
+    <thumbnail>https://image.tmdb.org/t/p/original/wAgdJRx4uZ0u4uzu34NOMvtjLAR.jpg</thumbnail>
+    <fanart>https://image.tmdb.org/t/p/original/t3ORMhkPeDAXIwjfVS5e7eRmtxK.jpg</fanart>
+</item>
+
+<item>
+    <title>Into the Wild (2007)</title>
+        <meta>
+            <content>movie</content>
+            <imdb>tt0758758</imdb>
+            <title>Into the Wild</title>
+            <year>(2007)</year>
+        </meta>
+    <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+    </link>
+    <thumbnail>https://image.tmdb.org/t/p/original/lHyYgaocXR6KcJLxVmxZDj115hH.jpg</thumbnail>
+    <fanart>https://image.tmdb.org/t/p/original/gVjBW7P75ErIZxejybqa1ZYnl3w.jpg</fanart>
+</item>
+
+<item>
+	<title>City of God (2002)</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt0317248</imdb>
+		<title>City of God</title>
+		<year>02/05/2002</year>
 	</meta>
 	<link>
 		<sublink></sublink>
@@ -31,9 +111,9 @@
 		<sublink>searchsd</sublink>
 	</link>
 	<animated_thumbnail></animated_thumbnail>
-	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/gdiLTof3rbPDAmPaCf4g6op46bj.jpg</thumbnail>
+	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/gCqnQaq8T4CfioP9uETLx9iMJF4.jpg</thumbnail>
 	<animated_fanart></animated_fanart>
-	<fanart>https://image.tmdb.org/t/p/original/bt6DhdALyhf90gReozoQ0y3R3vZ.jpg</fanart>
+	<fanart>https://image.tmdb.org/t/p/original/k4BAPrE5WkNLvpsPsiMfu8W4Zyi.jpg</fanart>
 </item>
 
 <item>
@@ -54,6 +134,79 @@
 </item>
 
 <item>
+    <title>Apollo 13 (1995)</title>
+        <meta>
+            <content>movie</content>
+            <imdb>tt0112384</imdb>
+            <title>Apollo 13</title>
+            <year>(1995)</year>
+        </meta>
+    <link>
+        <sublink>search</sublink>
+        <sublink>searchsd</sublink>
+    </link>
+    <thumbnail>https://i.imgur.com/mJZkFLb.png</thumbnail>
+    <fanart>https://image.tmdb.org/t/p/original/yiNo78Sx3uioxKwHuCVjnAu8ZHv.jpg</fanart>
+</item>
+
+<item>
+	<title>Braveheart (1995)</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt0112573</imdb>
+		<title>Braveheart</title>
+		<year>(1995)</year>
+	</meta>
+	<link>
+		<sublink></sublink>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<animated_thumbnail></animated_thumbnail>
+	<thumbnail>https://image.tmdb.org/t/p/original/2qAgGeYdLjelOEqjW9FYvPHpplC.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/u5EosOO824Vvz1fhgkQ4FpMVbaJ.jpg</fanart>
+</item>
+
+<item>
+	<title>Forrest Gump (1994)</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt0109830</imdb>
+		<title>Forrest Gump</title>
+		<year>07/06/1994</year>
+	</meta>
+	<link>
+		<sublink></sublink>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<animated_thumbnail></animated_thumbnail>
+	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/yE5d3BUhE8hCnkMUJOo1QDoOGNz.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/ctOEhQiFIHWkiaYp7b0ibSTe5IL.jpg</fanart>
+</item>
+
+<item>
+	<title>Schindler-s List (1993)</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt0108052</imdb>
+		<title>Schindler-s List</title>
+		<year>11/29/1993</year>
+	</meta>
+	<link>
+		<sublink></sublink>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<animated_thumbnail></animated_thumbnail>
+	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/yPisjyLweCl1tbgwgtzBCNCBle.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/rIpSszng8P0DL0TimSzZbpfnvh1.jpg</fanart>
+</item>
+
+<item>
     <title>Goodfellas (1990)</title>
         <meta>
             <content>movie</content>
@@ -68,3 +221,23 @@
     <thumbnail>https://image.tmdb.org/t/p/original/ddMDzejWFbSas5ipUCUCjAlD5dI.jpg</thumbnail>
     <fanart>https://image.tmdb.org/t/p/original/daAvXBvlYyJXKEdqYIRVv6OgheT.jpg</fanart>
 </item>
+
+<item>
+	<title>Psycho (1960)</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt0054215</imdb>
+		<title>Psycho</title>
+		<year>06/16/1960</year>
+	</meta>
+	<link>
+		<sublink></sublink>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<animated_thumbnail></animated_thumbnail>
+	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/81d8oyEFgj7FlxJqSDXWr8JH8kV.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/3md49VBCeqY6MSNyAVY6d5eC6bA.jpg</fanart>
+</item>
+

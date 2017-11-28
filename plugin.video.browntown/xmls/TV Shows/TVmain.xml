@@ -5,6 +5,21 @@
 #####################
 
 <dir>
+<title>Popular Tv Shows</title>
+<tmdb>tv/popular</tmdb>
+</dir>
+
+<dir>
+  <title>Trending Shows</title>
+  <trakt>https://api.trakt.tv/shows/trending</trakt>
+</dir>
+
+<dir>
+<title>Tv Shows</title>
+<tmdb>list/14231</tmdb>
+</dir>
+
+<dir>
     <title>Arrow</title>
         <meta>
             <content>tvshow</content>

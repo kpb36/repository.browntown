@@ -36,6 +36,25 @@
 </item>
 
 <item>
+	<title>Once Upon a Time in America</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt0087843</imdb>
+		<title>Once Upon a Time in America</title>
+		<year>02/16/1984</year>
+	</meta>
+	<link>
+		<sublink></sublink>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<animated_thumbnail></animated_thumbnail>
+	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/fqP3Q7DWMFqW7mh11hWXbNwN9rz.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/vnT6HzjLSDrAweHn9xWykb8Ii6T.jpg</fanart>
+</item>
+
+<item>
 	<title>Pulp Fiction</title>
 	<meta>
 		<content>movie</content>

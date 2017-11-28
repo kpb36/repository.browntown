@@ -1,0 +1,9 @@
+<dir>
+<title>Search Trakt</title>
+<trakt>search</trakt>
+</dir>
+
+<dir>
+<title>Search TMDB</title>
+<tmdb>search</tmdb>
+</dir>

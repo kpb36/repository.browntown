@@ -5,6 +5,11 @@
 #####################
 
 <dir>
+      <title>Trending Movies</title>
+      <trakt>https://api.trakt.tv/movies/trending</trakt>
+</dir>
+
+<dir>
 <name>New Movies</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/movies/newmovies.xml</link>
 <animated_thumbnail></animated_thumbnail>
@@ -22,6 +27,16 @@
 <animated_fanart></animated_fanart>
 <fanart>https://i.imgur.com/Al0Cuqz.jpg</fanart>
 <summary>Browntown Movies</summary>
+</dir>
+
+<dir>
+<title>True Movies</title>
+<tmdb>list/39817</tmdb>
+</dir>
+
+<dir>
+<title>Mafia Movies</title>
+<tmdb>list/39818</tmdb>
 </dir>
 
 <dir>
