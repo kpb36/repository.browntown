@@ -4,7 +4,6 @@
         <import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.noobsandnerds" version="2.3.0" />
 		<import addon="repository.q"/>
-		<import addon="plugin.program.browntown" version="1.0.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
         <import addon="script.module.python.koding.aio" version="0.9.6.6" />
 		<import addon="script.module.liveresolver" version="0.1.47" />
