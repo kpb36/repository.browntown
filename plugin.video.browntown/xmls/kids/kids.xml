@@ -45,3 +45,17 @@
     <thumbnail>https://i.imgur.com/uLm1yAT.png</thumbnail>
     <fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
 </dir>
+
+<dir>
+    <title>Educational</title>
+        <meta>
+            <content>tvshow</content>
+            <imdb></imdb>
+			<tvdb></tvdb>
+            <tvshowtitle></tvshowtitle>
+            <year></year>
+        </meta>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/kids/kids%20tv/educational.xml</link>
+    <thumbnail>https://i.imgur.com/L7w8nMm.jpg</thumbnail>
+    <fanart>https://i.imgur.com/YjfzJoA.jpg</fanart>
+</dir>

@@ -10,6 +10,11 @@
 </dir>
 
 <dir>
+<title>Popular Movies</title>
+<tmdb>movies/popular</tmdb>
+</dir>
+
+<dir>
 <name>New Movies</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/movies/newmovies.xml</link>
 <animated_thumbnail></animated_thumbnail>

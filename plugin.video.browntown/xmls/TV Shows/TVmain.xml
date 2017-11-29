@@ -15,8 +15,22 @@
 </dir>
 
 <dir>
+<title>Top Rated Tv Shows</title>
+<tmdb>tv/top_rated</tmdb>
+</dir>
+
+<dir>
+<title>Tv Shows Airing Today</title>
+<tmdb>tv/today</tmdb>
+</dir>
+
+<dir>
 <title>Tv Shows</title>
 <tmdb>list/14231</tmdb>
+</dir>
+
+<dir>
+<title>[COLORred]My Shows....[/COLOR]</title>
 </dir>
 
 <dir>

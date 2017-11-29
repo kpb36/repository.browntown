@@ -1,0 +1,13 @@
+<plugin>
+ <title></title>
+        <link>plugin://plugin.video.youtube/playlist//</link>
+        <thumbnail></thumbnail>
+		<fanart></fanart>
+</plugin>
+
+<plugin>
+ <title></title>
+        <link>plugin://plugin.video.youtube/channel//playlists/</link>
+        <thumbnail></thumbnail>
+		<fanart></fanart>
+</plugin>

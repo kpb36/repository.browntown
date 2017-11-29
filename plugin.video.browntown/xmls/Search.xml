@@ -7,3 +7,17 @@
 <title>Search TMDB</title>
 <tmdb>search</tmdb>
 </dir>
+
+<plugin>
+<name>The MovieDB</name>
+<link>plugin://script.extendedinfo</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://archive.org/download/Street_201701/icon.jpg</thumbnail>
+</plugin>
+
+<plugin>
+<name>MetalliQ</name>
+<link>plugin://plugin.video.metalliq</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://archive.org/download/Street_201701/icon.jpg</thumbnail>
+</plugin>

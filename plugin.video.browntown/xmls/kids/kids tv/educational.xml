@@ -1,0 +1,24 @@
+#####################
+<poster>Educational</poster>
+<thumbnail>https://i.imgur.com/gH5ohdD.png</thumbnail>
+<fanart>https://i.imgur.com/YjfzJoA.jpg</fanart>
+#####################
+
+
+<plugin>
+<title>Tiny School tv</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UCIX0Z-09kLkf-96-StW3hAw/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-GKF9gp5kPTA/AAAAAAAAAAI/AAAAAAAAAAA/RTTvkaJ4UyE/s500-c-k-no/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Cool school</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UCG4dadF2w8Z95qz-vJ3WkqQ/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-3Yeznf9-cqI/AAAAAAAAAAI/AAAAAAAAAAA/qf09GPK8AQo/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
