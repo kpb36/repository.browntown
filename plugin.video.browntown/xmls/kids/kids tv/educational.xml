@@ -15,10 +15,37 @@
 </plugin>
 
 <plugin>
+<title>Storybots</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UCAJnyTWJPpKXuwgWQDdNWrQ/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-QdIidAh5N2w/AAAAAAAAAAI/AAAAAAAAAAA/Tj2VwbeDzjg/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
 <title>Cool school</title>
  <link>
     <sublink>plugin://plugin.video.youtube/channel/UCG4dadF2w8Z95qz-vJ3WkqQ/playlists/</sublink>  
   </link>
 <thumbnail>https://yt3.ggpht.com/-3Yeznf9-cqI/AAAAAAAAAAI/AAAAAAAAAAA/qf09GPK8AQo/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Abc tv</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UCbCmjCuTUZos6Inko4u57UQ/playlists/</sublink>  
+  </link>
+<thumbnail>http://ecx.images-amazon.com/images/I/51V8MrZu5TL._SY300_.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Learning Videos</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UCwynFfAvCF2kiRSMWiozQHg/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-xy6rXhNqql0/AAAAAAAAAAI/AAAAAAAAAAA/YQB3DbpRdZ0/s500-c-k-no/photo.jpg</thumbnail>
 <fanart></fanart>
 </plugin>

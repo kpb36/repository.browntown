@@ -21,3 +21,57 @@
 <thumbnail>https://i.imgur.com/uLm1yAT.png</thumbnail>
 <fanart>https://i.imgur.com/veaW744.jpg</fanart>
 </plugin>
+
+<plugin>
+<title>Disney Jr Uk</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UC7Gf2tZ8coTX2ckTPgn62iQ/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-e8lc2AnB-Z8/AAAAAAAAAAI/AAAAAAAAAAA/1kZk7GEiBxA/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Peppa Pig</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PL0qkhhDzibUc2_kMx-YcqZ8u9Oknu9xAq/</sublink>  
+  </link>
+<thumbnail>https://i.imgur.com/JuFHMIx.png</thumbnail>
+<fanart>https://i.imgur.com/onLXCs0.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>The Wiggles</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UC5vVe2R4ucoMzJP53o38Yaw/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-m0-rgNGYBUo/AAAAAAAAAAI/AAAAAAAAAAA/pOL1ZD7ef5s/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Ben and Holly's Little Kingdom</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UC2UhuvjTIrR0Ck2KrkvRcuA/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-1b_8TBn1xxQ/AAAAAAAAAAI/AAAAAAAAAAA/iVbPI10tyZ4/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Maz and Ruby</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UCjF2lVpoUweXPGf0oRJcP0A/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-GeQNGbMg0Yc/AAAAAAAAAAI/AAAAAAAAAAA/eFm3ckJNyBw/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Sesame Street</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UCoookXUzPciGrEZEXmh4Jjg/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-Udx0C3ZTHUg/AAAAAAAAAAI/AAAAAAAAAAA/3BE1yYHQccs/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>

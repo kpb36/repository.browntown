@@ -17,6 +17,25 @@
 </item>
 
 <item>
+	<title>Boo 2! A Madea Halloween</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt6217804</imdb>
+		<title>Boo 2! A Madea Halloween</title>
+		<year>10/20/2017</year>
+	</meta>
+	<link>
+		<sublink></sublink>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<animated_thumbnail></animated_thumbnail>
+	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/5nvP4etJ8ecQv8qZM08dK4BAzdK.jpg</thumbnail>
+	<animated_fanart></animated_fanart>
+	<fanart>https://image.tmdb.org/t/p/original/78kN1a1AHxAPEh7hQhNjDQhLZ9W.jpg</fanart>
+</item>
+
+<item>
   <title>Spider-Man: Homecoming (2017)</title>
   <meta>
     <content>movie</content>

@@ -1,6 +1,4 @@
-#####################
-<poster>test</poster>
-#####################
+
 
 <dir>
 <name>Movies</name>
@@ -56,10 +54,10 @@
 <name>Search</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/Search.xml</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail></thumbnail>
+<thumbnail>https://i.imgur.com/yj5NPRy.png</thumbnail>
 <animated_fanart></animated_fanart>
-<fanart></fanart>
-<summary></summary>
+<fanart>https://i.imgur.com/bs0C8mH.jpg</fanart>
+<summary>Search</summary>
 </dir>
 
 <dir>

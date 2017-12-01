@@ -4,7 +4,7 @@
 <fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
 #####################
 
-<item>
+<dir>
     <title>247 cartoons</title>
         <meta>
             <content>episode</content>
@@ -20,4 +20,4 @@
     <link>
 	    <sublink>https://www.watchcartoononline.io/cartoon-list</sublink>
 	</link>
-</item>
+</dir>

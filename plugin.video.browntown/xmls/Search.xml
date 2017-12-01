@@ -9,15 +9,15 @@
 </dir>
 
 <plugin>
-<name>The MovieDB</name>
+<name>Extended info</name>
 <link>plugin://script.extendedinfo</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail>https://archive.org/download/Street_201701/icon.jpg</thumbnail>
+<thumbnail>https://i.imgur.com/Htd0oVF.png</thumbnail>
 </plugin>
 
 <plugin>
 <name>MetalliQ</name>
 <link>plugin://plugin.video.metalliq</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail>https://archive.org/download/Street_201701/icon.jpg</thumbnail>
+<thumbnail>https://i.imgur.com/UCDI9ri.png</thumbnail>
 </plugin>

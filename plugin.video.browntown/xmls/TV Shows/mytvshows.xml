@@ -1,0 +1,314 @@
+#####################
+<poster>browntown tv</poster>
+<thumbnail>https://i.imgur.com/ANYoryg.png</thumbnail>
+<fanart>https://i.imgur.com/oU37yhr.jpg</fanart>
+#####################
+
+<dir>
+    <title>Arrow</title>
+        <meta>
+            <content>tvshow</content>
+            <imdb>tt2193021</imdb>
+			<tvdb>257655</tvdb>
+            <tvshowtitle>Arrow</tvshowtitle>
+            <year>2012</year>
+        </meta>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Arrow/arrow.xml</link>
+    <thumbnail>https://www.thetvdb.com/banners/_cache/posters/257655-6.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/_cache/fanart/original/257655-47.jpg</fanart>
+</dir>
+
+<dir>
+    <title>Shameless</title>
+        <meta>
+            <content>tvshow</content>
+            <imdb>tt1586680</imdb>
+			<tvdb>161511</tvdb>
+            <tvshowtitle>Shameless</tvshowtitle>
+            <year>2011</year>
+        </meta>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Shameless/shameless.xml</link>
+    <thumbnail>https://www.thetvdb.com/banners/_cache/posters/161511-20.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/_cache/fanart/original/161511-14.jpg</fanart>
+</dir>
+
+<dir>
+    <title>Breaking Bad </title>
+        <meta>
+            <content>tvshow</content>
+            <imdb>tt0903747</imdb>
+			<tvdb>81189</tvdb>
+            <tvshowtitle>Breaking Bad </tvshowtitle>
+            <year>2008</year>
+        </meta>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Breaking%20bad/breaking%20bad.xml</link>
+    <thumbnail>https://www.thetvdb.com/banners/posters/81189-10.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/fanart/original/81189-30.jpg</fanart>
+</dir>
+
+<dir>
+    <title>Power</title>
+        <meta>
+            <content>tvshow</content>
+            <imdb>tt3281796</imdb>
+			<tvdb>276562</tvdb>
+            <tvshowtitle>Power</tvshowtitle>
+            <year>2014</year>
+        </meta>
+    <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/Power/Power.xml</link>
+    <thumbnail>http://thetvdb.com/banners/posters/276562-1.jpg</thumbnail>
+    <fanart>https://www.thetvdb.com/banners/fanart/original/276562-14.jpg</fanart>
+</dir>
+
+<dir>
+	<title>American Gods</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt1898069</imdb>
+		<tvdb>253573</tvdb>
+		<tvshowtitle>American Gods</tvshowtitle>
+		<year>2017</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/American%20Gods/American%20Gods.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/ovnH6mQfVembYErJXYhnh6e0R9C.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/253573-6.jpg</fanart>
+</dir>
+
+<dir>
+<title>Ballers</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt2891574</imdb>
+<tvdb>281714</tvdb>
+<tvshowtitle>Ballers</tvshowtitle>
+<year>2015</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Ballers/Ballers.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/281714-2.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/281714-1.jpg</fanart>
+</dir>
+
+<dir>
+<title>American Horror Story</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt1844624</imdb>
+<tvdb>250487</tvdb>
+<tvshowtitle>American Horror Story</tvshowtitle>
+<year>2011</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/American%20Horror/American%20Horror.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/250487-38.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/250487-25.jpg</fanart>
+</dir>
+
+<dir>
+<title>Better Call Saul</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt3032476</imdb>
+<tvdb>273181</tvdb>
+<tvshowtitle>Better Call Saul</tvshowtitle>
+<year>2015</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Better%20Call%20Saul/Better%20Call%20Saul.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/273181-16.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/273181-21.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Billions</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt4270492</imdb>
+		<tvdb>279536</tvdb>
+		<tvshowtitle>Billions</tvshowtitle>
+		<year>2016</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Billions/Billions.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/yBxLScJxSVnkOnJbSApVXncyfzN.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/279536-8.jpg</fanart>
+</dir>
+
+<dir>
+<title>Designated Survivor [COLOR gold](New Season)[/COLOR]</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt5296406</imdb>
+<tvdb>311876</tvdb>
+<tvshowtitle>Designated Survivor</tvshowtitle>
+<year>2016</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Designated%20Survivor/Designated%20Survivor.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/311876-1.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/311876-2.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Disjointed</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt5884792</imdb>
+		<tvdb>327359</tvdb>
+		<tvshowtitle>Disjointed</tvshowtitle>
+		<year>2017</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Disjointed/Disjointed.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/gMVzoGfyFNew1RTn4UaMjn3iHCT.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/327359-3.jpg</fanart>
+</dir>
+
+<dir>
+<title>Empire [COLOR gold](New Season)[/COLOR]</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt3228904</imdb>
+<tvdb>281617</tvdb>
+<tvshowtitle>Empire</tvshowtitle>
+<year>2015</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Empire/Empire.xml</link>
+<thumbnail>https://image.tmdb.org/t/p/w396/59WJD0bEMDFvKKPkeLlqs4ks0vN.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/281617-7.jpg</fanart>
+</dir>
+
+<dir>
+<title>Fear the Walking Dead [COLOR gold](New Season)[/COLOR]</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt3743822</imdb>
+<tvdb>290853</tvdb>
+<tvshowtitle>Fear the Walking Dead</tvshowtitle>
+<year>2015</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Fear%20the%20Walking%20Dead/Fear%20the%20Walking%20Dead.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/290853-6.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/290853-2.jpg</fanart>
+</dir>
+
+<dir>
+<title>Game of Thrones</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt0944947</imdb>
+<tvdb>121361</tvdb>
+<tvshowtitle>Game of Thrones</tvshowtitle>
+<year>2011</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Game%20of%20Thrones/Game%20of%20Thrones.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/121361-34.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/121361-63.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Halt and Catch Fire [COLOR gold](New Season)[/COLOR]</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt2543312</imdb>
+		<tvdb>271910</tvdb>
+		<tvshowtitle>Halt and Catch Fire</tvshowtitle>
+		<year>2014</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Halt%20and%20Catch%20Fire/Halt%20and%20Catch%20Fire.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/nyRfuxumAzBw0dV32XyzVNzVD4t.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/271910-12.jpg</fanart>
+</dir>
+
+<dir>
+<title>Homeland</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt1796960</imdb>
+<tvdb>247897</tvdb>
+<tvshowtitle>Homeland</tvshowtitle>
+<year>2011</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Homeland/Homeland.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/247897-17.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/247897-41.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Ozark</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt5071412</imdb>
+		<tvdb>329089</tvdb>
+		<tvshowtitle>Ozark</tvshowtitle>
+		<year>2017</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Ozark/Ozark1.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/329089-4.jpg</fanart>
+</dir>
+
+<dir>
+<title>Ray Donovan</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt2249007</imdb>
+<tvdb>259866</tvdb>
+<tvshowtitle>Ray Donovan</tvshowtitle>
+<year>2013</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Ray%20Donovan/Ray%20Donovan.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/259866-4.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/259866-14.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Sneaky Pete</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt5011816</imdb>
+		<tvdb>300166</tvdb>
+		<tvshowtitle>Sneaky Pete</tvshowtitle>
+		<year>2015</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Sneaky_Pete/SneakyPete1.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/bIIDip0FTCMtiptGejbGh8yFE7e.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/300166-3.jpg</fanart>
+</dir>
+
+<dir>
+	<title>The OA</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt4635282</imdb>
+		<tvdb>321060</tvdb>
+		<tvshowtitle>The OA</tvshowtitle>
+		<year>2016</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/The%20OA/The%20OA.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/ppSiYu2D0nw6KNF0kf5lKDxOGRR.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/321060-2.jpg</fanart>
+</dir>
+
+<dir>
+<title>The Walking Dead [COLOR gold](New Season)[/COLOR]</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt1520211</imdb>
+<tvdb>153021</tvdb>
+<tvshowtitle>The Walking Dead</tvshowtitle>
+<year>2010</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/The%20Walking%20Dead/The%20Walking%20Dead.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/153021-31.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/153021-43.jpg</fanart>
+</dir>
+
+<dir>
+<title>Westworld</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt0475784</imdb>
+<tvdb>296762</tvdb>
+<tvshowtitle>Westworld</tvshowtitle>
+<year>2016</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Westworld/Westworld.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/296762-3.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/296762-1.jpg</fanart>
+</dir>
+

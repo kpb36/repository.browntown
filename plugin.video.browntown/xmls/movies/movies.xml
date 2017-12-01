@@ -25,6 +25,16 @@
 </dir>
 
 <dir>
+  <title>Reddit Top 250 (2017 Edition)</title>
+  <trakt>https://api.trakt.tv/users/philrivers/lists/reddit-top-250-2017-edition/items</trakt>
+</dir>
+
+<dir>
+  <title>TMDB List: Animal Kingdom</title>
+  <tmdb>list/13488</tmdb>
+</dir>
+
+<dir>
 <name>Comedy movies</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/movies/comedymovies.xml</link>
 <animated_thumbnail></animated_thumbnail>
