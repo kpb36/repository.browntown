@@ -4,9 +4,9 @@
 <name>Movies</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/movies/movies.xml</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail>https://i.imgur.com/TvoQ9MH.png</thumbnail>
+<thumbnail>https://i.imgur.com/inEyKiD.jpg</thumbnail>
 <animated_fanart></animated_fanart>
-<fanart>https://i.imgur.com/9Pr8SJs.jpg</fanart>
+<fanart>https://i.imgur.com/QxgHC7t.jpg</fanart>
 <summary>Browntown Movies</summary>
 </dir>
  
@@ -14,19 +14,19 @@
 <name>Tv Shows</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/TVmain.xml</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail>https://i.imgur.com/IPUg6gl.png</thumbnail>
+<thumbnail>https://i.imgur.com/mfVf5ej.jpg</thumbnail>
 <animated_fanart></animated_fanart>
-<fanart>https://i.imgur.com/oU37yhr.jpg</fanart>
+<fanart>https://i.imgur.com/j8xRDUR.jpg</fanart>
 <summary>Browntown Tv</summary>
 </dir>
 
 <dir>
-<name>Kids</name>
+<name>The Toy Box</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/kids/kids.xml</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail>https://i.imgur.com/gH5ohdD.png</thumbnail>
+<thumbnail>https://i.imgur.com/EclW3HX.jpg</thumbnail>
 <animated_fanart></animated_fanart>
-<fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
+<fanart>https://i.imgur.com/CJdUIr7.jpg</fanart>
 <summary>Browntown Kids</summary>
 </dir>
 
@@ -34,9 +34,9 @@
 <name>Live</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/Live/Live.xml</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail>https://i.imgur.com/JpeRx6M.png</thumbnail>
+<thumbnail>https://i.imgur.com/9PSlEJQ.jpg</thumbnail>
 <animated_fanart></animated_fanart>
-<fanart>https://i.imgur.com/CgeXJ54.jpg</fanart>
+<fanart>https://i.imgur.com/pTj2F3A.jpg</fanart>
 <summary>Browntown live stuff</summary>
 </dir>
 
@@ -44,9 +44,9 @@
 <name>Music</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/Music/Music.xml</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail>https://i.imgur.com/CfUFEW9.png</thumbnail>
+<thumbnail>https://i.imgur.com/j8Ym5x7.jpg</thumbnail>
 <animated_fanart></animated_fanart>
-<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
+<fanart>https://i.imgur.com/CigJQwI.jpg</fanart>
 <summary>Browntown music stuff</summary>
 </dir>
 
@@ -54,18 +54,18 @@
 <name>Search</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/Search.xml</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail>https://i.imgur.com/yj5NPRy.png</thumbnail>
+<thumbnail>https://i.imgur.com/oKX5ObZ.jpg</thumbnail>
 <animated_fanart></animated_fanart>
-<fanart>https://i.imgur.com/bs0C8mH.jpg</fanart>
+<fanart>https://i.imgur.com/1sNE6UN.jpg</fanart>
 <summary>Search</summary>
 </dir>
 
 <dir>
-<name>xxx</name>
-<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/xxx/xxx.xml</link>
+<name>Sports</name>
+<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/xxx/Sports.xml</link>
 <animated_thumbnail></animated_thumbnail>
-<thumbnail>https://i.imgur.com/gzkGrme.png</thumbnail>
+<thumbnail>https://i.imgur.com/BU3skb1.jpg</thumbnail>
 <animated_fanart></animated_fanart>
-<fanart>https://i.imgur.com/STGnABR.jpg</fanart>
-<summary>Browntown xxx stuff</summary>
+<fanart>https://i.imgur.com/9pcuyNn.jpg</fanart>
+<summary>Browntown sports stuff</summary>
 </dir>

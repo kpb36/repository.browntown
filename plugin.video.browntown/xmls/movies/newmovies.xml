@@ -1,4 +1,36 @@
 <item>
+	<title>The Foreigner (2017)</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt1615160</imdb>
+		<title>The Foreigner</title>
+		<year>2017</year>
+	</meta>
+	<link>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/rwM4hzrmc5HiWfQD9ls9DL4QgGl.jpg</thumbnail>
+	<fanart>http://image.tmdb.org/t/p/original/p6anj7RQe03Gq2hSIxkkoozPMSH.jpg</fanart>
+</item>
+
+<item>
+	<title>Kingsman: The Golden Circle (2017)</title>
+	<meta>
+		<content>movie</content>
+		<imdb>tt4649466</imdb>
+		<title>Kingsman: The Golden Circle</title>
+		<year>2017</year>
+	</meta>
+	<link>
+		<sublink>search</sublink>
+		<sublink>searchsd</sublink>
+	</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/pKESfn2Pdy0b7drvZHQb7UzgqoY.jpg</thumbnail>
+	<fanart>http://image.tmdb.org/t/p/original/uExPmkOHJySrbJyJDJylHDqaT58.jpg</fanart>
+</item>
+
+<item>
  <title>Detroit (2017)</title>
  <meta>
   <content>movie</content>
@@ -31,6 +63,38 @@
 	<thumbnail> https://image.tmdb.org/t/p/w370_and_h556_bestv2/5nvP4etJ8ecQv8qZM08dK4BAzdK.jpg</thumbnail>
 	<animated_fanart></animated_fanart>
 	<fanart>https://image.tmdb.org/t/p/original/78kN1a1AHxAPEh7hQhNjDQhLZ9W.jpg</fanart>
+</item>
+
+<item>
+  <title>American Assassin (2017)</title>
+  <meta>
+    <content>movie</content>
+    <imdb>tt1961175</imdb>
+    <title>American Assassin</title>
+    <year>2017</year>
+  </meta>
+  <link>
+    <sublink>search</sublink>
+    <sublink>searchsd</sublink>
+  </link>
+  <thumbnail>http://image.tmdb.org/t/p/w500/o40BAqdTQHiN3cUfpgieDUYI71z.jpg</thumbnail>
+  <fanart>http://image.tmdb.org/t/p/original/puKZWmBIpuEMwGCn2hZkublG1rO.jpg</fanart>
+</item>
+
+<item>
+  <title>Home Again (2017)</title>
+  <meta>
+    <content>movie</content>
+    <imdb>tt5719700</imdb>
+    <title>Home Again</title>
+    <year>2017</year>
+  </meta>
+  <link>
+    <sublink>search</sublink>
+    <sublink>searchsd</sublink>
+  </link>
+  <thumbnail>http://image.tmdb.org/t/p/w500/z5CtCxpblBke2G8c7CMkstedMgY.jpg</thumbnail>
+  <fanart>http://image.tmdb.org/t/p/original/pxpEFY66yYr5bA1N4PCm5b4uz40.jpg</fanart>
 </item>
 
 <item>

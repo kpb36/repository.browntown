@@ -50,6 +50,11 @@
 </dir>
 
 <dir>
+  <title>Griff True Movies</title>
+  <trakt>https://api.trakt.tv/users/documentaryrepo/lists/true-movies/items</trakt>
+</dir>
+
+<dir>
 <title>Mafia Movies</title>
 <tmdb>list/39818</tmdb>
 </dir>
@@ -103,4 +108,16 @@
 <fanart>https://i.imgur.com/RaK3tDD.jpg</fanart>
 <summary>Browntown Movies</summary>
 </dir>
+
+<dir>
+<name>Best of 2000s</name>
+<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/movies/bestof.xml</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://i.imgur.com/SjZTNSr.png</thumbnail>
+<animated_fanart></animated_fanart>
+<fanart>https://i.imgur.com/RaK3tDD.jpg</fanart>
+<summary>Browntown Years Best Movies</summary>
+</dir>
+
+
 

@@ -1,8 +1,4 @@
-#####################
-<poster>Educational</poster>
-<thumbnail>https://i.imgur.com/gH5ohdD.png</thumbnail>
-<fanart>https://i.imgur.com/YjfzJoA.jpg</fanart>
-#####################
+
 
 
 <plugin>
@@ -47,5 +43,32 @@
     <sublink>plugin://plugin.video.youtube/channel/UCwynFfAvCF2kiRSMWiozQHg/playlists/</sublink>  
   </link>
 <thumbnail>https://yt3.ggpht.com/-xy6rXhNqql0/AAAAAAAAAAI/AAAAAAAAAAA/YQB3DbpRdZ0/s500-c-k-no/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Kids learn english</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UC-qWJlvaPME3MWvrY-yjXeA/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-Wk6NXGS1pAk/AAAAAAAAAAI/AAAAAAAAAAA/nBondFZLttw/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>The Learning station</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UC4Hdb26_xnPQsntwLazMqYw/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-9KvO6WDX4hw/AAAAAAAAAAI/AAAAAAAAAAA/_7ZS0M2t75M/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Have fun teaching</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UC1jhiDqp-jIYR07Ini8Jamw/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-p2qbkGa_6rk/AAAAAAAAAAI/AAAAAAAAAAA/e_thnM8vVmI/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
 <fanart></fanart>
 </plugin>

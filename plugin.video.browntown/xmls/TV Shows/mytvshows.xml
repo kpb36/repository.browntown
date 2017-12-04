@@ -102,6 +102,49 @@
 <fanart>http://thetvdb.com/banners/fanart/original/250487-25.jpg</fanart>
 </dir>
 
+
+<dir>
+	<title>Animal Kingdom</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt5574490</imdb>
+		<tvdb>304262</tvdb>
+		<tvshowtitle>Animal Kingdom</tvshowtitle>
+		<year>2016</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Animal_Kingdom/AnimalKingdom.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/l9Ld8CWM5Lx1XjLdvIFcIuACEcb.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/304262-3.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Bates Motel</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt2188671</imdb>
+		<tvdb>262414</tvdb>
+		<tvshowtitle>Bates Motel</tvshowtitle>
+		<year>2013</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Bates_Motel/BatesMotel.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/2cxoT1dt3ZpaHNdiMKKWczhJe1c.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/262414-26.jpg</fanart>	
+</dir>
+
+<dir>
+	<title>Behind Bars: Rookie Year</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt4873020</imdb>
+		<tvdb>298997</tvdb>
+		<tvshowtitle>Behind Bars: Rookie Year</tvshowtitle>
+		<year>2015</year>
+	</meta>
+	<link>http://www.norestrictions.club/griff/crime/Behind%20Bars_%20Rookie%20Year/Behind%20Bars_%20Rookie%20Year.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/5mpcaPxL7rlIzchgnqGHBX4t5A6.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/298997-2.jpg</fanart>
+</dir>
+
 <dir>
 <title>Better Call Saul</title>
 <meta>
@@ -131,6 +174,48 @@
 </dir>
 
 <dir>
+<title>Boardwalk Empire</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt0979432</imdb>
+<tvdb>84947</tvdb>
+<tvshowtitle>Boardwalk Empire</tvshowtitle>
+<year>2010</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Boardwalk%20Empire/Boardwalk%20Empire.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/84947-14.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/84947-12.jpg</fanart>
+</dir>
+
+<dir>
+<title>Breaking Bad</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt0903747</imdb>
+<tvdb>81189</tvdb>
+<tvshowtitle>Breaking Bad</tvshowtitle>
+<year>2008</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Breaking%20Bad/Breaking%20Bad.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/81189-10.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/81189-30.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Cops</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt0096563</imdb>
+		<tvdb>74709</tvdb>
+		<tvshowtitle>Cops</tvshowtitle>
+		<year>1989</year>
+	</meta>
+	<link>http://www.norestrictions.club/griff/crime/Cops/Cops.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/cl5PWdyNypvQdrkoCDWiEq7jbPD.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/74709-9.jpg</fanart>
+</dir>
+
+<dir>
 <title>Designated Survivor [COLOR gold](New Season)[/COLOR]</title>
 <meta>
 <content>tvshow</content>
@@ -145,6 +230,20 @@
 </dir>
 
 <dir>
+<title>Dexter</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt0773262</imdb>
+<tvdb>79349</tvdb>
+<tvshowtitle>Dexter</tvshowtitle>
+<year>2006</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Dexter/Dexter.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/79349-20.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/79349-56.jpg</fanart>
+</dir>
+
+<dir>
 	<title>Disjointed</title>
 	<meta>
 		<content>tvshow</content>
@@ -156,6 +255,20 @@
 	<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Disjointed/Disjointed.xml</link>
 	<thumbnail>http://image.tmdb.org/t/p/w500/gMVzoGfyFNew1RTn4UaMjn3iHCT.jpg</thumbnail>
 	<fanart>http://thetvdb.com/banners/fanart/original/327359-3.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Drugs, Inc.</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt1688779</imdb>
+		<tvdb>174501</tvdb>
+		<tvshowtitle>Drugs, Inc.</tvshowtitle>
+		<year>2010</year>
+	</meta>
+	<link>http://www.norestrictions.club/griff/crime/Drugs%2C%20Inc_/Drugs%2C%20Inc_.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/2DItVJd5W9MzQ4PQne8c5ROG9Yk.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/174501-1.jpg</fanart>
 </dir>
 
 <dir>
@@ -201,6 +314,20 @@
 </dir>
 
 <dir>
+	<title>Gangland</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt1243719</imdb>
+		<tvdb>81213</tvdb>
+		<tvshowtitle>Gangland</tvshowtitle>
+		<year>2007</year>
+	</meta>
+	<link>http://www.norestrictions.club/griff/crime/Gangland/Gangland.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/n5bgywRu6S2UkSM1YKHR2T7ebYR.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/81213-2.jpg</fanart>
+</dir>
+
+<dir>
 	<title>Halt and Catch Fire [COLOR gold](New Season)[/COLOR]</title>
 	<meta>
 		<content>tvshow</content>
@@ -229,6 +356,62 @@
 </dir>
 
 <dir>
+	<title>I (Almost) Got Away With It</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt1420152</imdb>
+		<tvdb>142721</tvdb>
+		<tvshowtitle>I (Almost) Got Away With It</tvshowtitle>
+		<year>2010</year>
+	</meta>
+	<link>http://www.norestrictions.club/griff/crime/I%20%28Almost%29%20Got%20Away%20With%20It/I%20%28Almost%29%20Got%20Away%20With%20It.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/q24LbbnauVKf2rvMzYUqVuI4uOk.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/142721-2.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Mad Men</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt0804503</imdb>
+		<tvdb>80337</tvdb>
+		<tvshowtitle>Mad Men</tvshowtitle>
+		<year>2007</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Mad%20Men/Mad%20Men.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/6R3PCqGzyTh12Lafhop0U0MNJDz.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/80337-35.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Masters of Sex</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt2137109</imdb>
+		<tvdb>261557</tvdb>
+		<tvshowtitle>Masters of Sex</tvshowtitle>
+		<year>2013</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Masters%20of%20Sex/Masters%20of%20Sex.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/hrYyODksRCCGBgJ7rgCXnSK0xWE.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/261557-13.jpg</fanart>
+</dir>
+
+<dir>
+	<title>Nip/Tuck</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt0361217</imdb>
+		<tvdb>72201</tvdb>
+		<tvshowtitle>Nip Tuck</tvshowtitle>
+		<year>2003</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Nip_Tuck/Nip_Tuck.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/avfjZSfqibtQ7tmtToZM3128Cwo.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/72201-30.jpg</fanart>
+</dir>
+
+<dir>
 	<title>Ozark</title>
 	<meta>
 		<content>tvshow</content>
@@ -240,6 +423,20 @@
 	<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/Ozark/Ozark1.xml</link>
 	<thumbnail>http://image.tmdb.org/t/p/w500/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg</thumbnail>
 	<fanart>http://thetvdb.com/banners/fanart/original/329089-4.jpg</fanart>
+</dir>
+
+<dir>
+<title>Prison Break</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt0455275</imdb>
+<tvdb>75340</tvdb>
+<tvshowtitle>Prison Break</tvshowtitle>
+<year>2005</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Prison%20Break/Prison%20Break.xml</link>
+<thumbnail>https://image.tmdb.org/t/p/w396/d4QI2rXhQFqc883AbBVvKPq9BXi.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/75340-2.jpg</fanart>
 </dir>
 
 <dir>
@@ -271,6 +468,48 @@
 </dir>
 
 <dir>
+<title>Sons of Anarchy</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt0286486</imdb>
+<tvdb>82696</tvdb>
+<tvshowtitle>Sons of Anarchy</tvshowtitle>
+<year>2008</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Sons%20of%20Anarchy/Sons%20of%20Anarchy.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/82696-1.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/82696-66.jpg</fanart>
+</dir>
+
+<dir>
+	<title>The Defiant Ones</title>
+	<meta>
+		<content>tvshow</content>
+		<imdb>tt6958022</imdb>
+		<tvdb>329079</tvdb>
+		<tvshowtitle>The Defiant Ones</tvshowtitle>
+		<year>2017</year>
+	</meta>
+	<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/The%20Defiant%20Ones/The%20Defiant%20Ones.xml</link>
+	<thumbnail>http://image.tmdb.org/t/p/w500/vC4iCUhOoKi2QdCg5GJPyoPpNXW.jpg</thumbnail>
+	<fanart>http://thetvdb.com/banners/fanart/original/329079-3.jpg</fanart>
+</dir>
+
+<dir>
+<title>The Night Of</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt2401256</imdb>
+<tvdb>310516</tvdb>
+<tvshowtitle>The Night Of</tvshowtitle>
+<year>2016</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/The%20Night%20Of/The%20Night%20Of.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/310516-4.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/310516-3.jpg</fanart>
+</dir>
+
+<dir>
 	<title>The OA</title>
 	<meta>
 		<content>tvshow</content>
@@ -282,6 +521,21 @@
 	<link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/The%20OA/The%20OA.xml</link>
 	<thumbnail>http://image.tmdb.org/t/p/w500/ppSiYu2D0nw6KNF0kf5lKDxOGRR.jpg</thumbnail>
 	<fanart>http://thetvdb.com/banners/fanart/original/321060-2.jpg</fanart>
+</dir>
+
+
+<dir>
+<title>The Sopranos</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt0141842</imdb>
+<tvdb>75299</tvdb>
+<tvshowtitle>The Sopranos</tvshowtitle>
+<year>1999</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/The%20Sopranos/Sopranos.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/75299-3.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/75299-10.jpg</fanart>
 </dir>
 
 <dir>
@@ -296,6 +550,34 @@
 <link>http://www.norestrictions.club/caira/bobtvshows/Airedshows/The%20Walking%20Dead/The%20Walking%20Dead.xml</link>
 <thumbnail>http://thetvdb.com/banners/posters/153021-31.jpg</thumbnail>
 <fanart>http://thetvdb.com/banners/fanart/original/153021-43.jpg</fanart>
+</dir>
+
+<dir>
+<title>The Wire</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt0306414</imdb>
+<tvdb>79126</tvdb>
+<tvshowtitle>The Wire</tvshowtitle>
+<year>2002</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/The%20Wire/The%20Wire.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/79126-2.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/79126-4.jpg</fanart>
+</dir>
+
+<dir>
+<title>Weeds</title>
+<meta>
+<content>tvshow</content>
+<imdb>tt0439100</imdb>
+<tvdb>74845</tvdb>
+<tvshowtitle>Weeds</tvshowtitle>
+<year>2005</year>
+</meta>
+<link>http://www.norestrictions.club/caira/bobtvshows/EndedTvShows/Weeds/Weeds.xml</link>
+<thumbnail>http://thetvdb.com/banners/posters/74845-5.jpg</thumbnail>
+<fanart>http://thetvdb.com/banners/fanart/original/74845-23.jpg</fanart>
 </dir>
 
 <dir>

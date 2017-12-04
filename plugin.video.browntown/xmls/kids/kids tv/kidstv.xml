@@ -1,8 +1,4 @@
-#####################
-<poster>kids tv</poster>
-<thumbnail>https://i.imgur.com/gH5ohdD.png</thumbnail>
-<fanart>https://i.imgur.com/AmAGlNZ.jpg</fanart>
-#####################
+
 
 <plugin>
 <title>Cartoons</title>
@@ -73,5 +69,32 @@
     <sublink>plugin://plugin.video.youtube/channel/UCoookXUzPciGrEZEXmh4Jjg/playlists/</sublink>  
   </link>
 <thumbnail>https://yt3.ggpht.com/-Udx0C3ZTHUg/AAAAAAAAAAI/AAAAAAAAAAA/3BE1yYHQccs/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Yo Gabba gabba</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UCxezak0GpjlCenFGbJ2mpog/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-DCqlRFygCMs/AAAAAAAAAAI/AAAAAAAAAAA/OmWJ9YLZviE/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>the Muppets</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UCB0ABGbdSggBXLF0UdN4d5A/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-DF7PtesCPOY/AAAAAAAAAAI/AAAAAAAAAAA/j3KDERgDhEs/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>Veggie Tales</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/channel/UChddokv0fxIN3BS-KZpxFfA/playlists/</sublink>  
+  </link>
+<thumbnail>https://yt3.ggpht.com/-OJXjBZ_ADKU/AAAAAAAAAAI/AAAAAAAAAAA/fkPmTlcfLwM/s500-c-k-no-rj-c0xffffff/photo.jpg</thumbnail>
 <fanart></fanart>
 </plugin>

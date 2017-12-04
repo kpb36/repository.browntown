@@ -1,8 +1,77 @@
-#####################
-<poster>Browntown Music</poster>
-<thumbnail>https://i.imgur.com/X24pqQB.png</thumbnail>
+
+
+<plugin>
+<title>Trending Now</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI/</sublink>  
+  </link>
+<thumbnail>http://findicons.com/files/icons/1580/devine_icons_part_2/256/cd_music.png</thumbnail>
 <fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
-#####################
+</plugin>
+
+<plugin>
+<title>This week Top music</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG/</sublink>  
+  </link>
+<thumbnail>https://i.imgur.com/WdnbExA.jpg</thumbnail>
+<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>Billboard Charts</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PL55713C70BA91BD6E/</sublink>  
+  </link>
+<thumbnail>https://i.imgur.com/7T60M3j.jpg</thumbnail>
+<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>[COLORorangered]Hottest Hits[/COLOR]</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PLpWkpVzac-PqaL7w0-DQ8AM4j0PQsIRHS/</sublink>  
+  </link>
+<thumbnail></thumbnail>
+<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>Rap</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PLpWkpVzac-PpeC69MZa221b4WUxTedSun/</sublink>  
+  </link>
+<thumbnail>https://i.imgur.com/09uKrWp.jpg</thumbnail>
+<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>Hip Hop</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PLH6pfBXQXHEC2uDmDy5oi3tHW6X8kZ2Jo/</sublink>  
+  </link>
+<thumbnail>https://i.imgur.com/8PIz5Wu.jpg</thumbnail>
+<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
+</plugin>
+
+<plugin>
+<title>EDM</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PLFgquLnL59akXPIHrEZci0oouw4dArE0D/</sublink>  
+  </link>
+<thumbnail>https://i.imgur.com/uOfetyX.jpg</thumbnail>
+<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
+</plugin>
+
+<dir>
+  <title>Artist Chart</title>
+  <lastfm>chart/artists</lastfm>
+</dir>
+
+<dir>
+  <title>Track Chart</title>
+  <lastfm>chart/tracks</lastfm>
+</dir>
 
 <plugin>
 <title>Eminem Rare Playlist</title>
@@ -12,6 +81,21 @@
 <thumbnail>https://i.imgur.com/WdnbExA.jpg</thumbnail>
 <fanart>https://i.imgur.com/koHtXPg.jpg</fanart>
 </plugin>
+
+<dir>
+  <title>Disturbed Tracks</title>
+  <lastfm>artist/disturbed/tracks</lastfm>
+</dir>
+
+<plugin>
+<title>[COLORlimegreen]My Playlist[/COLOR]</title>
+ <link>
+    <sublink>plugin://plugin.video.youtube/playlist/PLi1wbmxbYJGlDttObm0vMuAjiEAh_a0sG/</sublink>  
+  </link>
+<thumbnail></thumbnail>
+<fanart>https://i.imgur.com/S957XfQ.jpg</fanart>
+</plugin>
+
 
 <item>
 	<title>[COLOR orange]Revolt ![/COLOR]</title>

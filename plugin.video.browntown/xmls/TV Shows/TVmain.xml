@@ -26,6 +26,32 @@
 </dir>
 
 <dir>
+	<title>[B][COLOR gold]Latest Episodes[/B][/COLOR]</title>
+	<link>https://pastebin.com/raw/BuzhUKgT</link>
+	<thumbnail>https://i.imgur.com/4zE7g3u.png</thumbnail>
+	<fanart>https://i.imgur.com/TdtdX8G.jpg</fanart>
+	<content></content>
+</dir>
+
+<dir>
+	<title>[B][COLOR gold]Upcoming Episodes[/B][/COLOR]</title>
+	<link>https://pastebin.com/raw/vWQdxdHe</link>
+	<thumbnail>http://www.norestrictions.club/caira/icon/png/newtv.png</thumbnail>
+	<fanart>https://i.imgur.com/TdtdX8G.jpg</fanart>
+	<content></content>
+</dir>
+
+<dir>
+  <title>TMDB Animation Shows</title>
+  <tmdb>genre/shows/16</tmdb>
+</dir>
+
+<dir>
+  <title>TMDB Reality Shows</title>
+  <tmdb>genre/shows/10764</tmdb>
+</dir>
+
+<dir>
 <name>[COLORred]My Tv Shows[/COLOR]</name>
 <link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/mytvshows.xml</link>
 <animated_thumbnail></animated_thumbnail>
@@ -34,4 +60,25 @@
 <fanart>https://i.imgur.com/oU37yhr.jpg</fanart>
 <summary>Browntown Tv</summary>
 </dir>
+
+<dir>
+<name>Networks</name>
+<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/networks.xml</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://i.imgur.com/IPUg6gl.png</thumbnail>
+<animated_fanart></animated_fanart>
+<fanart>https://i.imgur.com/oU37yhr.jpg</fanart>
+<summary>Browntown Networks</summary>
+</dir>
+
+<dir>
+<name>[COLORred]Documentaries[/COLOR]</name>
+<link>https://raw.githubusercontent.com/kpb36/kbstyle/master/plugin.video.browntown/xmls/TV%20Shows/docs.xml</link>
+<animated_thumbnail></animated_thumbnail>
+<thumbnail>https://i.imgur.com/wIn1w6x.png</thumbnail>
+<animated_fanart></animated_fanart>
+<fanart>https://i.imgur.com/qp9okNm.jpg</fanart>
+<summary>Browntown Docs</summary>
+</dir>
+
 
