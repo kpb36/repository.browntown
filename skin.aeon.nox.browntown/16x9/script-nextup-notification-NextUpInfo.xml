@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">3012</defaultcontrol>
+	<controls>
+		<control type="group">
+			<control type="group">
+				<animation effect="slide" start="0" end="0,-190" time="300" condition="Window.IsVisible(script-nextup-notification-NextUpInfo.xml)">Conditional</animation>
+				<animation effect="slide" start="0,0" end="0,-275" time="300" tween="cubic" easing="inout">WindowOpen</animation>
+				<animation effect="slide" start="0,0" end="0,-275" time="300" tween="cubic" easing="inout">Visible</animation>
+
+				<control type="label" id="3000"><visible>false</visible></control>
+				<control type="label" id="3002"><visible>false</visible></control>
+				<control type="label" id="3005"><visible>false</visible></control>
+				<control type="image" id="3006"><visible>false</visible></control>
+				<control type="image" id="3007"><visible>false</visible></control>
+				<control type="image" id="3008"><visible>false</visible></control>2
+				<control type="image" id="3009"><visible>false</visible></control>
+				<control type="image" id="3010"><visible>false</visible></control>
+				<control type="label" id="3015"><visible>false</visible></control>
+				<control type="label" id="3016"><visible>false</visible></control>
+
+				<width>100%</width>			
+				<!-- Background -->
+				<control type="image">
+					<top>1250</top>
+					<width>1920</width>
+					<height>375</height>
+					<texture colordiffuse="aaffffff">black.png</texture>
+				</control>				
+			</control>
+			<control type="group">
+				<animation effect="fade" start="0" end="100" delay="150" time="300">Visible</animation>
+				<animation effect="fade" start="0" end="100" delay="150" time="300">WindowOpen</animation>
+				<control type="group">
+					<include>visiblehidefadeinfo</include>
+					<!-- Watch Now - Cancel Buttons -->
+					<control type="grouplist">
+						<posx>1690</posx>
+						<posy>680</posy>
+						<orientation>horizontal</orientation>
+						<itemgap>-40</itemgap>
+						<control type="button" id="3012">
+							<description>Watch Now</description> 
+							<onright>3013</onright>
+							<onleft>3013</onleft>
+							<onup>3013</onup>
+							<ondown condition="Control.IsVisible(9000)">9000</ondown>
+							<width>100</width>
+							<height>100</height>
+							<texturenofocus border="100,0,0,0">osd/buttons/osd-play-nofocus.png</texturenofocus>
+							<texturefocus border="100,0,0,0">osd/buttons/osd-play-focus.png</texturefocus>
+						</control>
+						<control type="button" id="3013">
+							<description>Cancel</description> 
+							<onleft>3012</onleft>
+							<onright>3012</onright>
+							<onup>3012</onup>
+							<ondown condition="Control.IsVisible(9000)">9000</ondown>							
+							<width>100</width>
+							<height>100</height>
+							<texturenofocus border="100,0,0,0">osd/buttons/osd-stop-nofocus.png</texturenofocus>
+							<texturefocus border="100,0,0,0">osd/buttons/osd-stop-focus.png</texturefocus>
+						</control>
+					</control>
+					<!-- Cover Image -->
+					<control type="image">
+						<posx>25</posx>
+						<posy>700</posy>
+						<width>250</width>
+						<height>440</height>
+						<texture background="true" fallback="views/fallbacks/DefaultVideo.png/medium.png">$INFO[Player.Art(tvshow.poster)]</texture>
+						<bordertexture border="30">thumbs/thumb_shadow.png</bordertexture>
+						<bordersize>20</bordersize>
+						<aspectratio align="right">keep</aspectratio>
+					</control>
+					<control type="group">
+						<posx>0</posx>
+						<posy>0</posy>
+						<width>1590</width>
+						<height>500</height>
+						<!-- Up Next label -->
+						<control type="label">
+							<posx>360</posx>
+							<posy>730</posy>
+							<width>1300</width>
+							<height>56</height>							
+							<label>[UPPERCASE]$ADDON[service.nextup.notification 30008]...[/UPPERCASE] $INFO[Player.TimeRemaining(ss)] - $ADDON[service.nextup.notification 30006]?</label>
+							<font>upnext</font>
+							<textcolor>ff35e55e</textcolor>
+							<align>left</align>
+							<aligny>center</aligny>
+							<scroll>true</scroll>
+						</control>
+						<!-- In Progress Label -->
+						<control type="label">
+					        <description>Title</description>
+					        <posx>1450</posx>
+						    <posy>800</posy>
+					        <width>360</width>
+					        <font>inprogress</font>
+					        <textcolor>$VAR[ThemeLabelColor]</textcolor>
+					        <shadowcolor>ff3564e5</shadowcolor>
+					        <label>[UPPERCASE]$LOCALIZE[31733][/UPPERCASE]</label>
+							<scroll>true</scroll>
+				        </control>
+						<!-- Next episode label -->
+						<control type="label">
+							<posx>265</posx>
+							<posy>810</posy>
+							<height>40</height>
+							<width>1050</width>
+							<font>nextup</font>
+							<textoffsetx>20</textoffsetx>
+							<shadowcolor>ff287ba8</shadowcolor>
+							<scroll>true</scroll>
+							<label>$INFO[Control.GetLabel(3002),[COLOR=fff0f05a],[/COLOR]]$INFO[Control.GetLabel(3000), ,]</label>
+						</control>					
+						<!-- Air Date/Runtime -->
+						<control type="label" id="3004">
+							<posx>270</posx>
+							<posy>879</posy>
+							<width>1400</width>
+							<height>35</height>
+							<textcolor>ffa8283b</textcolor>
+							<font>Systime2</font>
+							<align>left</align>
+							<aligny>center</aligny>
+						</control>
+						<!-- Plot -->
+						<control type="textbox" description="Plot" id="3001">
+							<posx>270</posx>
+							<posy>929</posy>
+							<width>1100</width>
+							<height>85</height>
+							<textcolor>$VAR[ThemeLabelColor]</textcolor>
+							<font>font11_compact</font>
+							<align>justify</align>
+							<autoscroll delay="11500" time="5000" repeat="7500">!Skin.HasSetting(AutoScroll.Disable)</autoscroll>
+						</control>
+						<!-- Progress Time --> 
+						<control type="label">
+							<posx>1590</posx>
+							<posy>1036</posy>
+							<width>360</width>
+							<height>25</height>
+							<label>$INFO[Player.Time(hh:mm:ss)]$INFO[Player.Duration(hh:mm:ss), / ,]</label>
+							<textcolor>ffa8283b</textcolor>
+							<font>Systime2</font>
+							<align>left</align>
+						</control>
+						<!-- Progress Bars -->
+						<control type="progress">
+							<posx>358</posx>
+							<posy>1036</posy>
+							<width>1204</width>
+							<height>25</height>
+							<info>Player.CacheLevel</info>
+							<texturebg>osd/fullscreen/progress/cache-back.png</texturebg>
+							<midtexture border="1">osd/fullscreen/progress/cache-mid.png</midtexture>
+							<lefttexture>osd/fullscreen/progress/cache-left.png</lefttexture>
+							<righttexture>osd/fullscreen/progress/cache-right.png</righttexture>
+							<overlaytexture></overlaytexture>
+						</control>
+						<control type="progress">
+							<posx>358</posx>
+							<posy>1036</posy>
+							<width>1204</width>
+							<height>25</height>
+							<info>Player.ProgressCache</info>
+							<reveal>true</reveal>
+							<texturebg>osd/fullscreen/progress/back.png</texturebg>
+							<midtexture>osd/fullscreen/progress/mid.png</midtexture>
+							<lefttexture>osd/fullscreen/progress/left.png</lefttexture>
+							<righttexture>osd/fullscreen/progress/right.png</righttexture>
+							<colordiffuse>44FFFFFF</colordiffuse>
+							<overlaytexture></overlaytexture>
+						</control>
+						<control type="progress" id="23">
+							<posx>358</posx>
+							<posy>1036</posy>
+							<width>1204</width>
+							<height>25</height>
+							<info>Player.Progress</info>
+							<reveal>true</reveal>
+							<texturebg>osd/fullscreen/progress/back.png</texturebg>
+							<midtexture>osd/fullscreen/progress/mid.png</midtexture>
+							<lefttexture>osd/fullscreen/progress/left.png</lefttexture>
+							<righttexture>osd/fullscreen/progress/right.png</righttexture>
+							<overlaytexture></overlaytexture>
+						</control>
+					</control>
+				</control>
+			</control>
+			
+			<control type="group">
+				<visible>System.HasAddon(script.skin.helper.widgets)</visible>
+				<animation effect="fade" start="0" end="100" time="300" reversible="false" condition="IntegerGreaterThan(Container(9000).NumItems,0)">Conditional</animation>
+				<animation effect="fade" start="100" end="0" time="300" reversible="false" condition="StringCompare(Container(9000).NumItems,0)">Conditional</animation>
+				<left>1440</left>
+				<top>820</top>
+
+				<control type="image">
+					<width>480</width>
+					<height>200</height>
+					<texture border="8">panels/panel.png</texture>
+				</control>
+
+				<control type="multiimage">
+					<description>Cover</description>
+					<left>360</left>
+					<top>10</top>
+					<width>120</width>
+					<height>190</height>
+					<imagepath diffuse="covers/home-panel-movie-cover-diffuse.png" background="true">$INFO[Container(9000).ListItem.Art(tvshow.poster)]</imagepath>
+					<aspectratio>stretch</aspectratio>
+					<fadetime>IconCrossfadeTime</fadetime>
+				</control>
+
+				<control type="list" id="9000">
+					<top>33</top>
+					<width>367</width>
+					<height>170</height>
+					<scrolltime>200</scrolltime>
+					<ondown>9000</ondown>
+					<onup>3012</onup>
+					<onleft>3012</onleft>
+					<onright>3012</onright>
+					<include>ContainerPosition1</include>
+					<onclick>SendClick(3013)</onclick>
+					<onclick>PlayMedia($INFO[ListItem.FileNameAndPath])</onclick>
+					<itemlayout height="24">
+						<control type="label">
+							<width>329</width>
+							<include>CustomPanelItemlayoutLabel</include>
+							<label>$VAR[SeasonEpisodesNumberVar]: $INFO[ListItem.TVShowTitle]</label>
+						</control>
+					</itemlayout>
+					<focusedlayout height="24">
+						<control type="image">
+							<left>10</left>
+							<width>339</width>
+							<height>24</height>
+							<texture border="4">views/list-focus.png</texture>
+							<aspectratio>stretch</aspectratio>
+							<visible>Control.HasFocus(9000)</visible>
+							<animation type="Focus" condition="Container(9000).OnNext + ![Skin.String(LowCPUPowerMode,Animations) | Skin.String(LowCPUPowerMode,Full)]" reversible="false">
+								<effect type="Fade" start="40" end="100" time="400" tween="back" easing="in"/>
+								<effect type="slide" start="0,-24" time="150" tween="quadratic" easing="out"/>
+							</animation>
+							<animation type="Focus" condition="Container(9000).OnPrevious + ![Skin.String(LowCPUPowerMode,Animations) | Skin.String(LowCPUPowerMode,Full)]" reversible="false">
+								<effect type="Fade" start="40" end="100" time="400" tween="back" easing="in"/>
+								<effect type="slide" start="0,24" time="150" tween="quadratic" easing="out"/>
+							</animation>
+							<include>ListViewSelectFadeAnim</include>
+						</control>
+						<control type="label">
+							<width>329</width>
+							<include>CustomPanelFocusedlayoutLabel</include>
+							<label>$VAR[SeasonEpisodesNumberVar]: $INFO[ListItem.TVShowTitle]</label>
+						</control>
+					</focusedlayout>
+					<content target="video">plugin://script.skin.helper.widgets/?action=next&amp;mediatype=episodes&amp;limit=20&amp;reload=$INFO[Window(Home).Property(widgetreload)]</content>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>
