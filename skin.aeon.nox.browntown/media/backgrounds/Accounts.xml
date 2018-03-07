@@ -1,0 +1,256 @@
+TRAKT
+
+
+  trakt acct 2  gmail acct
+	
+	Client ID: 	api key
+	2acb29179466758afe58c631fcf41dd74bc404880f4ce922277a8ec9d17b0f9e
+	
+    Client Secret: 
+    3e4fcd2a53233fc247f5391f71769f4bcb06dddd718e00ba159955fe1b27fe7a
+	
+ALLUC - kpb36/kb
+
+	Api key 
+	71575ed82c1f3cce32416d6aff711196
+
+TMDB - kpb36/
+
+	api key (v3 auth)
+	dfbd481ad386500219264bfce5a99ceb
+
+	api read access token(v4auth)	
+	eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkZmJkNDgxYWQzODY1MDAyMTkyNjRiZmNlNWE5OWNlYiIsInN1YiI6IjU4NzZmYTAwOTI1MTQxMTAzNTAwMWI0NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.3k7HPdBodocMxIvYJtCMYqj-iY17f104Msiw-C-NUrI
+
+TVDB - 	
+	
+	api key - 8A9704F6ECA1D155	
+	
+FANART TV
+    personal  api - e30344b84d63e3fc1a0a550eb1576586	
+		project api  -  7fe6b43e18ccb60947d34547e3461907 - kodi
+YOUTUBE - 
+
+	Api key
+	AIzaSyBbAUPRKblUblR8I6sPd1F5AoHx93yOzjA
+
+	client id
+	1059601038687-eaacsvbvsstb8b5fr6qo705363in9v8c
+
+	Secret
+	CNUYhyxx_1UOMpuXkme1qflJ
+	
+IMDB - kb
+	
+	User ID
+	76183549
+	
+WEATHER UNDERGROUND - 
+	
+	Api key
+	6522b3a82af73d92
+	
+IPTV Settings - 
+
+	vader m3u-
+	http://vaders.tv/vget?username=kbrown&password=rfhNuR1H7A
+	vader kodi m3u url-
+	http://api.vaders.tv/vget?username=kbrown&password=rfhNuR1H7A&filterCategory=Live+Sports%2CMatchCenter&format=ts
+	vader newer--- 
+	http://vaders.tv/vget?username=kbrown&password=rfhNuR1H7A&filterCategory=Afghani%2CArabic%2CFilipino%2CFrance%2CGermany%2CGujrati%2CIndian%2CIreland%2CItaly%2CLatino%2CLive+Events%2CMalayalam%2CMarathi%2CMatchCenter%2CPakistan%2CPortugal%2CPunjabi%2CSpain%2CTamil&format=ts&type=plugin&pluginName=plugin.video.VADER
+    vader xml-
+	http://vaders.tv/p2.xml.gz
+	Flawless m3u----
+	http://flawless-iptv.net:4545/get.php?username=Kpb36@yahoo.com&password=7zSGQFuMk6&type=m3u_plus&output=ts
+	Flawless xml- 
+	http://flawless-iptv.net:4545/xmltv.php?username=Kpb36@yahoo.com&password=7zSGQFuMk6
+	Renegades XML - 
+	https://raw.githubusercontent.com/RenegadesTV/addons/master/guide.xml
+    Xstream Editor -
+    epg-
+	http://xtream-editor.com/en/get/epg/DD25197DB95A9B6284CCD674BE289323   
+    m3u-
+	http://xtream-editor.com/en/get/m3u/DD25197DB95A9B6284CCD674BE289323
+	 Combined
+	epg   http://xtream-editor.com/en/get/epg/66DA1CAF16A4788CC56F602A983FA34D
+	m3u   http://xtream-editor.com/en/get/m3u/66DA1CAF16A4788CC56F602A983FA34D
+	Flawless
+	epg - http://xtream-editor.com/en/get/epg/A11288C4BB8750DB9F34EA460A2CCEC6
+	m3u - http://xtream-editor.com/en/get/m3u/A11288C4BB8750DB9F34EA460A2CCEC6
+FILE MANAGERR SOURCES - 
+
+	Vader - http://vaders.tv/repo/
+
+	Flawless - http://flawless-iptv.xyz/
+	
+	Radix - http://archive.org/download/repository.Radix
+
+	incursion - http://addons4kodi.site/
+
+	Ivue - http://ivuetvguide.com/install/
+
+	Noobsandnerds - http://noobsandnerds.com/portal/
+
+	Dandymedia - http://dandymedia.club/repo/
+
+	Goodfellas - http://www.goodfellasteam.com/Repository/
+
+	Home - special://home/
+	
+	Top Tutorial - http://toptutorialsrepo.co.uk/kodi
+
+	Quantum - http://sanctuaryrepo.esy.es/sanc/
+
+	Ares - http://ares-repo.eu
+
+	Smash - http://mediarepos.net/kodistuff/
+
+	Renegades - http://renegadestv.uk/repo/
+	
+	Stream Army - http://streamarmy.co.uk/repo/
+
+	Colossus - http://
+
+	Vortex - http://rockodi.com/
+
+	The Delorean - http://mykodirevolution.com/repo/
+	
+	uk turk  -  http://addoncloud.org/ukturk/install
+	
+	RetroMania - http://rmkodi.uk/repo/RMAddons
+	
+	rm - http://rmkodi.uk/repo/Addons
+
+	Origin - http://archive.org/download/back2basicsrepo/
+
+	Wookie - http://wookiespmc.com/wiz/
+	
+	Pippy - http://archive.org/download/gracie242
+	
+	Assassins tv guide - http://tvstreamers.net/repo/tvguides/
+
+	mobdina - http://playonmonkeys.com/repo/
+
+	ccloud - http://kdil.co/repo/
+	
+	rising tides - http://mullafabz.net.rw/Repository/
+	
+	Project Cypher  - http://cypher-media.com/repo/
+	
+	real debrid add -n http://repo.kodiwpigulce.pl
+	
+	sentec - http://gen-tec.co/gentecwiz/
+	
+	oculus - http://tmbkodi.com/repo
+	
+	pyramid - http://repozip.teamzt.seedr.io/
+	
+	atom/supremacy -  http://supremacy.org.uk/zip/repo/
+	
+	triton - http://soullessbuilds.com/repo/
+	
+	spinz stricly - http://repo.stvmc.net
+	
+	fantastic addoin - http://fspmkodi.com/repo
+	
+	project x - http://streetwise.easyryders.co.uk
+	
+	musictubee - http://archive.org/download/TBCKodi
+	
+	looking glass - http://repo.lookingglass.rocks/
+	
+	blamo - http://repo.mrblamo.xyz
+	
+	monstermunch - http://steptoesplace.net/repo
+	
+	enzo brettusrepo - http://dimitrology.com/repo/
+	
+	pauls worls - http://ajbuilds.uk/repo	
+	
+OTher Accounts
+	UsTv Now - kb
+	Xstream EDitor - kb
+	KODI FORUMS - kpb36/kb
+	yahoo kb
+COLORS -    
+
+	[COLORred]Super[/COLOR] [COLORyellow]Fav[/COLOR]
+	[COLORred]TRENDING[/COLOR]
+	[COLORyellow]NEW EPISODES[/COLOR]
+	[COLORyellow]NEW RELEASE[/COLOR]
+	[COLORdodgerblue]SEARCH[/COLOR]
+	
+	[COLORkhaki]TV SHOWS[/COLOR]
+		[COLORdodgerblue]SEARCH[/COLOR]
+		[COLORperu]NEW RELEASE[/COLOR]
+		[COLOR][/COLOR][COLOR][/COLOR][COLOR][/COLOR]
+		
+	[COLORwhite]MOVIES[/COLOR]
+		[COLORroyalblue]Extended Info[/COLOR]
+		[COLOR][/COLOR][COLOR][/COLOR]
+		
+	[COLORmediumspringgreen]MUSIC[/COLOR]
+		[COLORorange]KARAOKE[/COLOR]
+		[COLORorange]DELOREAN[/COLOR]
+		[COLORred]YouMusic[/COLOR]
+		[COLOR][/COLOR]
+		[COLORyellow][/COLOR]
+	[COLORwhite]VIDEOS[/COLOR]
+		[COLORred]YOUTUBE[/COLOR]
+		[COLOR][/COLOR][COLOR][/COLOR][COLOR][/COLOR]
+		
+	[COLORyellow]KIDS ZONE[/COLOR]
+		[COLORyellow]24/7 Cartoons[/COLOR]
+		[COLORyellow]CArtoon CRAZY[/COLOR]
+		[COLORyellow]SEARCH[/COLOR]
+		[COLORred]BINKY TV[/COLOR]
+		
+	[COLORyellow]SPORTS[/COLOR]
+		[COLORred]REPLAYS[/COLOR]
+		[COLOR][/COLOR][COLOR][/COLOR][COLOR][/COLOR]
+		
+	[COLORdarksalmon]PICTURES[/COLOR]
+		[COLOR][/COLOR][COLOR][/COLOR][COLOR][/COLOR][COLOR][/COLOR]
+		
+	[COLORwhite]WEATHER[/COLOR]
+		[COLOR][/COLOR][COLOR][/COLOR][COLOR][/COLOR][COLOR][/COLOR]
+		
+	[COLORred]POWER[/COLOR]
+		[COLORred]POWER OFF SYSTEM[/COLOR]
+		[COLORorange]REBOOT SYSTEM[/COLOR]
+		[COLORorangered]QUIT KODI[/COLOR]
+		[COLOR][/COLOR]
+		
+	[COLORlightsteelblue]FAVOURITES[/COLOR]
+		[COLOR][/COLOR][COLOR][/COLOR][COLOR][/COLOR][COLOR][/COLOR]
+		
+	[COLORgold]ADDONS[/COLOR]
+		[COLORdarksalmon]PICTURE ADDONS[/COLOR]
+		[COLORyellow]PROGRAM ADDONS[/COLOR]
+		[COLORmediumspringgreen]MUSIC ADDONS[/COLOR]
+		[COLORred]VIDEO ADDONS[/COLOR]
+		
+	[COLORdarkturquoise]SYSTEM[/COLOR]
+		[COLORcyan]CLEAN CACHE[/COLOR]
+		[COLORorange]UPDATE ADDONS [/COLOR]
+		[COLORred]VIEW ERROR LOG[/COLOR]
+		[COLORcyan]LOG FILE[/COLOR]
+		[COLOR][/COLOR]
+		[COLOR][/COLOR]
+		
+	[COLORpalevioletred]LIVE TV[/COLOR]
+		[COLORorange]RENEGADES TV GUIDE[/COLOR]
+		[COLOR][/COLOR][COLOR][/COLOR]
+		
+	[COLOR][/COLOR]
+		[COLOR][/COLOR][COLOR][/COLOR][COLOR][/COLOR]
+	[COLOR][/COLOR]
+	[COLOR][/COLOR]
+	[COLOR][/COLOR]
+	
+
+
+
+
+
+
