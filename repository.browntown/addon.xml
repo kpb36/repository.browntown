@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.browntown" name="[COLOR orangered]KB Repo[/COLOR]" version="1.0" provider-name="kpb36">
+<extension point="xbmc.addon.repository" name="[COLOR orangered]KB Repo[/COLOR]">
+		<info compressed="false">https://raw.githubusercontent.com/kpb36/repository.browntown/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kpb36/repository.browntown/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kpb36/repository.browntown/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>kbstyle repo for browntown</summary>
+		<description>The Kbstyle Repository for add-on and dependencies</description>
+		<platform>all</platform>
+	</extension>
+</addon>
