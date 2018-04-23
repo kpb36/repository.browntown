@@ -37,12 +37,6 @@
 				<pagecontrol>61</pagecontrol>
 				<scrolltime tween="quadratic">300</scrolltime>
 				<itemlayout height="90" width="356">
-					<control type="image">
-						<top>30</top>
-						<width>356</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="group">
 						<visible>!String.IsEqual(System.Date(ddd),ListItem.Property(day))</visible>
 						<control type="label">
@@ -51,7 +45,6 @@
 							<font>font15_bold</font>
 							<textoffsetx>20</textoffsetx>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 						<control type="label">
@@ -60,7 +53,6 @@
 							<font>font15</font>
 							<textoffsetx>20</textoffsetx>
 							<textcolor>grey2</textcolor>
-							<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 							<align>right</align>
 							<label>$INFO[ListItem.Label2]</label>
 						</control>
@@ -73,7 +65,6 @@
 							<font>font15_bold</font>
 							<textoffsetx>20</textoffsetx>
 							<textcolor>$VAR[ThemeLabelColor]</textcolor>
-							<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 						<control type="label">
@@ -82,19 +73,12 @@
 							<font>font15</font>
 							<textoffsetx>20</textoffsetx>
 							<textcolor>$VAR[ThemeLabelColor]</textcolor>
-							<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 							<align>right</align>
 							<label>$INFO[ListItem.Label2]</label>
 						</control>
 					</control>
 				</itemlayout>
 				<focusedlayout height="90" width="356">
-					<control type="image">
-						<top>30</top>
-						<width>356</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="image">
 						<width>356</width>
 						<height>90</height>
@@ -108,7 +92,6 @@
 							<height>90</height>
 							<font>font15_bold</font>
 							<textoffsetx>20</textoffsetx>
-							<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
 						<control type="label">
@@ -116,7 +99,6 @@
 							<height>90</height>
 							<font>font15</font>
 							<textoffsetx>20</textoffsetx>
-							<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 							<align>right</align>
 							<label>$INFO[ListItem.Label2]</label>
 						</control>
@@ -205,7 +187,6 @@
 				<texturesliderbarfocus border="1">scrollbar/texturesliderbar2.png</texturesliderbarfocus>
 			</control>
 			<control type="image">
-				<description>LOGO</description>
 				<left>60</left>
 				<top>875</top>
 				<width>400</width>
@@ -354,8 +335,8 @@
 				<texture border="40">mediamenu_back.png</texture>
 			</control>
 			<control type="button" id="8999">
-				<description>Close Window button</description>
-				<left>365</left>
+				<left>358</left>
+				<top>-11</top>
 				<width>64</width>
 				<height>48</height>
 				<label></label>
@@ -370,7 +351,6 @@
 				<visible>system.getbool(input.enablemouse)</visible>
 			</control>
 			<control type="image">
-				<description>LOGO</description>
 				<top>-15</top>
 				<width>400</width>
 				<height>130</height>
@@ -390,13 +370,6 @@
 					<label>$INFO[System.AddonTitle(script.tv.show.next.aired)]</label>
 					<textcolor>$VAR[ThemeLabelColor]</textcolor>
 				</control>
-				<!-- <control type="button" id="20002">
-					<include>ButtonCommonValues</include>
-					<label>$LOCALIZE[19190]</label>
-					<onclick>Skin.Reset(ItemToEdit.MultiFanart)</onclick>
-					<onclick>$VAR[FallbackBackgroundOnClickVar]</onclick>
-					<onclick>ActivateWindow(1122)</onclick>
-				</control> -->
 				<control type="button" id="8">
 					<description>Settings</description>
 					<textwidth>352</textwidth>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-	<!--PORTRAIT-->
 	<include name="View_505_Panel">
 		<control type="group">
 			<include>ViewAnimation</include>
@@ -46,7 +45,7 @@
 						<width>525</width>
 						<align>justify</align>
 						<height>350</height>
-						<label>$INFO[ListItem.Tagline,, - ][COLOR grey]$VAR[VideoPlotVar3][/COLOR]</label>
+						<label>$INFO[ListItem.Tagline,, - ][COLOR grey]$VAR[VideoPlotVar][/COLOR]</label>
 						<font>font14_textbox</font>
 						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 					</control>
@@ -82,7 +81,7 @@
 						<width>525</width>
 						<align>justify</align>
 						<height>350</height>
-						<label>$INFO[ListItem.Tagline,, - ][COLOR grey]$VAR[VideoPlotVar3][/COLOR]</label>
+						<label>$INFO[ListItem.Tagline,, - ][COLOR grey]$VAR[VideoPlotVar][/COLOR]</label>
 						<font>font14_textbox</font>
 						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 						<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(Enable.AutoScroll) + !Control.HasFocus(61)</autoscroll>
@@ -131,7 +130,7 @@
 				<visible>Container.Content(episodes)</visible>
 				<width>525</width>
 				<height>296</height>
-				<texture fallback="special://skin/backgrounds/fallback_movies.jpg" background="true">$INFO[ListItem.Art(thumb)]</texture>
+				<texture fallback="special://skin/backgrounds/fallback_movies.jpg" background="true">$VAR[NoSpoilerIconVar]</texture>
 				<aspectratio align="center" aligny="center">scale</aspectratio>
 			</control>
 			<control type="image">

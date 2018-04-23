@@ -5,42 +5,34 @@
 		<control type="group">
 			<visible>Control.IsVisible(501) + !Window.IsActive(addoninformation)</visible>
 			<include>ViewAnimation</include>
-			<control type="image">
-				<top>356</top>
-				<width>100%</width>
-				<height>200</height>
-				<texture>gradient_floor.png</texture>
-				<visible>!Skin.HasSetting(nohighlist) + Skin.HasSetting(highlistlogo)</visible>
-			</control>
-			<control type="image">
-				<top>526</top>
-				<width>100%</width>
-				<height>200</height>
-				<texture>gradient_floor.png</texture>
-				<visible>Skin.HasSetting(nohighlist) + Skin.HasSetting(lowlistlogo)</visible>
-			</control>
 			<control type="group">
-				<include>SlidingMovieSetDiscart</include>
-				<animation effect="slide" end="0,-160" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
-				<visible>Skin.HasSetting(Enable.LowList.SlidingMovieSetDiscart)</visible>
-			</control>
-			<control type="image">
-				<left>1500</left>
-				<top>545</top>
-				<width>390</width>
-				<height>164</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
-				<texture background="true">$VAR[ArtworkLogoVar]</texture>
-				<visible>Skin.HasSetting(nohighlist) + Skin.HasSetting(lowlistlogo)</visible>
-			</control>
-			<control type="image">
-				<left>1500</left>
-				<top>375</top>
-				<width>390</width>
-				<height>164</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
-				<texture background="true">$VAR[ArtworkLogoVar]</texture>
-				<visible>!Skin.HasSetting(nohighlist) + Skin.HasSetting(highlistlogo)</visible>
+				<animation effect="slide" end="0,-203.375" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
+				<control type="image">
+					<top>526</top>
+					<width>100%</width>
+					<height>200</height>
+					<texture>gradient_floor.png</texture>
+					<visible>Skin.HasSetting(lowlistlogo)</visible>
+				</control>
+				<control type="group">
+					<include>SlidingMovieSetDiscart</include>
+					<visible>Skin.HasSetting(Enable.LowList.SlidingMovieSetDiscart)</visible>
+				</control>
+				<control type="image">
+					<left>1500</left>
+					<top>545</top>
+					<width>390</width>
+					<height>164</height>
+					<aspectratio aligny="bottom">keep</aspectratio>
+					<texture background="true">$VAR[ArtworkLogoVar]</texture>
+					<visible>Skin.HasSetting(lowlistlogo)</visible>
+				</control>
+				<control type="image">
+					<top>710</top>
+					<width>100%</width>
+					<height>651</height>
+					<texture colordiffuse="E6FFFFFF" border="1,32,1,1">bottombar.png</texture>
+				</control>
 			</control>
 			<!-- IMDb Logo -->
 			<control type="grouplist">
@@ -66,13 +58,6 @@
 					<shadowcolor>shadow</shadowcolor>
 					<textcolor>fffeec900</textcolor>
 				</control>
-			</control>
-			<control type="image">
-				<top>710</top>
-				<width>100%</width>
-				<height>651</height>
-				<texture colordiffuse="E6FFFFFF" border="1,32,1,1">bottombar.png</texture>
-				<animation effect="slide" end="0,-170" time="120" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
 			</control>
 			<control type="group">
 				<left>5</left>
@@ -115,36 +100,36 @@
 				<top>733</top>
 				<width>650</width>
 				<height>270</height>
-				<animation effect="slide" end="0,-170" time="120" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
+				<animation effect="slide" end="0,-203.375" time="120" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
 				<include>VisibleFadeAnimation</include>
 				<control type="grouplist">
 					<visible>Container.Content(episodes)</visible>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[31324]:[/COLOR][CR]$INFO[ListItem.Premiered]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31324]:[/COLOR][CR]$INFO[ListItem.Premiered]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(ListItem.Premiered)</visible>
 					</control>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$INFO[ListItem.Duration,, $LOCALIZE[12391]]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$INFO[ListItem.Duration(mins),, $LOCALIZE[12391]]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(ListItem.Duration) + !Skin.HasSetting(Enable.HourMinuteDuration)</visible>
 					</control>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$VAR[ItemDurationVar]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$VAR[ItemDurationVar]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(ListItem.Duration) + Skin.HasSetting(Enable.HourMinuteDuration)</visible>
 					</control>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[31019]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31019]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(ListItem.Studio) + Container.Content(episodes)</visible>
 					</control>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(ListItem.Genre)</visible>
@@ -153,25 +138,25 @@
 				<control type="grouplist">
 					<visible>Container.Content(tvshows) | Container.Content(seasons)</visible>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[31010]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.NextDate),,: ] $INFO[Window(Home).Property(NextAired.NextNumber),, - ]$INFO[Window(Home).Property(NextAired.NextTitle)]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31010]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.NextDate),,: ] $INFO[Window(Home).Property(NextAired.NextNumber),, - ]$INFO[Window(Home).Property(NextAired.NextTitle)]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(Window(Home).Property(NextAired.NextDate)) + !Skin.HasSetting(Disable.NextAired)</visible>
 					</control>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[126]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.Status)]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[126]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.Status)]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>[Container.Content(tvshows) | Container.Content(seasons)] + [!String.IsEmpty(Window(Home).Property(NextAired.Status)) + String.IsEmpty(Window(Home).Property(NextAired.NextDate)) + !Skin.HasSetting(Disable.NextAired)] + [Skin.HasSetting(nohighlist) | !Skin.HasSetting(nohighlist)]</visible>
 					</control>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!Skin.HasSetting(nohighlist) | [System.HasAddon(script.tv.show.next.aired) + Skin.HasSetting(Disable.NextAired) + Skin.HasSetting(nohighlist)] | [!System.HasAddon(script.tv.show.next.aired) + Skin.HasSetting(nohighlist)]</visible>
 					</control>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[31324]:[/COLOR][CR]$INFO[ListItem.Premiered]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31324]:[/COLOR][CR]$INFO[ListItem.Premiered]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(ListItem.Premiered) + !Skin.HasSetting(nohighlist) + [System.HasAddon(script.tv.show.next.aired) + Skin.HasSetting(Disable.NextAired) + !Skin.HasSetting(nohighlist)] | [!System.HasAddon(script.tv.show.next.aired) + !Skin.HasSetting(nohighlist)]</visible>
@@ -181,25 +166,25 @@
 					<visible>Container.Content(movies)</visible>
 					<visible>![Skin.HasSetting(nohighlist) + Skin.HasSetting(Enable.LowListMoviePlot)]</visible>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[20339]:[/COLOR][CR]$INFO[ListItem.Director]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[20339]:[/COLOR][CR]$INFO[ListItem.Director]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(ListItem.Director)</visible>
 					</control>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$INFO[ListItem.Duration,, $LOCALIZE[12391]]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$INFO[ListItem.Duration(mins),, $LOCALIZE[12391]]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(ListItem.Duration) + !Skin.HasSetting(Enable.HourMinuteDuration)</visible>
 					</control>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$VAR[ItemDurationVar]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$VAR[ItemDurationVar]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(ListItem.Duration) + Skin.HasSetting(Enable.HourMinuteDuration)</visible>
 					</control>
 					<control type="button">
-						<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+						<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
 						<width>650</width>
 						<include>DefaultButtonsValues</include>
 						<visible>!String.IsEmpty(ListItem.Genre)</visible>
@@ -213,25 +198,25 @@
 				<height>360</height>
 				<visible>Skin.HasSetting(nohighlist) + ListItem.IsCollection + !Skin.HasSetting(Enable.LowListMoviePlot)</visible>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[20339]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Director)]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[20339]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Director)]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(Window(Home).Property(Set.Movies.Director)) + [Container.Content(movies) | Container.Content(sets)]</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Genre)]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Genre)]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(Window(Home).Property(Set.Movies.Genre)) + [Container.Content(movies) | Container.Content(sets)]</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Runtime),, $LOCALIZE[12391]]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Runtime),, $LOCALIZE[12391]]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(Window(Home).Property(Set.Movies.Runtime)) + [Container.Content(movies) | Container.Content(sets)]</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[20342]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Count)]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[20342]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Count)]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(Window(Home).Property(Set.Movies.Count)) + [Container.Content(movies) | Container.Content(sets)]</visible>
@@ -239,24 +224,24 @@
 			</control>
 			<control type="grouplist">
 				<left>1270</left>
-				<top>563</top>
+				<top>529.625</top>
 				<width>650</width>
 				<height>270</height>
 				<visible>!Skin.HasSetting(nohighlist) + ListItem.IsCollection</visible>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[31000]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Director)]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31000]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Director)]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(Window(Home).Property(Set.Movies.Director)) + [Container.Content(movies) | Container.Content(sets)]</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Runtime),, $LOCALIZE[12391]]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[2050]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Runtime),, $LOCALIZE[12391]]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(Window(Home).Property(Set.Movies.Runtime)) + [Container.Content(movies) | Container.Content(sets)]</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Genre)]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Genre)]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(Window(Home).Property(Set.Movies.Genre)) + [Container.Content(movies) | Container.Content(sets)]</visible>
@@ -269,19 +254,19 @@
 				<height>270</height>
 				<visible>!Skin.HasSetting(nohighlist) + Window.IsActive(programs)</visible>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[31043]:[/COLOR][CR]$INFO[ListItem.Writer]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31043]:[/COLOR][CR]$INFO[ListItem.Writer]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Writer)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Genre)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[572]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[572]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Studio)</visible>
@@ -294,19 +279,19 @@
 				<height>270</height>
 				<visible>Skin.HasSetting(nohighlist) + Window.IsActive(programs)</visible>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[31043]:[/COLOR][CR]$INFO[ListItem.Writer]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31043]:[/COLOR][CR]$INFO[ListItem.Writer]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Writer)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Genre)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[572]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[572]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Studio)</visible>
@@ -317,13 +302,12 @@
 				<top>733</top>
 				<width>420</width>
 				<height>269</height>
-				<aspectratio>scale</aspectratio>
-				<texture background="true">$INFO[ListItem.Art(thumb)]</texture>
+				<texture background="true">$VAR[NoSpoilerIconVar]</texture>
 				<fadetime>IconCrossfadeTime</fadetime>
 				<bordertexture border="2">thumbs/panel_border3.png</bordertexture>
 				<bordersize>2</bordersize>
 				<visible>Container.Content(episodes)</visible>
-				<animation effect="slide" end="0,-170" time="120" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
+				<animation effect="slide" end="0,-203.375" time="120" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
 			</control>
 			<control type="group">
 				<left>1270</left>
@@ -522,21 +506,6 @@
 					<visible>!ListItem.IsCollection</visible>
 					<include>VisibleFadeAnimation</include>
 					<control type="image">
-						<left>162.5</left>
-						<width>2</width>
-						<texture border="1">separator3.png</texture>
-					</control>
-					<control type="image">
-						<left>325</left>
-						<width>2</width>
-						<texture border="1">separator3.png</texture>
-					</control>
-					<control type="image">
-						<left>487.5</left>
-						<width>2</width>
-						<texture border="1">separator3.png</texture>
-					</control>
-					<control type="image">
 						<left>13.5</left>
 						<colordiffuse>grey2</colordiffuse>
 						<include>MediaFlagValues</include>
@@ -630,7 +599,7 @@
 							<label>[B]$INFO[ListItem.Property(UnWatchedEpisodes)][/B]</label>
 							<font>font48_bold</font>
 							<wrapmultiline>true</wrapmultiline>
-							<textcolor>$VAR[LowListUnWatchedEpColor]</textcolor>
+							<textcolor>$VAR[UnWatchedEpColor]</textcolor>
 						</control>
 						<control type="label">
 							<top>52</top>
@@ -639,7 +608,7 @@
 							<align>center</align>
 							<label>[LOWERCASE]$LOCALIZE[16101][/LOWERCASE]</label>
 							<font>font12</font>
-							<textcolor>$VAR[LowListUnWatchedEpColor]</textcolor>
+							<textcolor>$VAR[UnWatchedEpColor]</textcolor>
 						</control>
 					</control>
 					<control type="image">
@@ -653,7 +622,7 @@
 						<left>506</left>
 						<colordiffuse>grey2</colordiffuse>
 						<include>MediaFlagValues</include>
-						<texture fallback="$VAR[MediaFlagsPathVar]/mpaa/NR.png">$VAR[MediaFlagsPathVar]/mpaa/$VAR[RatingFlagVar]</texture>
+						<texture fallback="flags/default/mpaa/NR.png">$VAR[MediaFlagsPathVar]/mpaa/$VAR[RatingFlagVar]</texture>
 						<visible>!ListItem.IsParentFolder + [!Container.Content(episodes) + !Container.Content(movies)] + !ListItem.IsCollection</visible>
 					</control>
 				</control>
@@ -683,21 +652,14 @@
 				<viewtype label="$LOCALIZE[31241]">list</viewtype>
 				<visible>Container.Content(movies) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | String.Contains(Container.FolderPath,plugin.program.advanced.launcher)</visible>
 				<scrolltime tween="quadratic" easing="out">200</scrolltime>
-				<animation effect="slide" end="0,-170" time="120" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
+				<animation effect="slide" end="0,-203.375" time="120" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
 				<itemlayout height="68" width="806" condition="Container.Content(movies)">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<left>15</left>
 						<width>90</width>
 						<height>68</height>
 						<font>font15</font>
-						<textcolor>$VAR[LowListThemeLabelColor]</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
+						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 						<label fallback="• • • •">$INFO[ListItem.Year]</label>
 						<visible>!ListItem.IsParentFolder</visible>
 						<visible>!ListItem.IsCollection</visible>
@@ -707,8 +669,7 @@
 						<width>90</width>
 						<height>68</height>
 						<font>font15</font>
-						<textcolor>$VAR[LowListThemeLabelColor]</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
+						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 						<label>• • • •</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 						<visible>!ListItem.IsParentFolder</visible>
@@ -720,7 +681,6 @@
 						<height>68</height>
 						<font>font15</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>!Container.Content(sets)</visible>
 					</control>
@@ -730,7 +690,6 @@
 						<height>68</height>
 						<font>font15</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>Container.Content(sets)</visible>
 					</control>
@@ -741,7 +700,6 @@
 						<font>font15</font>
 						<align>right</align>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Rating]</label>
 						<visible>[!ListItem.IsCollection] + [!Skin.HasSetting(Enable.HideRatings) | String.IsEqual(Container.SortMethod,$LOCALIZE[563])]</visible>
 					</control>
@@ -751,16 +709,10 @@
 						<width>64</width>
 						<height>64</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[LowListThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
 					</control>
 				</itemlayout>
 				<focusedlayout height="68" width="806" condition="Container.Content(movies)">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="image">
 						<width>806</width>
 						<height>68</height>
@@ -773,7 +725,6 @@
 						<width>90</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label fallback="• • • •">$INFO[ListItem.Year]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 						<visible>!ListItem.IsParentFolder</visible>
@@ -784,7 +735,6 @@
 						<width>90</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>• • • •</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 						<visible>!ListItem.IsParentFolder</visible>
@@ -795,7 +745,6 @@
 						<width>620</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 						<visible>!Container.Content(sets)</visible>
@@ -805,7 +754,6 @@
 						<width>710</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 						<visible>Container.Content(sets)</visible>
@@ -816,7 +764,6 @@
 						<height>68</height>
 						<font>font15</font>
 						<align>right</align>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Rating]</label>
 						<visible>[!ListItem.IsCollection] + [!Skin.HasSetting(Enable.HideRatings) | String.IsEqual(Container.SortMethod,$LOCALIZE[563])]</visible>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
@@ -827,23 +774,16 @@
 						<width>64</width>
 						<height>64</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[LowListThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
 					</control>
 				</focusedlayout>
 				<itemlayout height="68" width="806" condition="Container.Content(tvshows)">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<left>15</left>
 						<width>90</width>
 						<height>68</height>
 						<font>font15</font>
-						<textcolor>$VAR[LowListThemeLabelColor]</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
+						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 						<label fallback="• • • •">$INFO[ListItem.Year]</label>
 						<visible>!ListItem.IsParentFolder</visible>
 					</control>
@@ -853,7 +793,6 @@
 						<height>68</height>
 						<font>font15</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
@@ -863,7 +802,6 @@
 						<font>font15</font>
 						<align>right</align>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Rating]</label>
 						<visible>!Skin.HasSetting(Enable.HideRatings) | String.IsEqual(Container.SortMethod,$LOCALIZE[563])</visible>
 					</control>
@@ -873,10 +811,9 @@
 						<width>64</width>
 						<height>64</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[LowListThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
 					</control>
 					<control type="group">
-						<description>Unwatched episodes</description>
 						<left>742</left>
 						<top>-1</top>
 						<control type="image">
@@ -901,12 +838,6 @@
 				</itemlayout>
 				<focusedlayout height="68" width="806" condition="Container.Content(tvshows)">
 					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
-					<control type="image">
 						<width>806</width>
 						<height>68</height>
 						<texture colordiffuse="$VAR[HighlightBarColor]" border="4">listselect_fo.png</texture>
@@ -918,7 +849,6 @@
 						<width>90</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label fallback="• • • •">$INFO[ListItem.Year]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 						<visible>!ListItem.IsParentFolder</visible>
@@ -928,7 +858,6 @@
 						<width>565</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 					</control>
@@ -938,7 +867,6 @@
 						<height>68</height>
 						<font>font15</font>
 						<align>right</align>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Rating]</label>
 						<visible>!Skin.HasSetting(Enable.HideRatings) | String.IsEqual(Container.SortMethod,$LOCALIZE[563])</visible>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
@@ -949,10 +877,9 @@
 						<width>64</width>
 						<height>64</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[LowListThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
 					</control>
 					<control type="group">
-						<description>Unwatched episodes</description>
 						<left>742</left>
 						<top>-1</top>
 						<control type="image">
@@ -969,26 +896,18 @@
 							<font>font12_title</font>
 							<align>center</align>
 							<label>$VAR[ListOverlayEpisodesVar]</label>
-							<textcolor>white</textcolor>
 							<textoffsetx>18</textoffsetx>
 							<visible>Integer.IsGreater(ListItem.Property(UnWatchedEpisodes),0)</visible>
 						</control>
 					</control>
 				</focusedlayout>
 				<itemlayout height="68" width="806" condition="Container.Content(seasons)">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<left>15</left>
 						<width>600</width>
 						<height>68</height>
 						<font>font15</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
@@ -998,7 +917,6 @@
 						<font>font15</font>
 						<align>right</align>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Property(TotalEpisodes),, $LOCALIZE[20453]]</label>
 					</control>
 					<control type="image">
@@ -1007,10 +925,9 @@
 						<width>64</width>
 						<height>64</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[LowListThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
 					</control>
 					<control type="group">
-						<description>Unwatched episodes</description>
 						<left>742</left>
 						<top>-1</top>
 						<control type="image">
@@ -1035,12 +952,6 @@
 				</itemlayout>
 				<focusedlayout height="68" width="806" condition="Container.Content(seasons)">
 					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
-					<control type="image">
 						<width>806</width>
 						<height>68</height>
 						<texture colordiffuse="$VAR[HighlightBarColor]" border="4">listselect_fo.png</texture>
@@ -1052,7 +963,6 @@
 						<width>600</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 					</control>
@@ -1062,7 +972,6 @@
 						<height>68</height>
 						<font>font15</font>
 						<align>right</align>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Property(TotalEpisodes),, $LOCALIZE[20453]]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 					</control>
@@ -1072,10 +981,9 @@
 						<width>64</width>
 						<height>64</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[LowListThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
 					</control>
 					<control type="group">
-						<description>Unwatched episodes</description>
 						<left>742</left>
 						<top>-1</top>
 						<control type="image">
@@ -1092,25 +1000,17 @@
 							<font>font12_title</font>
 							<align>center</align>
 							<label>$VAR[ListOverlayEpisodesVar]</label>
-							<textcolor>white</textcolor>
 							<textoffsetx>18</textoffsetx>
 							<visible>Integer.IsGreater(ListItem.Property(UnWatchedEpisodes),0)</visible>
 						</control>
 					</control>
 				</focusedlayout>
 				<itemlayout height="68" width="806" condition="Container.Content(episodes)">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<width>730</width>
 						<height>68</height>
 						<font>font15</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<textoffsetx>15</textoffsetx>
 					</control>
@@ -1121,7 +1021,6 @@
 						<font>font15</font>
 						<align>right</align>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Rating]</label>
 						<visible>!Skin.HasSetting(Enable.HideRatings) | String.IsEqual(Container.SortMethod,$LOCALIZE[563])</visible>
 					</control>
@@ -1131,16 +1030,10 @@
 						<width>64</width>
 						<height>64</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[LowListThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
 					</control>
 				</itemlayout>
 				<focusedlayout height="68" width="806" condition="Container.Content(episodes)">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="image">
 						<width>806</width>
 						<height>68</height>
@@ -1152,7 +1045,6 @@
 						<width>730</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<textoffsetx>15</textoffsetx>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
@@ -1163,7 +1055,6 @@
 						<height>68</height>
 						<font>font15</font>
 						<align>right</align>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Rating]</label>
 						<visible>!Skin.HasSetting(Enable.HideRatings) | String.IsEqual(Container.SortMethod,$LOCALIZE[563])</visible>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
@@ -1174,24 +1065,16 @@
 						<width>64</width>
 						<height>64</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[LowListThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]">$VAR[ListItem.Overlay]</texture>
 					</control>
 				</focusedlayout>
 			</control>
-			<!-- <control type="image">
-				<left>450</left>
-				<top>1040</top>
-				<width>806</width>
-				<height>40</height>
-				<texture flipy="true" border="1">bottom_shadow.png</texture>
-			</control> -->
 			<control type="scrollbar" id="50160">
 				<left>1256</left>
 				<top>734</top>
 				<width>14</width>
 				<include condition="!Skin.HasSetting(nohighlist)">LowListHeightHigh</include>
 				<include condition="Skin.HasSetting(nohighlist)">LowListHeightLow</include>
-				<height>517</height>
 				<onup>50160</onup>
 				<ondown>50160</ondown>
 				<onleft>50</onleft>
@@ -1202,7 +1085,7 @@
 				<texturesliderbarfocus border="1">scrollbar/texturesliderbar3.png</texturesliderbarfocus>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
-				<animation effect="slide" end="0,-170" time="120" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
+				<animation effect="slide" end="0,-203.375" time="120" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
 			</control>
 		</control>
 	</include>
@@ -1224,7 +1107,7 @@
 				<width>390</width>
 				<height>164</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<texture background="true">$VAR[ListItemArtistLogoVar]</texture>
+				<texture background="true">$VAR[ArtworkLogoVar]</texture>
 				<visible>Skin.HasSetting(Enable.LowListArtistLogo)</visible>
 			</control>
 			<control type="image">
@@ -1236,6 +1119,15 @@
 			<control type="group">
 				<left>5</left>
 				<top>442</top>
+				<control type="image">
+					<left>25</left>
+					<top>20</top>
+					<width>390</width>
+					<height>390</height>
+					<aspectratio>keep</aspectratio>
+					<texture background="true">$VAR[ArtworkDiscVar]</texture>
+					<visible>!String.IsEmpty(ListItem.Art(discart))</visible>
+				</control>
 				<control type="image">
 					<width>440</width>
 					<height>640</height>
@@ -1253,50 +1145,50 @@
 				<height>360</height>
 				<usecontrolcoords>true</usecontrolcoords>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[557]:[/COLOR][CR]$INFO[ListItem.Artist]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[557]:[/COLOR][CR]$INFO[ListItem.Artist]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Artist)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Genre) + !Container.Content(artists)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[180]:[/COLOR][CR]$INFO[ListItem.Duration]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[180]:[/COLOR][CR]$INFO[ListItem.Duration]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Duration)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[21894]:[/COLOR][CR]$INFO[ListItem.Property(Artist_Formed)]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[21894]:[/COLOR][CR]$INFO[ListItem.Property(Artist_Formed)]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Property(Artist_Formed)) + String.IsEmpty(ListItem.Property(Artist_Genre)) + String.IsEmpty(ListItem.Property(Artist_Born))</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[21893]:[/COLOR][CR]$INFO[ListItem.Property(Artist_Born)]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[21893]:[/COLOR][CR]$INFO[ListItem.Property(Artist_Born)]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Property(Artist_Born)) + String.IsEmpty(ListItem.Property(Artist_Genre))</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Property(Artist_Genre)]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Property(Artist_Genre)]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Property(Artist_Genre))</visible>
 				</control>
 				<control type="textbox">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[569]:[/COLOR][CR]$INFO[ListItem.Comment]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[569]:[/COLOR][CR]$INFO[ListItem.Comment]</label>
 					<left>15</left>
 					<width>615</width>
 					<height>180</height>
 					<font>font14_textbox</font>
-					<pagecontrol>62</pagecontrol>
+					<pagecontrol>50162</pagecontrol>
 					<include>DefaultButtonsValues</include>
-					<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(Enable.AutoScroll) + !Control.HasFocus(62)</autoscroll>
+					<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(Enable.AutoScroll) + !Control.HasFocus(501062)</autoscroll>
 					<visible>!String.IsEmpty(ListItem.Comment)</visible>
 				</control>
 			</control>
@@ -1309,11 +1201,11 @@
 					<width>615</width>
 					<height>245</height>
 					<font>font14_textbox</font>
-					<pagecontrol>62</pagecontrol>
+					<pagecontrol>50162</pagecontrol>
 					<include>DefaultButtonsValues</include>
-					<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(Enable.AutoScroll) + !Control.HasFocus(62)</autoscroll>
+					<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(Enable.AutoScroll) + !Control.HasFocus(50162)</autoscroll>
 				</control>
-				<control type="scrollbar" id="62">
+				<control type="scrollbar" id="50162">
 					<left>636</left>
 					<width>14</width>
 					<height>245</height>
@@ -1342,37 +1234,29 @@
 				<height>427</height>
 				<onleft>SetProperty(MediaMenu,True,Home)</onleft>
 				<onleft>SetFocus(9050)</onleft>
-				<onright>60</onright>
+				<onright>50160</onright>
 				<onup>501</onup>
 				<ondown>501</ondown>
-				<pagecontrol>60</pagecontrol>
+				<pagecontrol>50160</pagecontrol>
 				<viewtype label="$LOCALIZE[31241]">list</viewtype>
 				<visible>Container.Content(albums) | Container.Content(artists) | Container.Content(songs) | [Window.IsActive(music) + Container.Content(files)]</visible>
 				<scrolltime tween="quadratic" easing="out">200</scrolltime>
 				<itemlayout height="68" width="806" condition="Container.Content(albums)">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<left>15</left>
 						<width>90</width>
 						<height>68</height>
 						<font>font15</font>
-						<textcolor>$VAR[LowListThemeLabelColor]</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
+						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 						<label fallback="• • • •">$INFO[ListItem.Year]</label>
 						<visible>!String.IsEmpty(ListItem.Album)</visible>
 					</control>
 					<control type="label">
 						<left>110</left>
-						<width>620</width>
+						<width>510</width>
 						<height>68</height>
 						<font>font15</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
@@ -1382,7 +1266,6 @@
 						<font>font15</font>
 						<align>right</align>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 						<visible>String.IsEqual(Container.SortMethod,$LOCALIZE[557])</visible>
 					</control>
@@ -1392,18 +1275,12 @@
 						<width>180</width>
 						<height>34</height>
 						<aspectratio>keep</aspectratio>
-						<texture colordiffuse="$VAR[LowListThemeLabelColor]" fallback="rating0.png">$INFO[ListItem.UserRating,flags/rating/,.png]</texture>
+						<texture colordiffuse="$VAR[ThemeLabelColor]" fallback="rating0.png">$INFO[ListItem.UserRating,flags/rating/,.png]</texture>
 						<colordiffuse>grey2</colordiffuse>
 						<visible>!ListItem.IsParentFolder + !String.IsEqual(Container.SortMethod,$LOCALIZE[557])</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout height="68" width="806" condition="Container.Content(albums)">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="image">
 						<width>806</width>
 						<height>68</height>
@@ -1416,17 +1293,15 @@
 						<width>90</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label fallback="• • • •">$INFO[ListItem.Year]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 						<visible>!String.IsEmpty(ListItem.Album)</visible>
 					</control>
 					<control type="label">
 						<left>110</left>
-						<width>550</width>
+						<width>510</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 					</control>
@@ -1436,7 +1311,6 @@
 						<height>68</height>
 						<font>font15</font>
 						<align>right</align>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.label2]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 						<visible>String.IsEqual(Container.SortMethod,$LOCALIZE[557])</visible>
@@ -1453,19 +1327,12 @@
 					</control>
 				</focusedlayout>
 				<itemlayout height="68" width="806" condition="Container.Content(songs)">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<left>15</left>
 						<width>60</width>
 						<height>68</height>
 						<font>font15</font>
-						<textcolor>$VAR[LowListThemeLabelColor]</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
+						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 						<label fallback="• •">$INFO[ListItem.TrackNumber]</label>
 						<visible>!ListItem.IsParentFolder</visible>
 					</control>
@@ -1475,7 +1342,6 @@
 						<height>68</height>
 						<font>font15</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Title]</label>
 						<visible>!ListItem.IsParentFolder</visible>
 					</control>
@@ -1485,7 +1351,6 @@
 						<height>68</height>
 						<font>font15</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>String.IsEmpty(ListItem.Title)</visible>
 					</control>
@@ -1496,17 +1361,11 @@
 						<height>34</height>
 						<aspectratio>keep</aspectratio>
 						<texture fallback="rating0.png">$INFO[ListItem.UserRating,flags/rating/,.png]</texture>
-						<colordiffuse>$VAR[LowListThemeLabelColor]</colordiffuse>
+						<colordiffuse>$VAR[ThemeLabelColor]</colordiffuse>
 						<visible>!ListItem.IsParentFolder</visible>
 					</control>
 				</itemlayout>
 				<focusedlayout height="68" width="806" condition="Container.Content(songs)">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="image">
 						<width>806</width>
 						<height>68</height>
@@ -1519,7 +1378,6 @@
 						<width>60</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label fallback="• •">$INFO[ListItem.TrackNumber]</label>
 						<visible>!ListItem.IsParentFolder</visible>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
@@ -1529,7 +1387,6 @@
 						<width>545</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Title]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 						<visible>!ListItem.IsParentFolder</visible>
@@ -1539,7 +1396,6 @@
 						<width>545</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 						<visible>String.IsEmpty(ListItem.Title)</visible>
@@ -1550,26 +1406,19 @@
 						<width>180</width>
 						<height>34</height>
 						<aspectratio>keep</aspectratio>
-						<colordiffuse>$VAR[LowListThemeLabelColor]</colordiffuse>
+						<colordiffuse>$VAR[ThemeLabelColor]</colordiffuse>
 						<texture fallback="rating0.png">$INFO[ListItem.UserRating,flags/rating/,.png]</texture>
 						<visible>!ListItem.IsParentFolder</visible>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 					</control>
 				</focusedlayout>
 				<itemlayout height="68" width="806" condition="![Container.Content(albums) | Container.Content(songs)]">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<left>15</left>
 						<width>775</width>
 						<height>68</height>
 						<font>font15</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
@@ -1579,17 +1428,10 @@
 						<font>font15</font>
 						<align>right</align>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="68" width="806" condition="![Container.Content(albums) | Container.Content(songs)]">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="image">
 						<width>806</width>
 						<height>68</height>
@@ -1602,7 +1444,6 @@
 						<width>775</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 					</control>
@@ -1612,21 +1453,20 @@
 						<height>68</height>
 						<font>font15</font>
 						<align>right</align>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.label2]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 					</control>
 				</focusedlayout>
 			</control>
-			<control type="scrollbar" id="60">
+			<control type="scrollbar" id="50160">
 				<left>1256</left>
 				<top>652</top>
 				<width>14</width>
 				<height>427</height>
-				<onup>60</onup>
-				<ondown>60</ondown>
+				<onup>50160</onup>
+				<ondown>50160</ondown>
 				<onleft>50</onleft>
-				<onright>62</onright>
+				<onright>50162</onright>
 				<texturesliderbackground>scrollbar/texturesliderbackground3.png</texturesliderbackground>
 				<texturesliderbar colordiffuse="55ffffff" border="1">scrollbar/texturesliderbar3.png</texturesliderbar>
 				<texturesliderbarfocus border="1">scrollbar/texturesliderbar3.png</texturesliderbarfocus>
@@ -1644,7 +1484,7 @@
 				<width>100%</width>
 				<height>651</height>
 				<texture border="1,32,1,1">bottombar.png</texture>
-				<animation effect="slide" end="0,-170" time="120" condition="!Skin.HasSetting(nohighlistgame)">Conditional</animation>
+				<animation effect="slide" end="0,-203.375" time="120" condition="!Skin.HasSetting(nohighlistgame)">Conditional</animation>
 			</control>
 			<control type="group">
 				<left>5</left>
@@ -1666,19 +1506,19 @@
 				<height>270</height>
 				<visible>!Skin.HasSetting(nohighlistgame)</visible>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[31043]:[/COLOR][CR]$INFO[ListItem.Writer]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31043]:[/COLOR][CR]$INFO[ListItem.Writer]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Writer)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Genre)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[572]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[572]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Studio)</visible>
@@ -1691,19 +1531,19 @@
 				<height>270</height>
 				<visible>Skin.HasSetting(nohighlistgame)</visible>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[31043]:[/COLOR][CR]$INFO[ListItem.Writer]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31043]:[/COLOR][CR]$INFO[ListItem.Writer]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Writer)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Genre)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR $VAR[LowListThemeLabelColor]]$LOCALIZE[572]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
+					<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[572]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
 					<width>650</width>
 					<include>DefaultButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Studio)</visible>
@@ -1721,11 +1561,11 @@
 					<width>615</width>
 					<height>250</height>
 					<font>font14_textbox</font>
-					<pagecontrol>62</pagecontrol>
+					<pagecontrol>50162</pagecontrol>
 					<include>DefaultButtonsValues</include>
-					<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(Enable.AutoScroll) + !Control.HasFocus(62)</autoscroll>
+					<autoscroll time="3000" delay="4000" repeat="5000">Skin.HasSetting(Enable.AutoScroll) + !Control.HasFocus(50162)</autoscroll>
 				</control>
-				<control type="scrollbar" id="62">
+				<control type="scrollbar" id="50162">
 					<left>636</left>
 					<top>105</top>
 					<width>14</width>
@@ -1750,29 +1590,22 @@
 				<include condition="Skin.HasSetting(nohighlistgame)">LowListHeightLow</include>
 				<onleft>SetProperty(MediaMenu,True,Home)</onleft>
 				<onleft>SetFocus(9050)</onleft>
-				<onright condition="Control.IsVisible(60)">60</onright>
-				<onright condition="!Control.IsVisible(60)">62</onright>
+				<onright condition="Control.IsVisible(50160)">50160</onright>
+				<onright condition="!Control.IsVisible(50160)">50162</onright>
 				<onup>501</onup>
 				<ondown>501</ondown>
-				<pagecontrol>60</pagecontrol>
+				<pagecontrol>50160</pagecontrol>
 				<viewtype label="$LOCALIZE[31241]">list</viewtype>
 				<visible>String.Contains(Container.FolderPath,plugin.program.advanced.launcher)</visible>
 				<scrolltime tween="quadratic" easing="out">200</scrolltime>
-				<animation effect="slide" end="0,-170" time="120" condition="!Skin.HasSetting(nohighlistgame)">Conditional</animation>
+				<animation effect="slide" end="0,-203.375" time="120" condition="!Skin.HasSetting(nohighlistgame)">Conditional</animation>
 				<itemlayout height="68" width="806">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<left>15</left>
 						<width>90</width>
 						<height>68</height>
 						<font>font15</font>
-						<textcolor>$VAR[LowListThemeLabelColor]</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
+						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 						<label fallback="• • • •">$INFO[ListItem.Year]</label>
 						<visible>!ListItem.IsParentFolder</visible>
 					</control>
@@ -1782,17 +1615,10 @@
 						<height>68</height>
 						<font>font15</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="68" width="806">
-					<control type="image">
-						<top>8</top>
-						<width>806</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="image">
 						<width>806</width>
 						<height>68</height>
@@ -1805,7 +1631,6 @@
 						<width>90</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label fallback="• • • •">$INFO[ListItem.Year]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 					</control>
@@ -1814,46 +1639,35 @@
 						<width>620</width>
 						<height>68</height>
 						<font>font15</font>
-						<selectedcolor>$VAR[LowListThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(501)">Conditional</animation>
 					</control>
 				</focusedlayout>
 			</control>
-			<!-- <control type="image">
-				<left>450</left>
-				<top>1040</top>
-				<width>806</width>
-				<height>40</height>
-				<texture flipy="true" border="1">bottom_shadow.png</texture>
-			</control> -->
-			<control type="scrollbar" id="60">
+			<control type="scrollbar" id="50160">
 				<left>1256</left>
 				<top>734</top>
 				<width>14</width>
 				<include condition="!Skin.HasSetting(nohighlistgame)">LowListHeightHigh</include>
 				<include condition="Skin.HasSetting(nohighlistgame)">LowListHeightLow</include>
-				<height>517</height>
-				<onup>60</onup>
-				<ondown>60</ondown>
+				<onup>50160</onup>
+				<ondown>50160</ondown>
 				<onleft>50</onleft>
-				<onright>62</onright>
+				<onright>50162</onright>
 				<texturesliderbackground>scrollbar/texturesliderbackground3.png</texturesliderbackground>
 				<texturesliderbar colordiffuse="55ffffff" border="1">scrollbar/texturesliderbar3.png</texturesliderbar>
 				<texturesliderbarfocus border="1">scrollbar/texturesliderbar3.png</texturesliderbarfocus>
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
-				<animation effect="slide" end="0,-170" time="120" condition="!Skin.HasSetting(nohighlistgame)">Conditional</animation>
+				<animation effect="slide" end="0,-203.375" time="120" condition="!Skin.HasSetting(nohighlistgame)">Conditional</animation>
 			</control>
 		</control>
 	</include>
 	<include name="LowListHeightHigh">
-		<height>517</height>
-		<movement>6</movement>
+		<height>544</height>
 	</include>
 	<include name="LowListHeightLow">
-		<height>347</height>
-		<movement>4</movement>
+		<height>340</height>
 	</include>
 	<include name="SlidingMovieSetDiscart">
 		<control type="group">

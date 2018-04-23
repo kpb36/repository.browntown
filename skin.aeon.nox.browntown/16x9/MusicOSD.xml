@@ -2,11 +2,6 @@
 <window>
 	<onload condition="Skin.HasSetting(Disable.MusicPlayerControlButtons)">SetFocus(703)</onload>
 	<onload condition="!Skin.HasSetting(Disable.MusicPlayerControlButtons)">SetFocus(602)</onload>
-	<coordinates>
-		<system>1</system>
-		<left>0</left>
-		<top>0</top>
-	</coordinates>
 	<controls>
 		<control type="group">
 			<animation effect="slide" end="0,-120" time="300" tween="quadratic" condition="Window.IsVisible(selectdialog)">Conditional</animation>
@@ -248,24 +243,24 @@
 						<width>60</width>
 						<height>40</height>
 						<aspectratio>keep</aspectratio>
-						<texture fallback="$VAR[WeatherIconsPathVar]na.png">$VAR[WeatherIconsPathVar]$INFO[Weather.FanartCode,,.png]</texture>
+						<texture>$VAR[WeatherIconsPathVar]$INFO[Weather.FanartCode,,.png]</texture>
 						<visible>Weather.IsFetched + !String.IsEmpty(Weather.Plugin)</visible>
 					</control>
 					<control type="label">
 						<width>auto</width>
 						<height>41</height>
-						<label>$INFO[Weather.Temperature,,[COLOR aquamarine] | [/COLOR]]</label>
-						<font>rgweathertemp</font>
-						<textcolor>aquamarine</textcolor>
+						<label>$INFO[Weather.Temperature,,[COLOR white] | [/COLOR]]</label>
+						<font>font13_title</font>
+						<textcolor>$VAR[ThemeHomeLabelColor]</textcolor>
 						<visible>Weather.IsFetched + !String.IsEmpty(Weather.Plugin)</visible>
 						<shadowcolor>shadow</shadowcolor>
 					</control>
 					<control type="label">
 						<width>auto</width>
 						<height>41</height>
-						<label>$INFO[System.Date,[COLOR blueviolet], | [/COLOR]]$INFO[System.Time]</label>
-						<font>Systime</font>
-						<textcolor>blueviolet</textcolor>
+						<label>$INFO[System.Date,[COLOR white], | [/COLOR]]$INFO[System.Time]</label>
+						<font>font13_title</font>
+						<textcolor>$VAR[ThemeHomeLabelColor]</textcolor>
 						<shadowcolor>shadow</shadowcolor>
 					</control>
 				</control>

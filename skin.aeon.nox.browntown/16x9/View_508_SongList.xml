@@ -14,10 +14,10 @@
 					<orientation>vertical</orientation>
 					<onleft>SetProperty(MediaMenu,True,Home)</onleft>
 					<onleft>SetFocus(9050)</onleft>
-					<onright>60</onright>
+					<onright>50860</onright>
 					<onup>508</onup>
 					<ondown>508</ondown>
-					<pagecontrol>60</pagecontrol>
+					<pagecontrol>50860</pagecontrol>
 					<viewtype label="$LOCALIZE[31238]">list</viewtype>
 					<scrolltime tween="quadratic" easing="out">200</scrolltime>
 					<visible>Container.Content(songs)</visible>
@@ -33,9 +33,8 @@
 							<left>275</left>
 							<width>1000</width>
 							<height>70</height>
-							<font>rgweathertemp</font>
-							<textcolor>powderblue</textcolor>
-							<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
+							<font>font30</font>
+							<textcolor>grey</textcolor>
 							<label>$INFO[ListItem.TrackNumber]. $INFO[ListItem.Title]</label>
 						</control>
 					</itemlayout>
@@ -58,9 +57,7 @@
 							<left>275</left>
 							<width>1000</width>
 							<height>70</height>
-							<font>Systime</font>
-							<textcolor>firebrick</textcolor>
-							<selectedcolor>firebrick</selectedcolor>
+							<font>font30</font>
 							<label>[B]$INFO[ListItem.TrackNumber]. $INFO[ListItem.Title][/B]</label>
 							<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(508)">Conditional</animation>
 						</control>
@@ -69,9 +66,8 @@
 							<top>55</top>
 							<width>990</width>
 							<height>70</height>
-							<font>nextup</font>
-							<textcolor>gold</textcolor>
-							<selectedcolor>gold</selectedcolor>
+							<font>font16_title</font>
+							<textcolor>$VAR[ThemeLabelColor]</textcolor>
 							<label>$INFO[ListItem.Artist]</label>
 							<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(508)">Conditional</animation>
 						</control>
@@ -80,9 +76,7 @@
 							<top>105</top>
 							<width>990</width>
 							<height>70</height>
-							<font>coolbubble</font>
-							<textcolor>lightcoral</textcolor>
-							<selectedcolor>lightcoral</selectedcolor>
+							<font>font16</font>
 							<label>$INFO[ListItem.Album] $INFO[ListItem.Year,[,]]</label>
 							<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(508)">Conditional</animation>
 						</control>
@@ -91,9 +85,7 @@
 							<top>135</top>
 							<width>990</width>
 							<height>110</height>
-							<font>rgweathertemp</font>
-							<textcolor>lightcoral</textcolor>
-							<selectedcolor>lightcoral</selectedcolor>
+							<font>font16</font>
 							<label fallback="• • • •">$VAR[MusicListLabel4Var]</label>
 							<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(508)">Conditional</animation>
 						</control>
@@ -102,7 +94,7 @@
 							<top>220</top>
 							<width>400</width>
 							<height>45</height>
-							<colordiffuse>limegreen</colordiffuse>
+							<colordiffuse>grey</colordiffuse>
 							<aspectratio>keep</aspectratio>
 							<texture colordiffuse="$VAR[ThemeLabelColor]" fallback="rating0.png">$INFO[ListItem.UserRating,flags/rating/,.png]</texture>
 						</control>
@@ -111,17 +103,17 @@
 							<top>185</top>
 							<width>198</width>
 							<include>MediaFlagValues</include>
-							<texture colordiffuse="limegreen">$VAR[MediaFlagsPathVar]/audiocodec/$INFO[ListItem.FileExtension,,.png]</texture>
+							<texture colordiffuse="grey">$VAR[MediaFlagsPathVar]/audiocodec/$INFO[ListItem.FileExtension,,.png]</texture>
 						</control>
 					</focusedlayout>
 				</control>
-				<control type="scrollbar" id="60">
+				<control type="scrollbar" id="50860">
 					<left>1890</left>
 					<top>200</top>
 					<width>14</width>
 					<height>780</height>
-					<onup>60</onup>
-					<ondown>60</ondown>
+					<onup>50860</onup>
+					<ondown>50860</ondown>
 					<onleft>508</onleft>
 					<onright>SetProperty(MediaMenu,True,Home)</onright>
 					<onright>SetFocus(9050)</onright>
@@ -130,7 +122,7 @@
 					<texturesliderbarfocus border="1">scrollbar/texturesliderbar2.png</texturesliderbarfocus>
 					<showonepage>false</showonepage>
 					<orientation>vertical</orientation>
-					<animation effect="fade" start="100" end="0" time="500" delay="500" condition="!Control.HasFocus(60) + !Container.Scrolling">Conditional</animation>
+					<animation effect="fade" start="100" end="0" time="500" delay="500" condition="!Control.HasFocus(50860) + !Container.Scrolling">Conditional</animation>
 				</control>
 			</control>
 		</control>

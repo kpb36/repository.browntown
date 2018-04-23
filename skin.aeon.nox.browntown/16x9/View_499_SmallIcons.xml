@@ -6,42 +6,33 @@
 			<include>ViewAnimation</include>
 			<top>-85</top>
 			<control type="image">
-				<description>background image</description>
-				<left>130</left>
-				<top>1137</top>
-				<width>1725</width>
-				<height>918</height>
-				<texture border="40">panel_reflect.png</texture>
-			</control>
-			<control type="image">
-				<description>background image</description>
 				<left>97.5</left>
 				<top>138</top>
-				<width>1725</width>
-				<height>918</height>
+				<width>1680</width>
+				<height>875</height>
 				<texture border="40">listpanel_back.png</texture>
 			</control>
 			<control type="panel" id="499">
 				<left>127</left>
 				<top>170</top>
-				<width>1665</width>
-				<height>855</height>
-				<onright condition="Control.IsVisible(60)">60</onright>
-				<onright condition="!Control.IsVisible(60)">SetProperty(MediaMenu,True,Home)</onright>
-				<onright condition="!Control.IsVisible(60)">SetFocus(9050)</onright>
+				<width>1620</width>
+				<height>810</height>
+				<onright condition="Control.IsVisible(49960)">49960</onright>
+				<onright condition="!Control.IsVisible(49960)">SetProperty(MediaMenu,True,Home)</onright>
+				<onright condition="!Control.IsVisible(49960)">SetFocus(9050)</onright>
 				<onleft>SetProperty(MediaMenu,True,Home)</onleft>
 				<onleft>SetFocus(9050)</onleft>
 				<onup>499</onup>
 				<ondown>499</ondown>
-				<pagecontrol>60</pagecontrol>
+				<pagecontrol>49960</pagecontrol>
 				<preloaditems>2</preloaditems>
 				<viewtype label="$LOCALIZE[1438] $LOCALIZE[536]">icon</viewtype>
 				<scrolltime tween="quadratic" easing="out">300</scrolltime>
 				<visible>Container.Content(tvshows) | Container.Content(movies) | Container.Content(seasons) | Container.Content(sets)</visible>
-				<itemlayout height="285" width="185">
+				<itemlayout width="180" height="270">
 					<control type="image">
-						<width>185</width>
-						<height>285</height>
+						<width>180</width>
+						<height>270</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true">$VAR[PosterThumb]</texture>
 						<bordertexture border="2">thumbs/panel_border3.png</bordertexture>
@@ -64,12 +55,12 @@
 						<include condition="Skin.HasSetting(Disable.UnwatchedIcon)">UnwatchedIcon</include>
 					</control>
 				</itemlayout>
-				<focusedlayout height="285" width="185">
+				<focusedlayout width="180" height="270">
 					<control type="group">
-						<animation effect="zoom" center="100,200" start="100" end="120" time="420" tween="back" reversible="false">Focus</animation>
+						<animation effect="zoom" center="90,135" start="100" end="120" time="420" tween="back" reversible="false">Focus</animation>
 						<control type="image">
-							<width>185</width>
-							<height>285</height>
+							<width>180</width>
+							<height>270</height>
 							<aspectratio>stretch</aspectratio>
 							<texture background="true">$VAR[PosterThumb]</texture>
 							<bordertexture colordiffuse="$VAR[ThemeLabelColor]" border="8">thumbs/thumbnail_focused.png</bordertexture>
@@ -93,7 +84,7 @@
 					</control>
 				</focusedlayout>
 			</control>
-			<control type="scrollbar" id="60">
+			<control type="scrollbar" id="49960">
 				<left>1789.5</left>
 				<top>230</top>
 				<width>15</width>
@@ -101,13 +92,13 @@
 				<onleft>50</onleft>
 				<onright>SetProperty(MediaMenu,True,Home)</onright>
 				<onright>SetFocus(9050)</onright>
-				<ondown>60</ondown>
-				<onup>60</onup>
+				<ondown>49960</ondown>
+				<onup>49960</onup>
 				<showonepage>false</showonepage>
 				<texturesliderbackground />
 				<texturesliderbar colordiffuse="55ffffff" border="1">scrollbar/texturesliderbar2.png</texturesliderbar>
 				<texturesliderbarfocus border="1">scrollbar/texturesliderbar2.png</texturesliderbarfocus>
-				<animation effect="fade" start="100" end="0" time="500" delay="500" condition="!Control.HasFocus(60) + !Container.Scrolling">Conditional</animation>
+				<animation effect="fade" start="100" end="0" time="500" delay="500" condition="!Control.HasFocus(49960) + !Container.Scrolling">Conditional</animation>
 			</control>
 			<control type="group">
 				<visible>![Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes) | Container.Content(addons)]</visible>

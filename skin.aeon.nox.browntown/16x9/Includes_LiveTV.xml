@@ -564,8 +564,8 @@
 				<description>EPG Grid</description>
 				<left>82</left>
 				<top>32</top>
-				<width>1750</width>
-				<height>585</height>
+				<width>1770</width>
+				<height>600</height>
 				<pagecontrol>10</pagecontrol>
 				<scrolltime tween="quadratic" easing="out">200</scrolltime>
 				<timeblocks>20</timeblocks>
@@ -585,50 +585,47 @@
 						<font>font13</font>
 						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 						<textoffsetx>5</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</rulerlayout>
 				<channellayout height="60" width="440">
-					<control type="image">
+				    <control type="image">
 						<top>1</top>
-						<width>440</width>
+						<width>450</width>
 						<height>60</height>
 						<texture border="1">separator2.png</texture>
-					</control>
+					</control>	
 					<control type="label">
-						<width>80</width>
-						<height>60</height>
+						<width>75</width>
+						<height>40</height>
 						<font>font15</font>
 						<align>center</align>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>[B]$INFO[ListItem.ChannelNumberLabel][/B]</label>
 					</control>
 					<control type="label">
-						<left>158</left>
-						<width>300</width>
+						<left>280</left>
+						<width>180</width>
 						<height>60</height>
 						<font>font15</font>
 						<textoffsetx>15</textoffsetx>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.ChannelName]</label>
 						<visible>String.IsEqual(Skin.String(LiveTV.EpgViewChannels),1) + String.IsEmpty(ListItem.Icon) | !String.IsEqual(Skin.String(LiveTV.EpgViewChannels),1)</visible>
 					</control>
 					<control type="image">
-						<left>90</left>
+						<left>80</left>
 						<top>2</top>
-						<width>65</width>
+						<width>210</width>
 						<height>56</height>
 						<aspectratio align="left">keep</aspectratio>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 						<visible>String.IsEqual(Skin.String(LiveTV.EpgViewChannels),2) + !String.IsEmpty(ListItem.Icon)</visible>
 					</control>
 					<control type="image">
-						<left>90</left>
+						<left>80</left>
 						<top>2</top>
-						<width>200</width>
+						<width>210</width>
 						<height>56</height>
 						<aspectratio align="left">keep</aspectratio>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
@@ -641,42 +638,41 @@
 						<width>440</width>
 						<height>60</height>
 						<texture border="1">separator2.png</texture>
-					</control>
+					</control>				
 					<control type="image">
 						<width>440</width>
 						<height>60</height>
 						<texture colordiffuse="$VAR[HighlightBarColor]" border="4">listselect_fo.png</texture>
 					</control>
 					<control type="label">
-						<width>80</width>
-						<height>60</height>
+						<width>75</width>
+						<height>40</height>
 						<font>font15</font>
 						<align>center</align>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>[B]$INFO[ListItem.ChannelNumberLabel][/B]</label>
 					</control>
 					<control type="label">
-						<left>158</left>
-						<width>300</width>
+						<left>290</left>
+						<width>180</width>
 						<height>60</height>
 						<font>font15</font>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
-						<label>$INFO[ListItem.ChannelName]</label><visible>String.IsEqual(Skin.String(LiveTV.EpgViewChannels),1) + String.IsEmpty(ListItem.Icon) | !String.IsEqual(Skin.String(LiveTV.EpgViewChannels),1)</visible>
+						<label>$INFO[ListItem.ChannelName]</label>
+						<visible>String.IsEqual(Skin.String(LiveTV.EpgViewChannels),1) + String.IsEmpty(ListItem.Icon) | !String.IsEqual(Skin.String(LiveTV.EpgViewChannels),1)</visible>
 					</control>
 					<control type="image">
-						<left>90</left>
+						<left>80</left>
 						<top>2</top>
-						<width>65</width>
+						<width>210</width>
 						<height>56</height>
 						<aspectratio align="left">keep</aspectratio>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 						<visible>String.IsEqual(Skin.String(LiveTV.EpgViewChannels),2) + !String.IsEmpty(ListItem.Icon)</visible>
 					</control>
 					<control type="image">
-						<left>90</left>
+						<left>80</left>
 						<top>1</top>
-						<width>200</width>
+						<width>210</width>
 						<height>58</height>
 						<aspectratio align="left">keep</aspectratio>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
@@ -694,7 +690,7 @@
 						<width>120</width>
 						<height>60</height>
 						<aspectratio>stretch</aspectratio>
-						<texture border="3">epg-genres/$INFO[ListItem.Genre].png</texture>
+						<texture border="3">$INFO[ListItem.Property(GenreType),new_pvr/epg-genres/,.png]</texture>
 						<visible>Skin.HasSetting(Enable.PVRGenreColors)</visible>
 					</control>
 					<control type="image" id="2">
@@ -702,7 +698,6 @@
 						<height>60</height>
 						<aspectratio>stretch</aspectratio>
 						<texture border="3" fallback="new_pvr/epg-genres/0.png">new_pvr/epg-genres/$INFO[ListItem.Genre].png</texture>
-						<visible>!Control.IsVisible(1)</visible>
 						<visible>Skin.HasSetting(Enable.PVRGenreColors) + Skin.HasSetting(Enable.LighterPVRGenreColors)</visible>
 					</control>
 					<control type="label">
@@ -711,7 +706,6 @@
 						<font>IconSmall</font>
 						<textoffsetx>14</textoffsetx>
 						<textcolor>$VAR[ThemeLabelColor]</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label></label>
 						<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
 					</control>
@@ -728,8 +722,7 @@
 						<height>60</height>
 						<font>font15</font>
 						<textoffsetx>15</textoffsetx>
-						<textcolor>black</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
+						<textcolor>grey</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="slide" start="0,0" end="40,0" time="0" tween="sine" easing="in" condition="[ListItem.HasTimer | ListItem.IsRecording]">Conditional</animation>
 					</control>
@@ -739,13 +732,11 @@
 						<texture colordiffuse="$VAR[HighlightBarColor]" border="4">listselect_fo.png</texture>
 					</control>
 					<control type="label">
-						<top>0</top>
 						<width>120</width>
 						<height>60</height>
 						<font>IconSmall</font>
 						<textoffsetx>15</textoffsetx>
 						<textcolor>$VAR[ThemeLabelColor]</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label></label>
 						<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
 					</control>
@@ -762,7 +753,6 @@
 						<height>60</height>
 						<font>font15</font>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="slide" end="40" condition="[ListItem.HasTimer | ListItem.IsRecording]">Conditional</animation>
 					</control>
@@ -783,7 +773,7 @@
 					<width>1319</width>
 					<height>60</height>
 					<texture border="1">separator2.png</texture>
-				</control>
+				</control>				
 				<control type="group">
 					<visible>!String.IsEmpty(ListItem.Icon)</visible>
 					<left>83</left>
@@ -802,7 +792,7 @@
 					<left>522</left>
 					<top>617</top>
 					<control type="label">
-						<left>0</left>
+					    <left>0</left>
 						<top>15</top>
 						<width>1316</width>
 						<height>30</height>
@@ -817,7 +807,6 @@
 						<top>70</top>
 						<width>1286</width>
 						<height>175</height>
-						<font>font15_textbox</font>
 						<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
 						<visible>![String.StartsWith(ListItem.PlotOutline,"http://") | String.StartsWith(ListItem.PlotOutline,"https://")]</visible>
 					</control>
@@ -826,7 +815,6 @@
 						<top>50</top>
 						<width>985</width>
 						<height>200</height>
-						<font>font15_textbox</font>
 						<label>$INFO[ListItem.Plot]</label>
 						<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
 						<visible>[String.StartsWith(ListItem.PlotOutline,"http://") | String.StartsWith(ListItem.PlotOutline,"https://")]</visible>
@@ -883,13 +871,11 @@
 						<font>font11</font>
 						<textcolor>$VAR[ThemeLabelColor]</textcolor>
 						<textoffsetx>0</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</rulerlayout>
 				<channellayout height="55" width="400">
 					<control type="image">
-						<top>0</top>
 						<width>400</width>
 						<height>55</height>
 						<texture border="0" colordiffuse="33FFFFFF">new_pvr/epg-channels.png</texture>
@@ -899,7 +885,6 @@
 						<height>55</height>
 						<font>font14</font>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.ChannelNumberLabel]</label>
 					</control>
 					<control type="image">
@@ -918,7 +903,6 @@
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.ChannelName]</label>
 						<visible>String.IsEmpty(Skin.String(LiveTV.EpgViewChannels))</visible>
 					</control>
@@ -929,7 +913,6 @@
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.ChannelName]</label>
 						<visible>String.IsEqual(Skin.String(LiveTV.EpgViewChannels),2)</visible>
 					</control>
@@ -945,7 +928,6 @@
 				</channellayout>
 				<focusedchannellayout height="55" width="400">
 					<control type="image">
-						<top>0</top>
 						<width>400</width>
 						<height>55</height>
 						<texture border="0" colordiffuse="33FFFFFF">new_pvr/epg-channels.png</texture>
@@ -954,7 +936,6 @@
 						<width>80</width>
 						<height>55</height>
 						<font>font14</font>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.ChannelNumberLabel]</label>
 					</control>
 					<control type="image">
@@ -972,7 +953,6 @@
 						<height>55</height>
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.ChannelName]</label>
 						<visible>String.IsEmpty(Skin.String(LiveTV.EpgViewChannels))</visible>
 					</control>
@@ -982,7 +962,6 @@
 						<height>55</height>
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.ChannelName]</label>
 						<visible>String.IsEqual(Skin.String(LiveTV.EpgViewChannels),2)</visible>
 					</control>
@@ -1007,7 +986,7 @@
 						<width>120</width>
 						<height>55</height>
 						<aspectratio>stretch</aspectratio>
-						<texture border="3">epg-genres/$INFO[ListItem.Genre].png</texture>
+						<texture border="3">$INFO[ListItem.Property(GenreType),new_pvr/epg-genres/,.png]</texture>
 						<visible>Skin.HasSetting(Enable.PVRGenreColors)</visible>
 					</control>
 					<control type="image" id="2">
@@ -1015,30 +994,25 @@
 						<height>55</height>
 						<aspectratio>stretch</aspectratio>
 						<texture border="3" fallback="new_pvr/epg-genres/0.png">new_pvr/epg-genres/$INFO[ListItem.Genre].png</texture>
-						<visible>!Control.IsVisible(1)</visible>
 						<visible>Skin.HasSetting(Enable.PVRGenreColors) + Skin.HasSetting(Enable.LighterPVRGenreColors)</visible>
 					</control>
 					<control type="group">
 						<visible>[ListItem.HasTimer | ListItem.IsRecording]</visible>
 						<control type="label">
-							<top>0</top>
 							<width>120</width>
 							<height>55</height>
 							<font>IconSmall</font>
 							<textoffsetx>14</textoffsetx>
 							<textcolor>$VAR[ThemeLabelColor]</textcolor>
-							<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 							<label></label>
 							<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
 						</control>
 						<control type="label">
-							<top>0</top>
 							<width>120</width>
 							<height>55</height>
 							<font>IconSmall</font>
 							<textoffsetx>14</textoffsetx>
-							<textcolor>black</textcolor>
-							<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
+							<textcolor>DDFF0000</textcolor>
 							<label></label>
 							<visible>ListItem.IsRecording</visible>
 						</control>
@@ -1048,8 +1022,7 @@
 						<height>55</height>
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
-						<textcolor>black</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
+						<textcolor>grey2</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="slide" start="0,0" end="40,0" time="0" tween="sine" easing="in" condition="[ListItem.HasTimer | ListItem.IsRecording]">Conditional</animation>
 					</control>
@@ -1061,18 +1034,15 @@
 					<control type="group">
 						<visible>[ListItem.HasTimer | ListItem.IsRecording]</visible>
 						<control type="label">
-							<top>0</top>
 							<width>120</width>
 							<height>55</height>
 							<font>IconSmall</font>
 							<textoffsetx>14</textoffsetx>
-							<textcolor>black</textcolor>
-							<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
+							<textcolor>$VAR[ThemeLabelColor]</textcolor>
 							<label></label>
 							<visible>ListItem.HasTimer + !ListItem.IsRecording</visible>
 						</control>
 						<control type="label">
-							<top>0</top>
 							<width>120</width>
 							<height>55</height>
 							<font>IconSmall</font>
@@ -1088,7 +1058,6 @@
 						<height>55</height>
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="slide" start="0,0" end="40,0" time="0" tween="sine" easing="in" condition="[ListItem.HasTimer | ListItem.IsRecording]">Conditional</animation>
 					</control>
@@ -1100,8 +1069,6 @@
 				<control type="label">
 					<width>360</width>
 					<height>30</height>
-					<font>font13</font>
-					<textcolor>white</textcolor>
 					<label>$INFO[ListItem.Title]</label>
 				</control>
 				<control type="label">

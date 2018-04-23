@@ -1,6 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <includes>
 	<include name="View_509_MyFlix">
+		<control type="label" id="4447">
+			<description>MyFlix Open Case Movies</description>
+			<label>$LOCALIZE[31966]</label>
+			<include>HiddenObject</include>
+			<include condition="!String.IsEmpty(Skin.String(MyFlix.Delay))">MyFlixDelayAnimation</include>
+			<animation effect="fade" end="100" time="120" delay="1600">WindowOpen</animation>
+			<animation effect="fade" end="100" time="120" delay="1600">Visible</animation>
+			<visible>Control.IsVisible(509) + !ListItem.IsCollection + Container.Content(movies)</visible>
+		</control>
+		<control type="label" id="4448">
+			<description>MyFlix Open Case Sets</description>
+			<label>$LOCALIZE[31966]</label>
+			<include>HiddenObject</include>
+			<include condition="!String.IsEmpty(Skin.String(MyFlix.Delay))">MyFlixDelayAnimation</include>
+			<animation effect="fade" end="100" time="120" delay="1600">WindowOpen</animation>
+			<animation effect="fade" end="100" time="120" delay="1600">Visible</animation>
+			<visible>Control.IsVisible(509) + ListItem.IsCollection</visible>
+		</control>
 		<control type="group">
 			<visible>Control.IsVisible(509) + !Window.IsActive(skinsettings)</visible>
 			<include>ViewAnimation</include>
@@ -68,19 +86,19 @@
 						<control type="grouplist">
 							<visible>Container.Content(movies) + !ListItem.IsCollection</visible>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[20339]:[/COLOR][CR]$INFO[ListItem.Director]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[20339]:[/COLOR][CR]$INFO[ListItem.Director]</label>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 								<visible>!String.IsEmpty(ListItem.Director)</visible>
 							</control>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 								<visible>!String.IsEmpty(ListItem.Genre)</visible>
 							</control>
 							<control type="label">
-								<label>$INFO[ListItem.Year,, • ]$INFO[ListItem.RatingAndVotes,, • ]$INFO[ListItem.Duration,,m]$INFO[ListItem.Endtime, • $LOCALIZE[19127]: ,]</label>
+								<label>$INFO[ListItem.Year,, • ]$INFO[ListItem.RatingAndVotes,, • ]$INFO[ListItem.Duration(mins),,m]$INFO[ListItem.Endtime, • $LOCALIZE[19127]: ,]</label>
 								<width>1000</width>
 								<height>45</height>
 								<include>DefaultButtonsValues</include>
@@ -97,13 +115,13 @@
 						<control type="grouplist">
 							<visible>ListItem.IsCollection + [Container.Content(movies) | Container.Content(sets)]</visible>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[20339]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Director)]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[20339]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Director)]</label>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 								<visible>!String.IsEmpty(Window(Home).Property(Set.Movies.Director))</visible>
 							</control>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Genre),, $LOCALIZE[12391]]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[Window(Home).Property(Set.Movies.Genre),, $LOCALIZE[12391]]</label>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 								<visible>!String.IsEmpty(Window(Home).Property(Set.Movies.Genre))</visible>
@@ -112,25 +130,25 @@
 						<control type="grouplist">
 							<visible>[Container.Content(tvshows) | Container.Content(seasons)]</visible>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[126]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.Status)]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[126]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.Status)]</label>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 								<visible>[Container.Content(tvshows) | Container.Content(seasons)] + !String.IsEmpty(Window(Home).Property(NextAired.Status))</visible>
 							</control>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[31010]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.NextDate),,: ]$INFO[Window(Home).Property(NextAired.NextTitle)]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31010]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.NextDate),,: ]$INFO[Window(Home).Property(NextAired.NextTitle)]</label>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 								<visible>!String.IsEmpty(Window(Home).Property(NextAired.NextDate)) + !Skin.HasSetting(Disable.NextAired)</visible>
 							</control>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[31011]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.LatestNumber),, - ]$INFO[Window(Home).Property(NextAired.LatestTitle)]</label>>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31011]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.LatestNumber),, - ]$INFO[Window(Home).Property(NextAired.LatestTitle)]</label>>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 								<visible>Container.Content(tvshows) + !String.IsEmpty(Window(Home).Property(NextAired.LatestDate)) + String.IsEmpty(Window(Home).Property(NextAired.NextDate))</visible>
 							</control>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 								<visible>!String.IsEmpty(ListItem.Genre)</visible>
@@ -139,37 +157,37 @@
 						<control type="grouplist">
 							<visible>Container.Content(episodes)</visible>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[20359]:[/COLOR][CR]$VAR[FloorLabelVar]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[20359]:[/COLOR][CR]$VAR[FloorLabelVar]</label>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 							</control>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[126]: [/COLOR]$INFO[Window(Home).Property(NextAired.Status)]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[126]: [/COLOR]$INFO[Window(Home).Property(NextAired.Status)]</label>
 								<height>45</height>
 								<include>DefaultButtonsValues</include>
 								<visible>!String.IsEmpty(Window(Home).Property(NextAired.Status))</visible>
 							</control>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[20416]: [/COLOR]$INFO[ListItem.Premiered]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[20416]: [/COLOR]$INFO[ListItem.Premiered]</label>
 								<height>45</height>
 								<width>650</width>
 								<include>DefaultButtonsValues</include>
 								<visible>!String.IsEmpty(ListItem.Premiered)</visible>
 							</control>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[31010]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.NextDate),,: ]$INFO[Window(Home).Property(NextAired.NextTitle)]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31010]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.NextDate),,: ]$INFO[Window(Home).Property(NextAired.NextTitle)]</label>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 								<visible>!String.IsEmpty(Window(Home).Property(NextAired.NextDate)) + !Skin.HasSetting(Disable.NextAired)</visible>
 							</control>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[31011]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.LatestNumber),, - ]$INFO[Window(Home).Property(NextAired.LatestTitle)]</label>>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[31011]:[/COLOR][CR]$INFO[Window(Home).Property(NextAired.LatestNumber),, - ]$INFO[Window(Home).Property(NextAired.LatestTitle)]</label>>
 								<width>800</width>
 								<include>DefaultButtonsValues</include>
 								<visible>!String.IsEmpty(Window(Home).Property(NextAired.LatestDate)) + String.IsEmpty(Window(Home).Property(NextAired.NextDate))</visible>
 							</control>
 							<control type="label">
-								<label>[COLOR $VAR[MyFlixThemeLabelColor]]$LOCALIZE[2050]: [/COLOR]$INFO[ListItem.Duration,, $LOCALIZE[12391]]</label>
+								<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[2050]: [/COLOR]$INFO[ListItem.Duration(mins),, $LOCALIZE[12391]]</label>
 								<height>45</height>
 								<width>650</width>
 								<include>DefaultButtonsValues</include>
@@ -179,7 +197,7 @@
 						<control type="textbox">
 							<top>240</top>
 							<left>15</left>
-							<label>[COLOR $VAR[MyFlixThemeLabelColor]]$INFO[ListItem.Tagline,, - ][/COLOR]$VAR[VideoPlotVar3]</label>
+							<label>[COLOR $VAR[ThemeLabelColor]]$INFO[ListItem.Tagline,, - ][/COLOR]$VAR[VideoPlotVar]</label>
 							<width>800</width>
 							<height>130</height>
 							<font>font15</font>
@@ -191,7 +209,7 @@
 						<control type="textbox">
 							<top>240</top>
 							<left>15</left>
-							<label>[COLOR $VAR[MyFlixThemeLabelColor]]$INFO[ListItem.Tagline,, - ][/COLOR]$VAR[VideoPlotVar3]</label>
+							<label>[COLOR $VAR[ThemeLabelColor]]$INFO[ListItem.Tagline,, - ][/COLOR]$VAR[VideoPlotVar]</label>
 							<width>800</width>
 							<height>215</height>
 							<font>font15</font>
@@ -203,7 +221,7 @@
 						<control type="textbox">
 							<top>190</top>
 							<left>15</left>
-							<label>[COLOR $VAR[MyFlixThemeLabelColor]]$INFO[ListItem.Tagline,, - ][/COLOR]$VAR[VideoPlotVar]</label>
+							<label>[COLOR $VAR[ThemeLabelColor]]$INFO[ListItem.Tagline,, - ][/COLOR]$VAR[VideoPlotVar]</label>
 							<width>800</width>
 							<height>165</height>
 							<font>font15</font>
@@ -229,7 +247,6 @@
 				<pagecontrol>50960</pagecontrol>
 				<orientation>horizontal</orientation>
 				<preloaditems>2</preloaditems>
-				<focusposition>0</focusposition>
 				<itemlayout height="525" width="271" condition="[Container.Content(movies) + !Skin.HasSetting(Enable.MyFlix.MovieLandscape)] | Container.Content(sets) | [Container.Content(tvshows) + !Skin.HasSetting(Enable.MyFlix.TVLandscape)]">
 					<include>FlixPoster</include>
 					<include>FlixPosterOverlay</include>
@@ -520,7 +537,7 @@
 			<top>197</top>
 			<width>480</width>
 			<height>270</height>
-			<texture background="true" diffuse="thumbs/thumb_mask.png">$INFO[ListItem.Art(thumb)]</texture>
+			<texture background="true" diffuse="thumbs/thumb_mask.png">$VAR[NoSpoilerIconVar]</texture>
 			<bordertexture border="20">thumbs/thumb_shadow_aa.png</bordertexture>
 			<bordersize>20</bordersize>
 		</control>

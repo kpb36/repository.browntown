@@ -11,7 +11,6 @@
 				<texture colordiffuse="aaffffff">black.png</texture>
 			</control>
 			<control type="image" id="80056">
-				<left>0</left>
 				<top>827</top>
 				<width>450</width>
 				<height>253</height>
@@ -27,7 +26,7 @@
 				<aspectratio aligny="bottom">scale</aspectratio>
 				<bordertexture border="20">thumbs/thumb_shadow.png</bordertexture>
 				<bordersize>20</bordersize>
-				<visible>IsEmpty(Control.GetLabel(80056))</visible>
+				<visible>String.IsEmpty(Control.GetLabel(80056))</visible>
 			</control>
 			<control type="group">
 				<left>450</left>
@@ -60,8 +59,8 @@
 					<height>100</height>
 					<onleft>4013</onleft>
 					<onright>4013</onright>
-					<texturefocus>osd/buttons/osd-play-focus.png</texturefocus>
-					<texturenofocus>osd/buttons/osd-play-nofocus.png</texturenofocus>
+					<texturefocus>osd/buttons/OSDPlayFO.png</texturefocus>
+					<texturenofocus>osd/buttons/OSDPlayNF.png</texturenofocus>
 				</control>
 				<control type="button" id="4013">
 					<description>Cancel</description>
@@ -71,8 +70,8 @@
 					<height>100</height>
 					<onleft>4012</onleft>
 					<onright>4012</onright>
-					<texturefocus>osd/buttons/osd-stop-focus.png</texturefocus>
-					<texturenofocus>osd/buttons/osd-stop-nofocus.png</texturenofocus>
+					<texturefocus>osd/buttons/OSDStopFO.png</texturefocus>
+					<texturenofocus>osd/buttons/OSDStopNF.png</texturenofocus>
 				</control>
 			</control>
 		</control>

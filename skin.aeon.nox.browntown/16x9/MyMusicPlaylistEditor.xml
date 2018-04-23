@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol always="true">50</defaultcontrol>
+	<views>50</views>
 	<onload>SetProperty(Window.HasSettings,True,Home)</onload>
 	<onload>ClearProperty(MediaMenu,Home)</onload>
 	<onunload>ClearProperty(MediaMenu,Home)</onunload>
@@ -31,12 +32,10 @@
 				<texture border="40">listpanel_back.png</texture>
 			</control>
 			<control type="label" id="12">
-				<description>current directory text label</description>
 				<top>910</top>
 				<width>821</width>
 				<height>90</height>
-				<font>libraryinfo</font>
-				<textcolor>floralwhite</textcolor>
+				<font>font16_title</font>
 				<textoffsetx>30</textoffsetx>
 				<haspath>true</haspath>
 			</control>
@@ -68,38 +67,26 @@
 				<pagecontrol>60</pagecontrol>
 				<scrolltime tween="quadratic" easing="out">200</scrolltime>
 				<itemlayout height="60" width="821">
-					<control type="image">
-						<width>821</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<width>630</width>
 						<height>60</height>
-						<font>inprogress</font>
+						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
-						<textcolor>green</textcolor>
-						<selectedcolor>green</selectedcolor>
+						<textcolor>grey2</textcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
 						<left>821</left>
 						<width>821</width>
 						<height>60</height>
-						<font>coolPortabell</font>
+						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
-						<textcolor>dodgerblue</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
+						<textcolor>grey2</textcolor>
 						<align>right</align>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="60" width="821">
-					<control type="image">
-						<width>821</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="image">
 						<width>821</width>
 						<height>60</height>
@@ -112,8 +99,6 @@
 						<height>60</height>
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
-						<textcolor>white</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(50)">Conditional</animation>
 					</control>
@@ -121,10 +106,9 @@
 						<left>821</left>
 						<width>821</width>
 						<height>60</height>
-						<font>coolPortabell</font>
+						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
-						<textcolor>dodgerblue</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
+						<textcolor>grey</textcolor>
 						<align>right</align>
 						<label>$INFO[ListItem.Label2]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(50)">Conditional</animation>
@@ -156,14 +140,12 @@
 				<texture border="40">listpanel_back.png</texture>
 			</control>
 			<control type="label" id="101">
-				<description>current directory text label</description>
 				<left>871</left>
 				<top>910</top>
 				<width>821</width>
 				<height>90</height>
-				<font>norminfin</font>
+				<font>font16_title</font>
 				<align>right</align>
-				<textcolor>honeydew</textcolor>
 				<textoffsetx>30</textoffsetx>
 				<haspath>true</haspath>
 			</control>
@@ -195,18 +177,12 @@
 				<pagecontrol>61</pagecontrol>
 				<scrolltime tween="quadratic" easing="out">200</scrolltime>
 				<itemlayout height="60" width="821">
-					<control type="image">
-						<width>821</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<width>630</width>
 						<height>60</height>
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
@@ -216,17 +192,11 @@
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<align>right</align>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="60" width="821">
-					<control type="image">
-						<width>821</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="image">
 						<width>821</width>
 						<height>60</height>
@@ -239,8 +209,6 @@
 						<height>60</height>
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
-						<textcolor>white</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(100)">Conditional</animation>
 					</control>
@@ -251,7 +219,6 @@
 						<font>font14</font>
 						<textoffsetx>15</textoffsetx>
 						<textcolor>grey</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<align>right</align>
 						<label>$INFO[ListItem.Label2]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(100)">Conditional</animation>

@@ -2,6 +2,7 @@
 <window>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<menucontrol>9051</menucontrol>
+	<onunload condition="System.HasAddon(script.colorbox)">RunScript(script.colorbox,daemon=True)</onunload>
 	<controls>
 		<include>CommonBackground</include>
 		<include>Topbar</include>
@@ -9,14 +10,14 @@
 			<top>59</top>
 			<include>WindowOpenCloseAnimation</include>
 			<control type="panel" id="9000">
-				<left>120</left>
+				<left>90</left>
 				<width>1800</width>
 				<height>820</height>
 				<onup>9000</onup>
 				<ondown>9000</ondown>
 				<pagecontrol>61</pagecontrol>
 				<scrolltime tween="quadratic">300</scrolltime>
-				<itemlayout width="360" height="410">
+				<itemlayout width="300" height="410">
 					<control type="image">
 						<width>240</width>
 						<height>240</height>
@@ -33,7 +34,7 @@
 						<textcolor>grey</textcolor>
 					</control>
 				</itemlayout>
-				<focusedlayout width="360" height="410">
+				<focusedlayout width="300" height="410">
 					<control type="group">
 						<animation effect="zoom" center="120,120" start="100" end="140" time="420" tween="back" reversible="false">Focus</animation>
 						<control type="image">
@@ -85,6 +86,12 @@
 						<icon>views/settings/pvr.png</icon>
 					</item>
 					<item>
+						<label>15016</label>
+						<property name="description">31441</property>
+						<onclick>ActivateWindow(GameSettings)</onclick>
+						<icon>views/settings/games.png</icon>
+					</item>
+					<item>
 						<label>13200</label>
 						<property name="description">31407</property>
 						<onclick>ActivateWindow(Profiles)</onclick>
@@ -118,7 +125,6 @@
 				</content>
 			</control>
 			<control type="image">
-				<description>LOGO</description>
 				<left>60</left>
 				<top>875</top>
 				<width>400</width>
@@ -126,12 +132,10 @@
 				<texture>aeon-nox-logo.png</texture>
 			</control>
 			<control type="textbox">
-				<description>description area</description>
 				<left>700</left>
 				<top>850</top>
 				<width>1200</width>
 				<height>200</height>
-				<font>font15_textbox</font>
 				<textcolor>grey2</textcolor>
 				<align>right</align>
 				<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>

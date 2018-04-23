@@ -10,12 +10,12 @@
 				<height>1080</height>
 				<onleft>SetProperty(MediaMenu,True,Home)</onleft>
 				<onleft>SetFocus(9050)</onleft>
-				<onright>60</onright>
+				<onright>50360</onright>
 				<onup>503</onup>
 				<ondown>503</ondown>
 				<orientation>vertical</orientation>
 				<viewtype label="$LOCALIZE[31245]">icon</viewtype>
-				<pagecontrol>60</pagecontrol>
+				<pagecontrol>50360</pagecontrol>
 				<preloaditems>2</preloaditems>
 				<scrolltime tween="quadratic">400</scrolltime>
 				<visible>Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(albums) | Container.Content(addons) | [Window.IsActive(music) + Container.Content(files)]</visible>
@@ -56,7 +56,7 @@
 							<top>-20</top>
 							<width>333</width>
 							<height>455</height>
-							<texture background="true" fallback="$VAR[CaseTypePathVar]p.png" colordiffuse="CCFFFFFF">$VAR[CaseTypePathVar]$VAR[GlobalCaseVar]</texture>
+							<texture background="true" colordiffuse="CCFFFFFF">$VAR[CaseTypePathVar]$VAR[GlobalCaseVar]</texture>
 							<visible>Skin.HasSetting(Enable.Wall.Cases)</visible>
 						</control>
 					</control>
@@ -101,7 +101,7 @@
 							<top>-20</top>
 							<width>333</width>
 							<height>455</height>
-							<texture background="true" fallback="$VAR[CaseTypePathVar]p.png">$VAR[CaseTypePathVar]$VAR[GlobalCaseVar]</texture>
+							<texture background="true">$VAR[CaseTypePathVar]$VAR[GlobalCaseVar]</texture>
 							<visible>Skin.HasSetting(Enable.Wall.Cases)</visible>
 						</control>
 					</control>
@@ -169,13 +169,13 @@
 					</control>
 				</focusedlayout>
 			</control>
-			<control type="scrollbar" id="60">
+			<control type="scrollbar" id="50360">
 				<left>1906</left>
 				<top>100</top>
 				<width>14</width>
 				<height>900</height>
-				<onup>60</onup>
-				<ondown>60</ondown>
+				<onup>50360</onup>
+				<ondown>50360</ondown>
 				<onleft>50</onleft>
 				<onright>SetProperty(MediaMenu,True,Home)</onright>
 				<onright>SetFocus(9050)</onright>
@@ -264,7 +264,7 @@
 					<height>20</height>
 					<font>font15</font>
 					<textcolor>$VAR[ThemeLabelColor]</textcolor>
-					<label>$INFO[ListItem.Year]$INFO[ListItem.Duration, - , $LOCALIZE[12391]]</label>
+					<label>$INFO[ListItem.Year]$INFO[ListItem.Duration(mins), - , $LOCALIZE[12391]]</label>
 				</control>
 				<control type="label">
 					<left>50</left>
@@ -275,24 +275,6 @@
 					<textcolor>grey</textcolor>
 					<label>$VAR[503.InfoPanelLabel2Var]</label>
 				</control>
-			</control>
-		</control>
-	</include>
-	<include name="UpDownShadow">
-		<control type="group">
-			<animation effect="fade" time="300">WindowOpen</animation>
-			<animation effect="fade" time="300">WindowClose</animation>
-			<visible>Control.IsVisible(503)</visible>
-			<control type="image">
-				<width>100%</width>
-				<height>120</height>
-				<texture border="1">bottom_shadow.png</texture>
-			</control>
-			<control type="image">
-				<top>920</top>
-				<width>100%</width>
-				<height>160</height>
-				<texture border="1" flipy="true">bottom_shadow.png</texture>
 			</control>
 		</control>
 	</include>
