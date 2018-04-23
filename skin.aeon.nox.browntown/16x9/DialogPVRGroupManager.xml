@@ -10,7 +10,6 @@
 	<controls>
 		<control type="group">
 			<control type="image">
-				<description>background image</description>
 				<width>1902</width>
 				<height>660</height>
 				<texture border="40">dialogs/default/bg.png</texture>
@@ -63,27 +62,16 @@
 						<scrolltime tween="quadratic" easing="out">200</scrolltime>
 						<orientation>vertical</orientation>
 						<itemlayout height="60">
-							<control type="image">
-								<width>495</width>
-								<height>60</height>
-								<texture border="1">separator2.png</texture>
-							</control>
 							<control type="label">
 								<width>495</width>
 								<height>60</height>
 								<font>font14</font>
 								<textoffsetx>15</textoffsetx>
 								<textcolor>grey2</textcolor>
-								<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 						</itemlayout>
 						<focusedlayout height="60">
-							<control type="image">
-								<width>495</width>
-								<height>60</height>
-								<texture border="1">separator2.png</texture>
-							</control>
 							<control type="image">
 								<width>495</width>
 								<height>60</height>
@@ -96,7 +84,6 @@
 								<height>60</height>
 								<font>font14</font>
 								<textoffsetx>15</textoffsetx>
-								<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 								<info>ListItem.Label</info>
 								<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(13)">Conditional</animation>
 							</control>
@@ -144,27 +131,16 @@
 						<pagecontrol>71</pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="60">
-							<control type="image">
-								<width>495</width>
-								<height>60</height>
-								<texture border="1">separator2.png</texture>
-							</control>
 							<control type="label">
 								<width>495</width>
 								<height>60</height>
 								<font>font14</font>
 								<textoffsetx>15</textoffsetx>
 								<textcolor>grey2</textcolor>
-								<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 						</itemlayout>
 						<focusedlayout height="60">
-							<control type="image">
-								<width>495</width>
-								<height>60</height>
-								<texture border="1">separator2.png</texture>
-							</control>
 							<control type="image">
 								<width>495</width>
 								<height>60</height>
@@ -177,7 +153,6 @@
 								<height>60</height>
 								<font>font14</font>
 								<textoffsetx>15</textoffsetx>
-								<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 								<info>ListItem.Label</info>
 								<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(11)">Conditional</animation>
 							</control>
@@ -225,27 +200,16 @@
 						<pagecontrol>72</pagecontrol>
 						<scrolltime>200</scrolltime>
 						<itemlayout height="60">
-							<control type="image">
-								<width>495</width>
-								<height>60</height>
-								<texture border="1">separator2.png</texture>
-							</control>
 							<control type="label">
 								<width>495</width>
 								<height>60</height>
 								<font>font14</font>
 								<textoffsetx>15</textoffsetx>
 								<textcolor>grey2</textcolor>
-								<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
 						</itemlayout>
 						<focusedlayout height="60">
-							<control type="image">
-								<width>495</width>
-								<height>60</height>
-								<texture border="1">separator2.png</texture>
-							</control>
 							<control type="image">
 								<width>495</width>
 								<height>60</height>
@@ -258,7 +222,6 @@
 								<height>60</height>
 								<font>font14</font>
 								<textoffsetx>15</textoffsetx>
-								<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 								<info>ListItem.Label</info>
 								<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(12)">Conditional</animation>
 							</control>
@@ -302,6 +265,13 @@
 						<width>310</width>
 						<label>186</label>
 					</control>
+					<control type="togglebutton" id="34">
+						<description>TV/Radio toggle</description>
+						<width>310</width>
+						<label>$LOCALIZE[31459]</label>
+						<altlabel>$LOCALIZE[19173]</altlabel>
+						<usealttexture>!String.IsEmpty(Window.Property(IsRadio))</usealttexture>
+					</control>
 					<control type="button" id="26">
 						<description>Add Group</description>
 						<width>310</width>
@@ -311,6 +281,11 @@
 						<description>Rename Group</description>
 						<width>310</width>
 						<label>31504</label>
+					</control>
+					<control type="radiobutton" id="25">
+						<description>Hide Group</description>
+						<width>310</width>
+						<label>$LOCALIZE[19289]</label>
 					</control>
 					<control type="button" id="28">
 						<description>Delete Group</description>

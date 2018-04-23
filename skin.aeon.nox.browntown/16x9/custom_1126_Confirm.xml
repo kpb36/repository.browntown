@@ -38,7 +38,6 @@
 			<texture border="5">dialogs/default/inner.png</texture>
 		</control>
 		<control type="label" id="1">
-			<description>Header Label</description>
 			<left>45</left>
 			<top>32</top>
 			<width>825</width>
@@ -53,7 +52,6 @@
 			<top>98</top>
 			<width>825</width>
 			<height>282</height>
-			<font>font15_textbox</font>
 			<label>$VAR[CustomConfirmTextboxVar]</label>
 			<textcolor>grey2</textcolor>
 			<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
@@ -66,7 +64,6 @@
 			<control type="button" id="901001">
 				<description>Yes button</description>
 				<width>421</width>
-				<height>60</height>
 				<label>$VAR[CustomConfirmYesLabelVar]</label>
 				<font>font15_title</font>
 				<textcolor>grey2</textcolor>
@@ -94,7 +91,6 @@
 				<left>465</left>
 				<top>402</top>
 				<width>421</width>
-				<height>60</height>
 				<label>$VAR[CustomConfirmNoLabelVar]</label>
 				<font>font15_title</font>
 				<textcolor>grey2</textcolor>
@@ -116,7 +112,6 @@
 				<left>465</left>
 				<top>402</top>
 				<width>842</width>
-				<height>60</height>
 				<label>$LOCALIZE[186]</label>
 				<font>font15_title</font>
 				<textcolor>grey2</textcolor>
@@ -130,6 +125,7 @@
 				<onclick condition="!String.IsEmpty(Window(Home).Property(NotifyNoRepo))">ClearProperty(NotifyNoRepo,Home)</onclick>
 				<onclick condition="!String.IsEmpty(Window(Home).Property(NotWarnedOnMuzicVizInfo))">ClearProperty(NotWarnedOnMuzicVizInfo,Home)</onclick>
 				<onclick condition="!Skin.HasSetting(WarnedOnMusicVizInfo) + !String.IsEmpty(Window(Home).Property(NotWarnedOnMuzicVizInfo))">Skin.SetBool(WarnedOnMusicVizInfo)</onclick>
+				<onclick condition="!Skin.HasSetting(WarnedOnFullscreenInfo) + !String.IsEmpty(Window(Home).Property(NotWarnedOnFullscreenInfo))">Skin.SetBool(WarnedOnFullscreenInfo)</onclick>
 				<onclick>Dialog.Close(1126)</onclick>
 				<texturefocus colordiffuse="$VAR[HighlightBarColor]" border="5">listselect_fo.png</texturefocus>
 				<texturenofocus border="5">dialogs/default/inner.png</texturenofocus>

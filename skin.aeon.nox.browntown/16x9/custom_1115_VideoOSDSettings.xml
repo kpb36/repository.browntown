@@ -6,17 +6,14 @@
 		<left>199</left>
 		<top>210</top>
 	</coordinates>
-	<zorder>10</zorder>
 	<include>DialogOpenCloseAnimation</include>
 	<controls>
 		<control type="image">
-			<description>background image</description>
 			<width>1522</width>
 			<height>660</height>
 			<texture border="40">dialogs/default/bg.png</texture>
 		</control>
 		<control type="label" id="2">
-			<description>header label</description>
 			<left>30</left>
 			<top>32</top>
 			<width>1462</width>
@@ -27,7 +24,6 @@
 			<textcolor>dialogheader</textcolor>
 		</control>
 		<control type="grouplist" id="90200">
-			<description>control area</description>
 			<left>33</left>
 			<top>88</top>
 			<width>1452</width>
@@ -37,11 +33,11 @@
 			<ondown>90200</ondown>
 			<onleft>6</onleft>
 			<onright>6</onright>
-			<control type="radiobutton" id="90202">
+			<control type="radiobutton" id="90203">
 				<width>1452</width>
-				<label>$LOCALIZE[31460]</label>
-				<onclick>Skin.ToggleSetting(MiniInfo)</onclick>
-				<selected>Skin.HasSetting(MiniInfo)</selected>
+				<label>$LOCALIZE[31606]</label>
+				<onclick>Skin.ToggleSetting(Disable.FullscreenInfoLogo)</onclick>
+				<selected>!Skin.HasSetting(Disable.FullscreenInfoLogo)</selected>
 			</control>
 			<control type="radiobutton" id="90208">
 				<width>1452</width>
@@ -54,17 +50,14 @@
 				<label>$LOCALIZE[31351]</label>
 				<onclick>Skin.ToggleSetting(Disable.Netflix.Pause)</onclick>
 				<selected>!Skin.HasSetting(Disable.Netflix.Pause)</selected>
-				<texturenofocus border="1">separator5.png</texturenofocus>
 			</control>
 			<control type="button" id="90204">
-				<description>Seekbar time format</description>
 				<width>1452</width>
 				<label>$LOCALIZE[31224]</label>
-				<label2>[COLOR $VAR[ThemeLabelColor]]$VAR[OSDRightLabelOnDownLabelVar][/COLOR]</label2>
-				<onclick>$VAR[OSDRightLabelOnDownVar]</onclick>
+				<label2>[COLOR $VAR[ThemeLabelColor]]$VAR[OSDRightLabelOnClickLabelVar][/COLOR]</label2>
+				<onclick>$VAR[OSDRightLabelOnClickVar]</onclick>
 			</control>
 			<control type="radiobutton" id="90206">
-				<description>Hide Player Control Buttons</description>
 				<width>1452</width>
 				<label>$LOCALIZE[31266]</label>
 				<onclick>Skin.ToggleSetting(Disable.PlayerControlButtons)</onclick>

@@ -3,9 +3,7 @@
 	<defaultcontrol>11</defaultcontrol>
 	<include>DialogPopupAnimation</include>
 	<coordinates>
-		<system>1</system>
 		<left>600</left>
-		<top>0</top>
 	</coordinates>
 	<controls>
 		<control type="image">
@@ -15,7 +13,7 @@
 			<visible>[Window.IsActive(fullscreenvideo) | Window.IsActive(visualisation) | Window.isActive(slideshow)]</visible>
 		</control>
 		<control type="label" id="10">
-			<description>Dialog header</description>
+			<description>Dialog Header</description>
 			<left>30</left>
 			<width>345</width>
 			<height>60</height>

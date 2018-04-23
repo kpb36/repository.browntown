@@ -9,13 +9,11 @@
 	<include>DialogOpenCloseAnimation</include>
 	<controls>
 		<control type="image">
-			<description>background image</description>
 			<width>1674</width>
 			<height>640</height>
 			<texture border="40">dialogs/default/bg.png</texture>
 		</control>
 		<control type="label" id="2">
-			<description>header label</description>
 			<left>30</left>
 			<top>32</top>
 			<width>1614</width>
@@ -28,7 +26,6 @@
 			<textcolor>dialogheader</textcolor>
 		</control>
 		<control type="label">
-			<description>header label</description>
 			<left>357</left>
 			<top>572</top>
 			<width>475</width>
@@ -39,7 +36,6 @@
 			<textcolor>dialogheader</textcolor>
 		</control>
 		<control type="label">
-			<description>header label</description>
 			<left>832</left>
 			<top>572</top>
 			<width>475</width>
@@ -72,18 +68,11 @@
 				<orientation>vertical</orientation>
 				<scrolltime tween="quadratic" easing="out">200</scrolltime>
 				<itemlayout width="330" height="60">
-					<control type="image">
-						<width>310</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<width>310</width>
 						<height>60</height>
-						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</itemlayout>
@@ -97,10 +86,8 @@
 					<control type="label">
 						<width>310</width>
 						<height>60</height>
-						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>!Control.HasFocus(9000)</visible>
 					</control>
@@ -108,8 +95,6 @@
 						<width>310</width>
 						<height>60</height>
 						<textoffsetx>15</textoffsetx>
-						<font>font13</font>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>Control.HasFocus(9000)</visible>
 					</control>
@@ -158,29 +143,19 @@
 				<orientation>vertical</orientation>
 				<scrolltime tween="quadratic" easing="out">200</scrolltime>
 				<itemlayout width="475" height="120">
-					<control type="image">
-						<top>60</top>
-						<width>475</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<width>475</width>
 						<height>60</height>
-						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
 						<top>60</top>
 						<width>475</width>
 						<height>60</height>
-						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
@@ -194,10 +169,8 @@
 					<control type="label">
 						<width>475</width>
 						<height>60</height>
-						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>!Control.HasFocus(20)</visible>
 					</control>
@@ -205,8 +178,6 @@
 						<width>475</width>
 						<height>60</height>
 						<textoffsetx>15</textoffsetx>
-						<font>font13</font>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>Control.HasFocus(20)</visible>
 					</control>
@@ -214,10 +185,8 @@
 						<top>60</top>
 						<width>475</width>
 						<height>60</height>
-						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 						<visible>!Control.HasFocus(20)</visible>
 					</control>
@@ -226,8 +195,6 @@
 						<width>475</width>
 						<height>60</height>
 						<textoffsetx>15</textoffsetx>
-						<font>font13</font>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 						<visible>Control.HasFocus(20)</visible>
 					</control>
@@ -258,29 +225,19 @@
 				<orientation>vertical</orientation>
 				<scrolltime tween="quadratic" easing="out">200</scrolltime>
 				<itemlayout width="475" height="120">
-					<control type="image">
-						<top>60</top>
-						<width>475</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<width>475</width>
 						<height>60</height>
-						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 					<control type="label">
 						<top>60</top>
 						<width>475</width>
 						<height>60</height>
-						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
 				</itemlayout>
@@ -294,10 +251,8 @@
 					<control type="label">
 						<width>475</width>
 						<height>60</height>
-						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>!Control.HasFocus(21)</visible>
 					</control>
@@ -305,8 +260,6 @@
 						<width>475</width>
 						<height>60</height>
 						<textoffsetx>15</textoffsetx>
-						<font>font13</font>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<visible>Control.HasFocus(21)</visible>
 					</control>
@@ -314,10 +267,8 @@
 						<top>60</top>
 						<width>475</width>
 						<height>60</height>
-						<font>font13</font>
 						<textcolor>grey2</textcolor>
 						<textoffsetx>15</textoffsetx>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 						<visible>!Control.HasFocus(21)</visible>
 					</control>
@@ -326,8 +277,6 @@
 						<width>475</width>
 						<height>60</height>
 						<textoffsetx>15</textoffsetx>
-						<font>font13</font>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 						<visible>Control.HasFocus(21)</visible>
 					</control>

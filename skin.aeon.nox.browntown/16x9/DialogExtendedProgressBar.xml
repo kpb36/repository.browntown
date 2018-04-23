@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<coordinates>
-		<left>560</left>
+		<left>1150</left>
 		<top>30</top>
 	</coordinates>
-	<zorder>10</zorder>
-	<include>DialogPopupAnimation</include>
+	<include>DialogSlideAnimation</include>
 	<controls>
 		<control type="group">
 			<visible>!Window.IsActive(fullscreenvideo) + !Window.IsActive(visualisation) + !Window.IsActive(startup)</visible>
 			<control type="image">
-				<description>background image</description>
 				<width>800</width>
 				<height>166</height>
 				<texture border="40">dialogs/default/bg.png</texture>
@@ -23,7 +21,6 @@
 				<texture border="5">dialogs/default/inner.png</texture>
 			</control>
 			<control type="progress" id="32">
-				<description>progress control</description>
 				<left>32</left>
 				<top>33</top>
 				<width>738</width>
@@ -40,7 +37,6 @@
 				<top>32</top>
 				<width>800</width>
 				<height>50</height>
-				<font>font13</font>
 				<textcolor>grey</textcolor>
 				<textoffsetx>50</textoffsetx>
 				<label>$INFO[Control.GetLabel(30)]$INFO[Control.GetLabel(32),: ,%]</label>
@@ -50,8 +46,6 @@
 				<top>82</top>
 				<width>800</width>
 				<height>50</height>
-				<font>font13</font>
-				<textcolor>white</textcolor>
 				<textoffsetx>50</textoffsetx>
 			</control>
 			<control type="label" id="30">

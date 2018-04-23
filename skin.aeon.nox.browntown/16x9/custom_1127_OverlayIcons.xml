@@ -69,12 +69,6 @@
 			<pagecontrol>60</pagecontrol>
 			<scrolltime tween="quadratic" easing="out">200</scrolltime>
 			<itemlayout height="100" width="628">
-				<control type="image">
-					<top>40</top>
-					<width>628</width>
-					<height>60</height>
-					<texture border="1">separator2.png</texture>
-				</control>
 				<control type="label">
 					<left>110</left>
 					<width>520</width>
@@ -82,7 +76,6 @@
 					<textoffsetx>15</textoffsetx>
 					<font>font14</font>
 					<textcolor>grey2</textcolor>
-					<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 					<label>$INFO[ListItem.Label]</label>
 				</control>
 				<control type="image">
@@ -102,13 +95,6 @@
 			</itemlayout>
 			<focusedlayout height="100" width="628">
 				<control type="image">
-					<top>40</top>
-					<width>628</width>
-					<height>60</height>
-					<texture border="1">separator2.png</texture>
-					<include>VisibleFadeAnimation</include>
-				</control>
-				<control type="image">
 					<width>629</width>
 					<height>100</height>
 					<texture colordiffuse="$VAR[HighlightBarColor]" border="5">listselect_fo.png</texture>
@@ -121,8 +107,6 @@
 					<height>100</height>
 					<textoffsetx>15</textoffsetx>
 					<font>font14</font>
-					<textcolor>white</textcolor>
-					<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 					<scroll>true</scroll>
 					<label>$INFO[ListItem.Label]</label>
 					<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(90100)">Conditional</animation>

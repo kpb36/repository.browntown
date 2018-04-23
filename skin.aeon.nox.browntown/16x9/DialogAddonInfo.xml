@@ -6,7 +6,7 @@
 			<include>HiddenList</include>
 		</control>
 		<control type="group">
-			<include>WindowASViewAnimation</include>
+			<include>WindowOpenCloseAnimation</include>
 			<top>59</top>
 			<control type="group">
 				<include>SystemLeftPanel</include>
@@ -155,10 +155,8 @@
 						<top>345</top>
 						<usecontrolcoords>true</usecontrolcoords>
 						<control type="textbox" id="400">
-							<description>Description</description>
 							<width>1256</width>
 							<height>460</height>
-							<font>font15_textbox</font>
 							<textcolor>grey2</textcolor>
 							<label>[COLOR $VAR[ThemeLabelColor]]$LOCALIZE[21821]: [/COLOR][CR]$INFO[ListItem.AddonDescription]</label>
 							<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
@@ -166,21 +164,21 @@
 					</control>
 				</control>
 			</control>
+			<control type="image">
+				<left>521</left>
+				<top>838</top>
+				<width>1318</width>
+				<height>3</height>
+				<texture colordiffuse="$VAR[ThemeLabelColor]">new_pvr/osd_line_white.png</texture>
+				<visible>![Window.isVisible(AddonSettings) + Window.IsActive(TextViewer) + Window.IsActive(1112)]</visible>
+				<visible>!String.IsEmpty(ListItem.AddonBroken) | !String.IsEmpty(ListItem.AddonDisclaimer)</visible>
+			</control>
 			<control type="group">
 				<left>538</left>
 				<top>855</top>
 				<visible>String.IsEmpty(ListItem.AddonBroken) + !Window.IsActive(1112)</visible>
 				<include>SettingsFadeAnimation</include>
-				<control type="image">
-					<left>-17</left>
-					<top>-75</top>
-					<width>1318</width>
-					<height>60</height>
-					<texture border="1">separator2.png</texture>
-					<visible>!String.IsEmpty(ListItem.AddonDisclaimer)</visible>
-				</control>
 				<control type="textbox">
-					<description>Disclaimer</description>
 					<width>1296</width>
 					<height>130</height>
 					<font>font16bold_textbox</font>

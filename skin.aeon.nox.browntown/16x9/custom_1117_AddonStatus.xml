@@ -17,30 +17,17 @@
 				<scrolltime tween="quadratic" easing="out">200</scrolltime>
 				<include>SettingsFadeAnimation</include>
 				<itemlayout height="90" width="356">
-					<control type="image">
-						<top>30</top>
-						<width>356</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="label">
 						<width>356</width>
 						<height>90</height>
 						<font>font15</font>
 						<textoffsetx>20</textoffsetx>
 						<textcolor>grey2</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<align>right</align>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</itemlayout>
 				<focusedlayout height="90" width="356">
-					<control type="image">
-						<top>30</top>
-						<width>356</width>
-						<height>60</height>
-						<texture border="1">separator2.png</texture>
-					</control>
 					<control type="image">
 						<width>356</width>
 						<height>90</height>
@@ -52,8 +39,6 @@
 						<height>90</height>
 						<font>font15</font>
 						<textoffsetx>20</textoffsetx>
-						<textcolor>white</textcolor>
-						<selectedcolor>$VAR[ThemeLabelColor]</selectedcolor>
 						<align>right</align>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="fade" start="100" end="70" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(9000)">Conditional</animation>
@@ -62,23 +47,19 @@
 				<content>
 					<item id="1">
 						<label>$LOCALIZE[31334]</label>
-						<onclick>noop</onclick>
 						<icon />
 					</item>
 					<item id="2">
 						<label>$LOCALIZE[31335]</label>
-						<onclick>noop</onclick>
 						<icon />
 					</item>
 					<item id="3">
 						<label>$LOCALIZE[31336]</label>
-						<onclick>noop</onclick>
 						<icon />
 					</item>
 				</content>
 			</control>
 			<control type="textbox">
-				<description>description area</description>
 				<left>552</left>
 				<top>850</top>
 				<width>1256</width>
@@ -92,7 +73,6 @@
 			</control>
 			<control type="group" id="9010">
 				<control type="grouplist" id="9001">
-					<description>control area</description>
 					<left>522</left>
 					<top>32</top>
 					<width>1316</width>
@@ -175,7 +155,6 @@
 					</control>
 				</control>
 				<control type="grouplist" id="9002">
-					<description>control area</description>
 					<left>522</left>
 					<top>32</top>
 					<width>1316</width>
@@ -202,17 +181,17 @@
 					</control>
 					<control type="button" id="206">
 						<include>SettingsButtonCommonValues</include>
-						<label>$INFO[System.AddonTitle(script.artwork.downloader)]</label>
-						<label2>$INFO[System.AddonVersion(script.artwork.downloader),v, [COLOR FF00991F]$LOCALIZE[31331][/COLOR]$LOCALIZE[31450]]</label2>
-						<onclick>Addon.OpenSettings(script.artwork.downloader)</onclick>
-						<visible>System.HasAddon(script.artwork.downloader)</visible>
+						<label>$INFO[System.AddonTitle(script.artwork.beef)]</label>
+						<label2>$INFO[System.AddonVersion(script.artwork.beef),v, [COLOR FF00991F]$LOCALIZE[31331][/COLOR]$LOCALIZE[31450]]</label2>
+						<onclick>Addon.OpenSettings(script.artwork.beef)</onclick>
+						<visible>System.HasAddon(script.artwork.beef)</visible>
 					</control>
 					<control type="button" id="207">
 						<include>SettingsButtonCommonValues</include>
-						<label>script.artwork.downloader</label>
+						<label>script.artwork.beef</label>
 						<label2>[COLOR invalid]$LOCALIZE[31332][/COLOR]$LOCALIZE[31451]</label2>
-						<onclick>InstallAddon(script.artwork.downloader)</onclick>
-						<visible>!System.HasAddon(script.artwork.downloader)</visible>
+						<onclick>InstallAddon(script.artwork.beef)</onclick>
+						<visible>!System.HasAddon(script.artwork.beef)</visible>
 					</control>
 					<control type="button" id="214">
 						<include>SettingsButtonCommonValues</include>
@@ -273,19 +252,19 @@
 						<onclick condition="System.HasAddon(repository.aeon.nox.silvo)">InstallAddon(script.skin.info.service)</onclick>
 						<visible>!System.HasAddon(script.skin.info.service)</visible>
 					</control>
-					<control type="button" id="208">
+					<control type="button" id="210">
 						<include>SettingsButtonCommonValues</include>
-						<label>$INFO[System.AddonTitle(script.toolbox)]</label>
-						<label2>$INFO[System.AddonVersion(script.toolbox),v, [COLOR FF00991F]$LOCALIZE[31331][/COLOR]]</label2>
-						<onclick>Addon.OpenSettings(script.toolbox)</onclick>
-						<visible>System.HasAddon(script.toolbox)</visible>
+						<label>$INFO[System.AddonTitle(script.colorbox)]</label>
+						<label2>$INFO[System.AddonVersion(script.colorbox),v, [COLOR FF00991F]$LOCALIZE[31331][/COLOR]]</label2>
+						<onclick>Addon.OpenSettings(script.colorbox)</onclick>
+						<visible>System.HasAddon(script.colorbox)</visible>
 					</control>
-					<control type="button" id="209">
+					<control type="button" id="211">
 						<include>SettingsButtonCommonValues</include>
-						<label>script.toolbox</label>
+						<label>script.colorbox</label>
 						<label2>[COLOR invalid]$LOCALIZE[31332][/COLOR]$LOCALIZE[31451]</label2>
-						<onclick>InstallAddon(script.toolbox)</onclick>
-						<visible>!System.HasAddon(script.toolbox)</visible>
+						<onclick>InstallAddon(script.colorbox)</onclick>
+						<visible>!System.HasAddon(script.colorbox)</visible>
 					</control>
 					<control type="button" id="212">
 						<include>SettingsButtonCommonValues</include>
@@ -303,7 +282,6 @@
 					</control>
 				</control>
 				<control type="grouplist" id="9003">
-					<description>control area</description>
 					<left>522</left>
 					<top>32</top>
 					<width>1316</width>
@@ -369,23 +347,6 @@
 						<label2>[COLOR invalid]$LOCALIZE[31332][/COLOR]$LOCALIZE[31451]</label2>
 						<onclick>InstallAddon(script.cinemavision)</onclick>
 						<visible>!System.HasAddon(script.cinemavision)</visible>
-					</control>
-					<control type="button" id="310">
-						<include>SettingsButtonCommonValues</include>
-						<label>$INFO[System.AddonTitle(script.moviesetart)]</label>
-						<label2>$INFO[System.AddonVersion(script.moviesetart),v, [COLOR FF00991F]$LOCALIZE[31331][/COLOR]$LOCALIZE[31450]]</label2>
-						<onclick>Addon.OpenSettings(script.moviesetart)</onclick>
-						<visible>System.HasAddon(script.moviesetart)</visible>
-					</control>
-					<control type="button" id="311">
-						<include>SettingsButtonCommonValues</include>
-						<label>script.moviesetart</label>
-						<label2>[COLOR invalid]$LOCALIZE[31332][/COLOR]$LOCALIZE[31451]</label2>
-						<onclick condition="!System.HasAddon(repository.aeon.nox.silvo)">SetProperty(Notify,True,Home)</onclick>
-						<onclick condition="!System.HasAddon(repository.aeon.nox.silvo)">SetProperty(NotifyNoRepo,True,Home)</onclick>
-						<onclick condition="!System.HasAddon(repository.aeon.nox.silvo)">ActivateWindow(1126)</onclick>
-						<onclick condition="System.HasAddon(repository.aeon.nox.silvo)">InstallAddon(script.moviesetart)</onclick>
-						<visible>!System.HasAddon(script.moviesetart)</visible>
 					</control>
 					<control type="button" id="308">
 						<include>SettingsButtonCommonValues</include>
