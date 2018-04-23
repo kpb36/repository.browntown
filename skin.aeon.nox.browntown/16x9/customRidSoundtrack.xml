@@ -1,0 +1,8 @@
+
+<window type="dialog" id="1305">
+    <allowoverlay>no</allowoverlay>
+    <onload>Stop</onload>
+    <visible>String.Contains(Player.Filenameandpath,theme.mp3) + [!Window.IsActive(videos) | String.IsEmpty(ListItem.Path)]</visible>
+    <controls>
+    </controls>
+</window>

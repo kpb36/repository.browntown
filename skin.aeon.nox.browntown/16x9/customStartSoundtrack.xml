@@ -1,0 +1,13 @@
+
+<window type="dialog" id="1355">
+    <allowoverlay>no</allowoverlay>
+    <onload>Stop</onload>
+    <onload>PlayMedia($ESCINFO[ListItem.Path,,theme.mp3])</onload>
+    <onload>SetProperty(OST,$INFO[ListItem.Path],home)</onload>
+    <visible>System.IdleTime(2) + [!String.IsEqual(ListItem.Path,Window(home).Property(OST)) | !Player.Playing]</visible>
+    <visible>!ListItem.IsCollection</visible>
+    <visible>Container.Content(movies) | [Container.Content(tvshows) + !Player.Playing] | [Container.Content(seasons) + !Player.Playing]</visible>
+    <visible>!Window.IsActive(movieinformation)</visible>
+    <controls>
+    </controls>
+</window>
